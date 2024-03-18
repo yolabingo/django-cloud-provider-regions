@@ -19,6 +19,7 @@ google-api-python-client = "^2.122.0"
 google-auth-httplib2 = "^0.2.0"
 google-auth-oauthlib = "^1.2.0"
 invoke = "^2.2.0"
+google-cloud = "^0.34.0"
 
 [build-system]
 requires = ["poetry-core"]

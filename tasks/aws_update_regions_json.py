@@ -6,7 +6,7 @@ from dataclasses import asdict
 import boto3
 
 from django_model_classes import CloudAvailabilityZone, CloudProvider, CloudRegion
-from tasks import REGION_DATA_DIR
+from constants import REGION_DATA_DIR
 
 
 def fetch_azs():
