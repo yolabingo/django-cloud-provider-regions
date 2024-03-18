@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "django-cloud-provider-zones"
+version = "0.1.0"
+description = "Django app providing a static list of cloud provider regions and AZs"
+authors = ["TJ <yolabingo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_cloud_provider_zones", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = ">=5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.3"
+pytest = "^8.1.1"
+boto3 = "^1.34.64"
+google-api-python-client = "^2.122.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.0"
+invoke = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

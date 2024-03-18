@@ -1,39 +1,62 @@
-import re
 from dataclasses import dataclass, field
+from datetime import datetime
 
-# Format Cloud Provider, Region, and Availability Zone names for Django model classes
-short_name_regex = re.compile(r"^[a-z0-9]{3,}$")
+TODAY = datetime.now().strftime("%Y-%m-%d")
 
-@dataclass
+
+@dataclass(frozen=True)
 class CloudProvider:
-    def __init__(self, name: str):
-        self.provider = name
-        assert short_name_regex.match(self.provider), f"CloudProvider name must match {short_name_regex.pattern}"
+    provider: str  # Django Primary Key
 
-@dataclass
-class CloudRegion:
-    def __init__(self, provider, region_name: str, region_short_name: str):
-        self.provider = provider
-        self.region_name = region_name
-        self.region_name_with_provider = f"{provider}-{region_name}"
-        self.region_short_name = region_short_name
-        self.region_short_name_with_provider = f"{provider}{region_short_name}"
 
-        assert short_name_regex.match(self.provider), f"CloudRegion provider must match {short_name_regex.pattern}"
-        assert short_name_regex.match(self.region_short_name), "CloudRegion region_short_name must match {short_name_regex.pattern}"
-        assert short_name_regex.match(self.region_short_name_with_provider), "CloudRegion region_short_name_with_provider must match {short_name_regex.pattern}"
+@dataclass(frozen=True)
+class CloudRegionBase:
+    """
+    Base class permits properties on the child classes
+    frozen=True makes the class hashable which allows using set() to remove duplicates
+    """
 
-@dataclass
+    provider: str
+    region_name: str
+    region_short_name: str
+    region_name_with_provider: str = field(init=False)  # Django Primary Key
+    region_short_name_with_provider: str = field(init=False)
+    record_last_synced: str = field(init=False)
+
+
+class CloudRegion(CloudRegionBase):
+    region_name: str
+    region_short_name: str
+
+    @property
+    def region_name_with_provider(self):
+        return f"{self.provider}-{self.region_name}"
+
+    @property
+    def region_short_name_with_provider(self):
+        return f"{self.provider}{self.region_short_name}"
+
+    @property
+    def record_last_synced(self):
+        return TODAY
+
+
+@dataclass(frozen=True)
 class CloudAvailabilityZoneBase:
     """
-    This allows asdict() to work for 
+    Base class permits properties on the child classes
+    frozen=True makes the class hashable which allows using set() to remove duplicates
     """
+
     provider: str
+    region: str
     az_name: str
     az_short_name: str
     az_id: str | None
-    az_name_with_region: str = field(init=False)
-    az_short_name_with_region: str = field(init=False)
+    az_name_with_provider: str = field(init=False)
+    az_short_name_with_provider: str = field(init=False)
+    record_last_synced: str = field(init=False)
+
 
 class CloudAvailabilityZone(CloudAvailabilityZoneBase):
     """
@@ -48,16 +71,21 @@ class CloudAvailabilityZone(CloudAvailabilityZoneBase):
         'ZoneName': 'us-west-2b',
         'ZoneType': 'availability-zone'},
     """
+
     provider: str
+    region: str
     az_name: str
     az_short_name: str
     az_id: str | None
 
     @property
-    def az_name_with_region(self):
+    def az_name_with_provider(self):
         return f"{self.provider}-{self.az_name}"
-    
+
     @property
-    def az_short_name_with_region(self):
+    def az_short_name_with_provider(self):
         return f"{self.provider}{self.az_short_name}"
-    
+
+    @property
+    def record_last_synced(self):
+        return TODAY

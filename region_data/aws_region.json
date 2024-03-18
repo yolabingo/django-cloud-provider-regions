@@ -1,0 +1,138 @@
+[
+    {
+        "provider": "aws",
+        "region_name": "us-east-2",
+        "region_short_name": "use2",
+        "region_name_with_provider": "aws-us-east-2",
+        "region_short_name_with_provider": "awsuse2",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "ap-south-1",
+        "region_short_name": "aps1",
+        "region_name_with_provider": "aws-ap-south-1",
+        "region_short_name_with_provider": "awsaps1",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "ap-northeast-3",
+        "region_short_name": "apne3",
+        "region_name_with_provider": "aws-ap-northeast-3",
+        "region_short_name_with_provider": "awsapne3",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "eu-west-1",
+        "region_short_name": "euw1",
+        "region_name_with_provider": "aws-eu-west-1",
+        "region_short_name_with_provider": "awseuw1",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "eu-north-1",
+        "region_short_name": "eun1",
+        "region_name_with_provider": "aws-eu-north-1",
+        "region_short_name_with_provider": "awseun1",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "eu-central-1",
+        "region_short_name": "euc1",
+        "region_name_with_provider": "aws-eu-central-1",
+        "region_short_name_with_provider": "awseuc1",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "us-east-1",
+        "region_short_name": "use1",
+        "region_name_with_provider": "aws-us-east-1",
+        "region_short_name_with_provider": "awsuse1",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "us-west-2",
+        "region_short_name": "usw2",
+        "region_name_with_provider": "aws-us-west-2",
+        "region_short_name_with_provider": "awsusw2",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "ap-northeast-1",
+        "region_short_name": "apne1",
+        "region_name_with_provider": "aws-ap-northeast-1",
+        "region_short_name_with_provider": "awsapne1",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "sa-east-1",
+        "region_short_name": "sae1",
+        "region_name_with_provider": "aws-sa-east-1",
+        "region_short_name_with_provider": "awssae1",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "ap-southeast-1",
+        "region_short_name": "apse1",
+        "region_name_with_provider": "aws-ap-southeast-1",
+        "region_short_name_with_provider": "awsapse1",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "ap-northeast-2",
+        "region_short_name": "apne2",
+        "region_name_with_provider": "aws-ap-northeast-2",
+        "region_short_name_with_provider": "awsapne2",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "eu-west-2",
+        "region_short_name": "euw2",
+        "region_name_with_provider": "aws-eu-west-2",
+        "region_short_name_with_provider": "awseuw2",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "eu-west-3",
+        "region_short_name": "euw3",
+        "region_name_with_provider": "aws-eu-west-3",
+        "region_short_name_with_provider": "awseuw3",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "ap-southeast-2",
+        "region_short_name": "apse2",
+        "region_name_with_provider": "aws-ap-southeast-2",
+        "region_short_name_with_provider": "awsapse2",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "us-west-1",
+        "region_short_name": "usw1",
+        "region_name_with_provider": "aws-us-west-1",
+        "region_short_name_with_provider": "awsusw1",
+        "record_last_synced": "2024-03-17"
+    },
+    {
+        "provider": "aws",
+        "region_name": "ca-central-1",
+        "region_short_name": "cac1",
+        "region_name_with_provider": "aws-ca-central-1",
+        "region_short_name_with_provider": "awscac1",
+        "record_last_synced": "2024-03-17"
+    }
+]
