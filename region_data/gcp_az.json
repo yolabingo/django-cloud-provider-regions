@@ -1,0 +1,1212 @@
+[
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-north1",
+        "az_name": "europe-north1-c",
+        "az_short_name": "eun1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-north1-c",
+        "az_short_name_with_provider": "gcpeun1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-southamerica-east1",
+        "az_name": "southamerica-east1-b",
+        "az_short_name": "sae1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-southamerica-east1-b",
+        "az_short_name_with_provider": "gcpsae1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-northeast2",
+        "az_name": "asia-northeast2-b",
+        "az_short_name": "asne2b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-northeast2-b",
+        "az_short_name_with_provider": "gcpasne2b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-east1",
+        "az_name": "asia-east1-b",
+        "az_short_name": "ase1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-east1-b",
+        "az_short_name_with_provider": "gcpase1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-east4",
+        "az_name": "us-east4-a",
+        "az_short_name": "use4a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-east4-a",
+        "az_short_name_with_provider": "gcpuse4a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west2",
+        "az_name": "us-west2-c",
+        "az_short_name": "usw2c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west2-c",
+        "az_short_name_with_provider": "gcpusw2c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west1",
+        "az_name": "us-west1-a",
+        "az_short_name": "usw1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west1-a",
+        "az_short_name_with_provider": "gcpusw1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-southeast1",
+        "az_name": "asia-southeast1-b",
+        "az_short_name": "asse1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-southeast1-b",
+        "az_short_name_with_provider": "gcpasse1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-central2",
+        "az_name": "europe-central2-a",
+        "az_short_name": "euc2a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-central2-a",
+        "az_short_name_with_provider": "gcpeuc2a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-northeast3",
+        "az_name": "asia-northeast3-a",
+        "az_short_name": "asne3a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-northeast3-a",
+        "az_short_name_with_provider": "gcpasne3a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west3",
+        "az_name": "europe-west3-b",
+        "az_short_name": "euw3b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west3-b",
+        "az_short_name_with_provider": "gcpeuw3b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-australia-southeast2",
+        "az_name": "australia-southeast2-a",
+        "az_short_name": "ause2a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-australia-southeast2-a",
+        "az_short_name_with_provider": "gcpause2a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-east5",
+        "az_name": "us-east5-a",
+        "az_short_name": "use5a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-east5-a",
+        "az_short_name_with_provider": "gcpuse5a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west10",
+        "az_name": "europe-west10-a",
+        "az_short_name": "euw10a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west10-a",
+        "az_short_name_with_provider": "gcpeuw10a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-south1",
+        "az_name": "us-south1-c",
+        "az_short_name": "uss1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-south1-c",
+        "az_short_name_with_provider": "gcpuss1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-southamerica-west1",
+        "az_name": "southamerica-west1-b",
+        "az_short_name": "saw1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-southamerica-west1-b",
+        "az_short_name_with_provider": "gcpsaw1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-northamerica-northeast1",
+        "az_name": "northamerica-northeast1-c",
+        "az_short_name": "nane1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-northamerica-northeast1-c",
+        "az_short_name_with_provider": "gcpnane1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-north1",
+        "az_name": "europe-north1-a",
+        "az_short_name": "eun1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-north1-a",
+        "az_short_name_with_provider": "gcpeun1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-australia-southeast1",
+        "az_name": "australia-southeast1-b",
+        "az_short_name": "ause1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-australia-southeast1-b",
+        "az_short_name_with_provider": "gcpause1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-central1",
+        "az_name": "us-central1-b",
+        "az_short_name": "usc1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-central1-b",
+        "az_short_name_with_provider": "gcpusc1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-southeast2",
+        "az_name": "asia-southeast2-c",
+        "az_short_name": "asse2c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-southeast2-c",
+        "az_short_name_with_provider": "gcpasse2c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-south1",
+        "az_name": "us-south1-b",
+        "az_short_name": "uss1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-south1-b",
+        "az_short_name_with_provider": "gcpuss1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-southwest1",
+        "az_name": "europe-southwest1-a",
+        "az_short_name": "eusw1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-southwest1-a",
+        "az_short_name_with_provider": "gcpeusw1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-southeast1",
+        "az_name": "asia-southeast1-c",
+        "az_short_name": "asse1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-southeast1-c",
+        "az_short_name_with_provider": "gcpasse1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west2",
+        "az_name": "europe-west2-b",
+        "az_short_name": "euw2b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west2-b",
+        "az_short_name_with_provider": "gcpeuw2b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-east2",
+        "az_name": "asia-east2-b",
+        "az_short_name": "ase2b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-east2-b",
+        "az_short_name_with_provider": "gcpase2b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-southeast1",
+        "az_name": "asia-southeast1-a",
+        "az_short_name": "asse1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-southeast1-a",
+        "az_short_name_with_provider": "gcpasse1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-northamerica-northeast2",
+        "az_name": "northamerica-northeast2-c",
+        "az_short_name": "nane2c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-northamerica-northeast2-c",
+        "az_short_name_with_provider": "gcpnane2c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-south1",
+        "az_name": "asia-south1-c",
+        "az_short_name": "ass1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-south1-c",
+        "az_short_name_with_provider": "gcpass1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-central2",
+        "az_name": "europe-central2-b",
+        "az_short_name": "euc2b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-central2-b",
+        "az_short_name_with_provider": "gcpeuc2b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west1",
+        "az_name": "europe-west1-b",
+        "az_short_name": "euw1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west1-b",
+        "az_short_name_with_provider": "gcpeuw1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-south2",
+        "az_name": "asia-south2-a",
+        "az_short_name": "ass2a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-south2-a",
+        "az_short_name_with_provider": "gcpass2a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-south1",
+        "az_name": "asia-south1-a",
+        "az_short_name": "ass1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-south1-a",
+        "az_short_name_with_provider": "gcpass1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west3",
+        "az_name": "us-west3-c",
+        "az_short_name": "usw3c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west3-c",
+        "az_short_name_with_provider": "gcpusw3c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west4",
+        "az_name": "us-west4-b",
+        "az_short_name": "usw4b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west4-b",
+        "az_short_name_with_provider": "gcpusw4b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west6",
+        "az_name": "europe-west6-c",
+        "az_short_name": "euw6c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west6-c",
+        "az_short_name_with_provider": "gcpeuw6c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-me-central1",
+        "az_name": "me-central1-c",
+        "az_short_name": "mec1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-me-central1-c",
+        "az_short_name_with_provider": "gcpmec1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-central1",
+        "az_name": "us-central1-f",
+        "az_short_name": "usc1f",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-central1-f",
+        "az_short_name_with_provider": "gcpusc1f",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-northeast1",
+        "az_name": "asia-northeast1-b",
+        "az_short_name": "asne1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-northeast1-b",
+        "az_short_name_with_provider": "gcpasne1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west8",
+        "az_name": "europe-west8-b",
+        "az_short_name": "euw8b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west8-b",
+        "az_short_name_with_provider": "gcpeuw8b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-northeast2",
+        "az_name": "asia-northeast2-a",
+        "az_short_name": "asne2a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-northeast2-a",
+        "az_short_name_with_provider": "gcpasne2a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-northamerica-northeast2",
+        "az_name": "northamerica-northeast2-b",
+        "az_short_name": "nane2b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-northamerica-northeast2-b",
+        "az_short_name_with_provider": "gcpnane2b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-northeast3",
+        "az_name": "asia-northeast3-c",
+        "az_short_name": "asne3c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-northeast3-c",
+        "az_short_name_with_provider": "gcpasne3c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-central2",
+        "az_name": "europe-central2-c",
+        "az_short_name": "euc2c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-central2-c",
+        "az_short_name_with_provider": "gcpeuc2c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-north1",
+        "az_name": "europe-north1-b",
+        "az_short_name": "eun1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-north1-b",
+        "az_short_name_with_provider": "gcpeun1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-northeast3",
+        "az_name": "asia-northeast3-b",
+        "az_short_name": "asne3b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-northeast3-b",
+        "az_short_name_with_provider": "gcpasne3b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-south1",
+        "az_name": "asia-south1-b",
+        "az_short_name": "ass1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-south1-b",
+        "az_short_name_with_provider": "gcpass1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-southeast2",
+        "az_name": "asia-southeast2-a",
+        "az_short_name": "asse2a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-southeast2-a",
+        "az_short_name_with_provider": "gcpasse2a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west1",
+        "az_name": "us-west1-b",
+        "az_short_name": "usw1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west1-b",
+        "az_short_name_with_provider": "gcpusw1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-me-west1",
+        "az_name": "me-west1-a",
+        "az_short_name": "mew1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-me-west1-a",
+        "az_short_name_with_provider": "gcpmew1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-australia-southeast1",
+        "az_name": "australia-southeast1-a",
+        "az_short_name": "ause1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-australia-southeast1-a",
+        "az_short_name_with_provider": "gcpause1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-southeast2",
+        "az_name": "asia-southeast2-b",
+        "az_short_name": "asse2b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-southeast2-b",
+        "az_short_name_with_provider": "gcpasse2b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-australia-southeast1",
+        "az_name": "australia-southeast1-c",
+        "az_short_name": "ause1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-australia-southeast1-c",
+        "az_short_name_with_provider": "gcpause1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-east1",
+        "az_name": "us-east1-b",
+        "az_short_name": "use1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-east1-b",
+        "az_short_name_with_provider": "gcpuse1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west2",
+        "az_name": "us-west2-b",
+        "az_short_name": "usw2b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west2-b",
+        "az_short_name_with_provider": "gcpusw2b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west4",
+        "az_name": "europe-west4-b",
+        "az_short_name": "euw4b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west4-b",
+        "az_short_name_with_provider": "gcpeuw4b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west3",
+        "az_name": "europe-west3-a",
+        "az_short_name": "euw3a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west3-a",
+        "az_short_name_with_provider": "gcpeuw3a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west12",
+        "az_name": "europe-west12-a",
+        "az_short_name": "euw12a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west12-a",
+        "az_short_name_with_provider": "gcpeuw12a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-east4",
+        "az_name": "us-east4-b",
+        "az_short_name": "use4b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-east4-b",
+        "az_short_name_with_provider": "gcpuse4b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west9",
+        "az_name": "europe-west9-c",
+        "az_short_name": "euw9c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west9-c",
+        "az_short_name_with_provider": "gcpeuw9c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west2",
+        "az_name": "europe-west2-c",
+        "az_short_name": "euw2c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west2-c",
+        "az_short_name_with_provider": "gcpeuw2c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-northeast1",
+        "az_name": "asia-northeast1-c",
+        "az_short_name": "asne1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-northeast1-c",
+        "az_short_name_with_provider": "gcpasne1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-me-west1",
+        "az_name": "me-west1-b",
+        "az_short_name": "mew1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-me-west1-b",
+        "az_short_name_with_provider": "gcpmew1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-africa-south1",
+        "az_name": "africa-south1-b",
+        "az_short_name": "afs1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-africa-south1-b",
+        "az_short_name_with_provider": "gcpafs1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west8",
+        "az_name": "europe-west8-c",
+        "az_short_name": "euw8c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west8-c",
+        "az_short_name_with_provider": "gcpeuw8c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west4",
+        "az_name": "europe-west4-c",
+        "az_short_name": "euw4c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west4-c",
+        "az_short_name_with_provider": "gcpeuw4c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-me-west1",
+        "az_name": "me-west1-c",
+        "az_short_name": "mew1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-me-west1-c",
+        "az_short_name_with_provider": "gcpmew1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west4",
+        "az_name": "europe-west4-a",
+        "az_short_name": "euw4a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west4-a",
+        "az_short_name_with_provider": "gcpeuw4a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west3",
+        "az_name": "europe-west3-c",
+        "az_short_name": "euw3c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west3-c",
+        "az_short_name_with_provider": "gcpeuw3c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-me-central2",
+        "az_name": "me-central2-c",
+        "az_short_name": "mec2c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-me-central2-c",
+        "az_short_name_with_provider": "gcpmec2c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west1",
+        "az_name": "us-west1-c",
+        "az_short_name": "usw1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west1-c",
+        "az_short_name_with_provider": "gcpusw1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-east2",
+        "az_name": "asia-east2-a",
+        "az_short_name": "ase2a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-east2-a",
+        "az_short_name_with_provider": "gcpase2a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west12",
+        "az_name": "europe-west12-b",
+        "az_short_name": "euw12b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west12-b",
+        "az_short_name_with_provider": "gcpeuw12b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-east1",
+        "az_name": "asia-east1-c",
+        "az_short_name": "ase1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-east1-c",
+        "az_short_name_with_provider": "gcpase1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-south2",
+        "az_name": "asia-south2-b",
+        "az_short_name": "ass2b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-south2-b",
+        "az_short_name_with_provider": "gcpass2b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west10",
+        "az_name": "europe-west10-c",
+        "az_short_name": "euw10c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west10-c",
+        "az_short_name_with_provider": "gcpeuw10c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west2",
+        "az_name": "us-west2-a",
+        "az_short_name": "usw2a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west2-a",
+        "az_short_name_with_provider": "gcpusw2a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-africa-south1",
+        "az_name": "africa-south1-c",
+        "az_short_name": "afs1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-africa-south1-c",
+        "az_short_name_with_provider": "gcpafs1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-southamerica-west1",
+        "az_name": "southamerica-west1-c",
+        "az_short_name": "saw1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-southamerica-west1-c",
+        "az_short_name_with_provider": "gcpsaw1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-africa-south1",
+        "az_name": "africa-south1-a",
+        "az_short_name": "afs1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-africa-south1-a",
+        "az_short_name_with_provider": "gcpafs1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-australia-southeast2",
+        "az_name": "australia-southeast2-c",
+        "az_short_name": "ause2c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-australia-southeast2-c",
+        "az_short_name_with_provider": "gcpause2c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west2",
+        "az_name": "europe-west2-a",
+        "az_short_name": "euw2a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west2-a",
+        "az_short_name_with_provider": "gcpeuw2a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-me-central1",
+        "az_name": "me-central1-b",
+        "az_short_name": "mec1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-me-central1-b",
+        "az_short_name_with_provider": "gcpmec1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west6",
+        "az_name": "europe-west6-a",
+        "az_short_name": "euw6a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west6-a",
+        "az_short_name_with_provider": "gcpeuw6a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-northeast2",
+        "az_name": "asia-northeast2-c",
+        "az_short_name": "asne2c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-northeast2-c",
+        "az_short_name_with_provider": "gcpasne2c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-south2",
+        "az_name": "asia-south2-c",
+        "az_short_name": "ass2c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-south2-c",
+        "az_short_name_with_provider": "gcpass2c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-east4",
+        "az_name": "us-east4-c",
+        "az_short_name": "use4c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-east4-c",
+        "az_short_name_with_provider": "gcpuse4c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west4",
+        "az_name": "us-west4-a",
+        "az_short_name": "usw4a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west4-a",
+        "az_short_name_with_provider": "gcpusw4a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-east1",
+        "az_name": "asia-east1-a",
+        "az_short_name": "ase1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-east1-a",
+        "az_short_name_with_provider": "gcpase1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-east2",
+        "az_name": "asia-east2-c",
+        "az_short_name": "ase2c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-east2-c",
+        "az_short_name_with_provider": "gcpase2c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-southamerica-east1",
+        "az_name": "southamerica-east1-a",
+        "az_short_name": "sae1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-southamerica-east1-a",
+        "az_short_name_with_provider": "gcpsae1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-east1",
+        "az_name": "us-east1-d",
+        "az_short_name": "use1d",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-east1-d",
+        "az_short_name_with_provider": "gcpuse1d",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-northamerica-northeast1",
+        "az_name": "northamerica-northeast1-a",
+        "az_short_name": "nane1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-northamerica-northeast1-a",
+        "az_short_name_with_provider": "gcpnane1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west1",
+        "az_name": "europe-west1-c",
+        "az_short_name": "euw1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west1-c",
+        "az_short_name_with_provider": "gcpeuw1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-east5",
+        "az_name": "us-east5-b",
+        "az_short_name": "use5b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-east5-b",
+        "az_short_name_with_provider": "gcpuse5b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-me-central1",
+        "az_name": "me-central1-a",
+        "az_short_name": "mec1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-me-central1-a",
+        "az_short_name_with_provider": "gcpmec1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west1",
+        "az_name": "europe-west1-d",
+        "az_short_name": "euw1d",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west1-d",
+        "az_short_name_with_provider": "gcpeuw1d",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-southwest1",
+        "az_name": "europe-southwest1-b",
+        "az_short_name": "eusw1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-southwest1-b",
+        "az_short_name_with_provider": "gcpeusw1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-southwest1",
+        "az_name": "europe-southwest1-c",
+        "az_short_name": "eusw1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-southwest1-c",
+        "az_short_name_with_provider": "gcpeusw1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west9",
+        "az_name": "europe-west9-b",
+        "az_short_name": "euw9b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west9-b",
+        "az_short_name_with_provider": "gcpeuw9b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-northamerica-northeast1",
+        "az_name": "northamerica-northeast1-b",
+        "az_short_name": "nane1b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-northamerica-northeast1-b",
+        "az_short_name_with_provider": "gcpnane1b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-south1",
+        "az_name": "us-south1-a",
+        "az_short_name": "uss1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-south1-a",
+        "az_short_name_with_provider": "gcpuss1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-southamerica-east1",
+        "az_name": "southamerica-east1-c",
+        "az_short_name": "sae1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-southamerica-east1-c",
+        "az_short_name_with_provider": "gcpsae1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-east1",
+        "az_name": "us-east1-c",
+        "az_short_name": "use1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-east1-c",
+        "az_short_name_with_provider": "gcpuse1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-me-central2",
+        "az_name": "me-central2-b",
+        "az_short_name": "mec2b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-me-central2-b",
+        "az_short_name_with_provider": "gcpmec2b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west10",
+        "az_name": "europe-west10-b",
+        "az_short_name": "euw10b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west10-b",
+        "az_short_name_with_provider": "gcpeuw10b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west3",
+        "az_name": "us-west3-a",
+        "az_short_name": "usw3a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west3-a",
+        "az_short_name_with_provider": "gcpusw3a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west8",
+        "az_name": "europe-west8-a",
+        "az_short_name": "euw8a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west8-a",
+        "az_short_name_with_provider": "gcpeuw8a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-southamerica-west1",
+        "az_name": "southamerica-west1-a",
+        "az_short_name": "saw1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-southamerica-west1-a",
+        "az_short_name_with_provider": "gcpsaw1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-australia-southeast2",
+        "az_name": "australia-southeast2-b",
+        "az_short_name": "ause2b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-australia-southeast2-b",
+        "az_short_name_with_provider": "gcpause2b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west12",
+        "az_name": "europe-west12-c",
+        "az_short_name": "euw12c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west12-c",
+        "az_short_name_with_provider": "gcpeuw12c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west3",
+        "az_name": "us-west3-b",
+        "az_short_name": "usw3b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west3-b",
+        "az_short_name_with_provider": "gcpusw3b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-central1",
+        "az_name": "us-central1-c",
+        "az_short_name": "usc1c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-central1-c",
+        "az_short_name_with_provider": "gcpusc1c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west6",
+        "az_name": "europe-west6-b",
+        "az_short_name": "euw6b",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west6-b",
+        "az_short_name_with_provider": "gcpeuw6b",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-west4",
+        "az_name": "us-west4-c",
+        "az_short_name": "usw4c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-west4-c",
+        "az_short_name_with_provider": "gcpusw4c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-east5",
+        "az_name": "us-east5-c",
+        "az_short_name": "use5c",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-east5-c",
+        "az_short_name_with_provider": "gcpuse5c",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-northamerica-northeast2",
+        "az_name": "northamerica-northeast2-a",
+        "az_short_name": "nane2a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-northamerica-northeast2-a",
+        "az_short_name_with_provider": "gcpnane2a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-asia-northeast1",
+        "az_name": "asia-northeast1-a",
+        "az_short_name": "asne1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-asia-northeast1-a",
+        "az_short_name_with_provider": "gcpasne1a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-europe-west9",
+        "az_name": "europe-west9-a",
+        "az_short_name": "euw9a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-europe-west9-a",
+        "az_short_name_with_provider": "gcpeuw9a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-me-central2",
+        "az_name": "me-central2-a",
+        "az_short_name": "mec2a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-me-central2-a",
+        "az_short_name_with_provider": "gcpmec2a",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region": "gcp-us-central1",
+        "az_name": "us-central1-a",
+        "az_short_name": "usc1a",
+        "az_id": null,
+        "az_name_with_provider": "gcp-us-central1-a",
+        "az_short_name_with_provider": "gcpusc1a",
+        "record_last_synced": "2024-03-18"
+    }
+]

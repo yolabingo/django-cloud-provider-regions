@@ -1,0 +1,322 @@
+[
+    {
+        "provider": "gcp",
+        "region_name": "asia-east2",
+        "region_short_name": "ase2",
+        "region_name_with_provider": "gcp-asia-east2",
+        "region_short_name_with_provider": "gcpase2",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "us-west2",
+        "region_short_name": "usw2",
+        "region_name_with_provider": "gcp-us-west2",
+        "region_short_name_with_provider": "gcpusw2",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "northamerica-northeast2",
+        "region_short_name": "nane2",
+        "region_name_with_provider": "gcp-northamerica-northeast2",
+        "region_short_name_with_provider": "gcpnane2",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-west1",
+        "region_short_name": "euw1",
+        "region_name_with_provider": "gcp-europe-west1",
+        "region_short_name_with_provider": "gcpeuw1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "us-east4",
+        "region_short_name": "use4",
+        "region_name_with_provider": "gcp-us-east4",
+        "region_short_name_with_provider": "gcpuse4",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "us-west4",
+        "region_short_name": "usw4",
+        "region_name_with_provider": "gcp-us-west4",
+        "region_short_name_with_provider": "gcpusw4",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-west8",
+        "region_short_name": "euw8",
+        "region_name_with_provider": "gcp-europe-west8",
+        "region_short_name_with_provider": "gcpeuw8",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "me-central2",
+        "region_short_name": "mec2",
+        "region_name_with_provider": "gcp-me-central2",
+        "region_short_name_with_provider": "gcpmec2",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "asia-northeast1",
+        "region_short_name": "asne1",
+        "region_name_with_provider": "gcp-asia-northeast1",
+        "region_short_name_with_provider": "gcpasne1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "asia-south2",
+        "region_short_name": "ass2",
+        "region_name_with_provider": "gcp-asia-south2",
+        "region_short_name_with_provider": "gcpass2",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-north1",
+        "region_short_name": "eun1",
+        "region_name_with_provider": "gcp-europe-north1",
+        "region_short_name_with_provider": "gcpeun1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-west6",
+        "region_short_name": "euw6",
+        "region_name_with_provider": "gcp-europe-west6",
+        "region_short_name_with_provider": "gcpeuw6",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "australia-southeast2",
+        "region_short_name": "ause2",
+        "region_name_with_provider": "gcp-australia-southeast2",
+        "region_short_name_with_provider": "gcpause2",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "me-central1",
+        "region_short_name": "mec1",
+        "region_name_with_provider": "gcp-me-central1",
+        "region_short_name_with_provider": "gcpmec1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "asia-south1",
+        "region_short_name": "ass1",
+        "region_name_with_provider": "gcp-asia-south1",
+        "region_short_name_with_provider": "gcpass1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "northamerica-northeast1",
+        "region_short_name": "nane1",
+        "region_name_with_provider": "gcp-northamerica-northeast1",
+        "region_short_name_with_provider": "gcpnane1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "us-west1",
+        "region_short_name": "usw1",
+        "region_name_with_provider": "gcp-us-west1",
+        "region_short_name_with_provider": "gcpusw1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "us-west3",
+        "region_short_name": "usw3",
+        "region_name_with_provider": "gcp-us-west3",
+        "region_short_name_with_provider": "gcpusw3",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "us-south1",
+        "region_short_name": "uss1",
+        "region_name_with_provider": "gcp-us-south1",
+        "region_short_name_with_provider": "gcpuss1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "asia-southeast1",
+        "region_short_name": "asse1",
+        "region_name_with_provider": "gcp-asia-southeast1",
+        "region_short_name_with_provider": "gcpasse1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "asia-southeast2",
+        "region_short_name": "asse2",
+        "region_name_with_provider": "gcp-asia-southeast2",
+        "region_short_name_with_provider": "gcpasse2",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "me-west1",
+        "region_short_name": "mew1",
+        "region_name_with_provider": "gcp-me-west1",
+        "region_short_name_with_provider": "gcpmew1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "asia-northeast2",
+        "region_short_name": "asne2",
+        "region_name_with_provider": "gcp-asia-northeast2",
+        "region_short_name_with_provider": "gcpasne2",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "australia-southeast1",
+        "region_short_name": "ause1",
+        "region_name_with_provider": "gcp-australia-southeast1",
+        "region_short_name_with_provider": "gcpause1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "africa-south1",
+        "region_short_name": "afs1",
+        "region_name_with_provider": "gcp-africa-south1",
+        "region_short_name_with_provider": "gcpafs1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-west10",
+        "region_short_name": "euw10",
+        "region_name_with_provider": "gcp-europe-west10",
+        "region_short_name_with_provider": "gcpeuw10",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "us-east5",
+        "region_short_name": "use5",
+        "region_name_with_provider": "gcp-us-east5",
+        "region_short_name_with_provider": "gcpuse5",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-west3",
+        "region_short_name": "euw3",
+        "region_name_with_provider": "gcp-europe-west3",
+        "region_short_name_with_provider": "gcpeuw3",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "southamerica-west1",
+        "region_short_name": "saw1",
+        "region_name_with_provider": "gcp-southamerica-west1",
+        "region_short_name_with_provider": "gcpsaw1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "asia-east1",
+        "region_short_name": "ase1",
+        "region_name_with_provider": "gcp-asia-east1",
+        "region_short_name_with_provider": "gcpase1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-west2",
+        "region_short_name": "euw2",
+        "region_name_with_provider": "gcp-europe-west2",
+        "region_short_name_with_provider": "gcpeuw2",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-southwest1",
+        "region_short_name": "eusw1",
+        "region_name_with_provider": "gcp-europe-southwest1",
+        "region_short_name_with_provider": "gcpeusw1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-west12",
+        "region_short_name": "euw12",
+        "region_name_with_provider": "gcp-europe-west12",
+        "region_short_name_with_provider": "gcpeuw12",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-central2",
+        "region_short_name": "euc2",
+        "region_name_with_provider": "gcp-europe-central2",
+        "region_short_name_with_provider": "gcpeuc2",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-west9",
+        "region_short_name": "euw9",
+        "region_name_with_provider": "gcp-europe-west9",
+        "region_short_name_with_provider": "gcpeuw9",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "asia-northeast3",
+        "region_short_name": "asne3",
+        "region_name_with_provider": "gcp-asia-northeast3",
+        "region_short_name_with_provider": "gcpasne3",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "us-east1",
+        "region_short_name": "use1",
+        "region_name_with_provider": "gcp-us-east1",
+        "region_short_name_with_provider": "gcpuse1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "europe-west4",
+        "region_short_name": "euw4",
+        "region_name_with_provider": "gcp-europe-west4",
+        "region_short_name_with_provider": "gcpeuw4",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "southamerica-east1",
+        "region_short_name": "sae1",
+        "region_name_with_provider": "gcp-southamerica-east1",
+        "region_short_name_with_provider": "gcpsae1",
+        "record_last_synced": "2024-03-18"
+    },
+    {
+        "provider": "gcp",
+        "region_name": "us-central1",
+        "region_short_name": "usc1",
+        "region_name_with_provider": "gcp-us-central1",
+        "region_short_name_with_provider": "gcpusc1",
+        "record_last_synced": "2024-03-18"
+    }
+]
