@@ -1,14 +1,19 @@
 #!/usr/bin/env python
 
+# generate json files from GCP api
+
+# UNPARSED_GCLOUD_JSON generated with:
+# gcloud compute regions list --project <project> --format json
+
 import json
 from dataclasses import asdict
-from pprint import pprint
 
 from django_model_classes import CloudAvailabilityZone, CloudProvider, CloudRegion
 from constants import REGION_DATA_DIR, UNPARSED_GCLOUD_JSON
 from get_cloud_region_short_names import get_gcp_slug
 
 PROVIDER = "gcp"
+
 
 def format_az_for_django_model(regions):
     """
@@ -29,12 +34,16 @@ def format_az_for_django_model(regions):
     for region in regions:
         formatted_region = format_region_for_django_model([region])[0]
         for zone in sorted(region["zones"]):
-            az_name = zone.split("/")[-1] # africa-south1-b
+            az_name = zone.split("/")[-1]  # africa-south1-b
             zone_letter = az_name.split("-")[-1]  # b
-            az_short_name = f"{formatted_region['region_short_name']}{zone_letter}"  # afs1b
+            az_short_name = (
+                f"{formatted_region['region_short_name']}{zone_letter}"  # afs1b
+            )
             region_pk = f"{PROVIDER}-{formatted_region['region_name']}"
             formatted_azs.add(
-                CloudAvailabilityZone(PROVIDER, region_pk, az_name, az_short_name, zone_id)
+                CloudAvailabilityZone(
+                    PROVIDER, region_pk, az_name, az_short_name, zone_id
+                )
             )
     return [asdict(formatted) for formatted in formatted_azs]
 
@@ -45,8 +54,8 @@ def format_region_for_django_model(regions):
         assert (
             region["kind"] == "compute#region"
         ), f"Sanity check - expected 'kind' to be 'compute#region', not {region['kind']}"
-        name = region["name"] # africa-south1
-        short_name = get_gcp_slug(name) # afs1
+        name = region["name"]  # africa-south1
+        short_name = get_gcp_slug(name)  # afs1
         region_model_data = CloudRegion(PROVIDER, name, short_name)
         formatted_regions.add(region_model_data)
     return [asdict(formatted) for formatted in formatted_regions]

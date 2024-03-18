@@ -60,7 +60,7 @@ def init_db_from_json(cloud_provider):
 
 def create_fixture():
     """Create Django fixture from the loaded data"""
-    fixture_file = (FIXTURES_DIR / f"{APP_NAME}.json",)
+    fixture_file = FIXTURES_DIR / f"{APP_NAME}.json"
     call_command(
         "dumpdata",
         "--format",

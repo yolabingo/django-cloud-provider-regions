@@ -10,6 +10,7 @@ from constants import REGION_DATA_DIR
 
 PROVIDER = "aws"
 
+
 def fetch_azs():
     """Fetch all AWS availability zones in all regions"""
     azs = []
