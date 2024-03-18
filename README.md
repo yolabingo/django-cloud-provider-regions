@@ -7,11 +7,12 @@ The purpose of this app is to provide Cloud Provider Region/AZ lists easily avai
 The Regions/AZ list is currrent as of March 2024.
 
 ## Features
-- Simple access to cloud Region and AZs from other DJjango apps
+- Quick and easy access to cloud Region and AZs from other Django apps
 - Provides shortened versions of Region and AZ names for use by provisioning tools
 - DB primary key fields are stable, will not change as new Regions/AZs are added
 
 ## Installation
+
 
 ### Models
 
@@ -23,29 +24,11 @@ This app provides the following models:
 
 ### API Endpoints
 
+TODO: add DRF views 
 The following API endpoints are available:
 
 - `GET /api/regions/`: Retrieve a list of all regions.
 - `GET /api/regions/<region_id>/`: Retrieve details of a specific region.
-
-### Sample Code
-
-```python
-# Example usage of the Django models and API
-import requests
-
-# Create a new region
-new_region_data = {
-    "name": "us-west1",
-    "provider": "GCP"
-}
-response = requests.post("http://127.0.0.1:8000/api/regions/", json=new_region_data)
-print(response.json())  # Newly created region data
-
-# Retrieve all regions
-regions_response = requests.get("http://127.0.0.1:8000/api/regions/")
-print(regions_response.json())  # List of all regions
-```
 
 ## Contributing
 
@@ -54,11 +37,6 @@ Contributions are welcome! Please feel free to open issues or submit pull reques
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Notes 
-
-[GCP Python Quickstart](https://developers.google.com/docs/api/quickstart/python)
-
 
 ## Acknowledgments
 

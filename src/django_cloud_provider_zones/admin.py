@@ -10,7 +10,7 @@ class CloudRegionAdmin(admin.ModelAdmin):
 
 
 class CloudAvailabilityZoneAdmin(admin.ModelAdmin):
-    list_filter = ["provider", "region"]
+    list_filter = ["region"]
     list_display = ["az_name", "provider", "region", "az_short_name"]
     search_fields = [
         "provider__provider",

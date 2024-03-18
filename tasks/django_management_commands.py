@@ -9,43 +9,21 @@ import sys
 from inspect import getmembers, isfunction
 
 import django
-from django.conf import settings
 from django.core.management import call_command
 
 import emoji
 
+import boot_django
 import constants
 
-BASE_DIR = constants.APP_DIR
-TEST_DB_PATH = BASE_DIR / "test_db.sqlite3"
-INSTALLED_APPS = [
-    "django.contrib.admin",
-    "django.contrib.auth",
-    "django.contrib.contenttypes",
-    "django.contrib.sessions",
-]
-INSTALLED_APPS.append(constants.APP_NAME)
-
-
-# Initialize a shell Django project - this creates a sqlite3 database
-settings.configure(
-    BASE_DIR=BASE_DIR,
-    INSTALLED_APPS=INSTALLED_APPS,
-    DEBUG=True,
-    DATABASES={
-        "default": {
-            "ENGINE": "django.db.backends.sqlite3",
-            "NAME": os.path.join(TEST_DB_PATH),
-        }
-    },
-    TIME_ZONE="UTC",
-    USE_TZ=True,
-)
-django.setup()
+boot_django.boot()
+from update_django_db_from_json import init_dbs_from_json  # noqa: E402
 
 
 def print_status(message, error=False):
-    print(f"{emoji.emojize(':right_arrow:')} Running on {TEST_DB_PATH}")
+    print(
+        f"{emoji.emojize(':right_arrow:')} Running on DB:\n  {constants.TEST_DB_PATH}"
+    )
     if error:
         print(f"{emoji.emojize(':cross_mark:')} {message}")
     else:
@@ -66,9 +44,11 @@ def django_createsuperuser():
         print_status(f"Superuser not created: {e}", error=True)
 
 
-def django_create_fixture():
+def django_update_fixture_from_json():
     """Create Django fixture from the loaded data"""
     fixture_file = constants.FIXTURES_DIR / f"{constants.APP_NAME}.json"
+    django_migrate()
+    init_dbs_from_json()
     call_command(
         "dumpdata",
         "--format",
@@ -89,7 +69,7 @@ def django_makemigrations():
 def django_migrate():
     django_makemigrations()
     call_command("migrate")
-    print_status(f"Migrations complete on {TEST_DB_PATH}")
+    print_status(f"Migrations complete on {constants.TEST_DB_PATH}")
 
 
 def django_load_fixture():
@@ -111,7 +91,7 @@ if __name__ == "__main__":
                 commands.add(name)
     commands = sorted(commands)
 
-    help_text = f"Command required:\n {'\n '.join(commands)}"
+    help_text = "Command required:\n " + "\n ".join(commands)
 
     parser = argparse.ArgumentParser(description="Run Django management commands")
     parser.add_argument("command", help=help_text)
