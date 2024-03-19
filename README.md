@@ -12,11 +12,10 @@ The Regions/AZ list is currrent as of March 2024.
 - DB primary key fields are stable, will not change as new Regions/AZs are added
 
 ## Installation
-Add the App to an existing Django project.
 
 `pip install django-cloud-provider-zones`
 
-Add to settings.py INSTALLED_APPS:
+Add to project's settings.py INSTALLED_APPS:
 ```
 'rest_framework',
 'django_cloud_provider_zones',
@@ -36,6 +35,7 @@ urlpatterns = [
 If exposed via the Django admin, it is recommended that these App's models are "read only" so grant only View permissions.
 
 ### Models
+[model diagram](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/django_models.png)
 
 This app provides the following models:
 
@@ -45,11 +45,7 @@ This app provides the following models:
 
 ### API Endpoints
 
-TODO: add DRF views 
-The following API endpoints are available:
-
-- `GET /api/regions/`: Retrieve a list of all regions.
-- `GET /api/regions/<region_id>/`: Retrieve details of a specific region.
+Basic REST Get endpoints available see [urls.py](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/src/django_cloud_provider_zones/urls.py)
 
 ## Contributing
 
