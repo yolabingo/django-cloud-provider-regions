@@ -39,8 +39,8 @@ If exposed via the Django admin, it is recommended that these App's models are "
 
 This app provides the following models:
 - `CloudProvider`: Cloud provider names - currently `AWS` or `GCP` 
-- `Region`: Cloud regions
-- `AvailabilityZone`: Availability zones within a region
+- `CloudRegion`: Cloud regions
+- `CloudAvailabilityZone`: Availability zones within a region
 
 Each region and AZ has 4 name versions, with "short" versions removing all dashes.
 
