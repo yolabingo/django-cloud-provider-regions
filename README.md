@@ -38,10 +38,34 @@ If exposed via the Django admin, it is recommended that these App's models are "
 [model diagram](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/django_models.png)
 
 This app provides the following models:
-
 - `CloudProvider`: Cloud provider names - currently `AWS` or `GCP` 
 - `Region`: Cloud regions
 - `AvailabilityZone`: Availability zones within a region
+
+Each region and AZ has 4 name versions, with "short" versions removing all dashes.
+
+```
+>>> pprint( CloudProvider.objects.values().first() )
+{'provider': 'aws'}
+
+>>> pprint( CloudRegion.objects.values().first() )
+{'provider_id': 'aws',
+ 'record_last_synced': '2024-03-17',
+ 'region_name': 'ap-northeast-1',
+ 'region_name_with_provider': 'aws-ap-northeast-1',
+ 'region_short_name': 'apne1',
+ 'region_short_name_with_provider': 'awsapne1'}
+
+ >>> pprint( CloudAvailabilityZone.objects.values().first() )
+{'az_id': 'apne1-az4',
+ 'az_name': 'ap-northeast-1a',
+ 'az_name_with_provider': 'aws-ap-northeast-1a',
+ 'az_short_name': 'apne1a',
+ 'az_short_name_with_provider': 'awsapne1a',
+ 'provider_id': 'aws',
+ 'record_last_synced': '2024-03-17',
+ 'region_id': 'aws-ap-northeast-1'}
+```
 
 ### API Endpoints
 
