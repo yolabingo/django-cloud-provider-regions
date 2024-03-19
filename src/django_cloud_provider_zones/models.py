@@ -1,3 +1,4 @@
+from django.core.exceptions import ValidationError
 from django.db import models
 
 
@@ -45,6 +46,17 @@ class CloudAvailabilityZone(models.Model):
 
     def __str__(self):
         return self.az_name_with_provider
+
+    def save(self, *args, **kwargs):
+        """
+        better to explicitly fail than to fix invalid submissions by setting
+        self.provider = self.region.provider
+        """
+        if self.provider != self.region.provider:
+            raise ValidationError(
+                f"self.provider: {self.provider} != self.region.provider: {self.region.provider}"
+            )
+        super().save(*args, **kwargs)
 
     class Meta:
         ordering = ["az_name_with_provider"]

@@ -11,6 +11,10 @@ from django.conf import settings
 import constants
 
 INSTALLED_APPS = [
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django_extensions",  # for https://django-extensions.readthedocs.io/en/latest/graph_models.html
+    "rest_framework",
     constants.APP_NAME,
 ]
 

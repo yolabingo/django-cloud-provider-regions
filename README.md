@@ -12,7 +12,28 @@ The Regions/AZ list is currrent as of March 2024.
 - DB primary key fields are stable, will not change as new Regions/AZs are added
 
 ## Installation
+Add the App to an existing Django project.
 
+`pip install django-cloud-provider-zones`
+
+Add to settings.py INSTALLED_APPS:
+```
+'rest_framework',
+'django_cloud_provider_zones',
+```
+
+Optionally, include the DRF REST urls in your project's `urls.py`:
+```python
+from django.contrib import admin
+from django.urls import path, include
+import django_cloud_provider_zones
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('api/cloudzones/', include('django_cloud_provider_zones.urls')),
+]
+```
+If exposed via the Django admin, it is recommended that these App's models are "read only" so grant only View permissions.
 
 ### Models
 

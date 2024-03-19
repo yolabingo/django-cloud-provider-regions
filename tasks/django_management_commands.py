@@ -83,6 +83,18 @@ def django_runserver():
     call_command("runserver")
 
 
+def django_test():
+    call_command("test", "django_cloud_provider_zones")
+
+
+def django_graph_models():
+    # this doesn't work here but works in a normal Django shell
+    png_file = constants.PROJECT_ROOT_DIR / "django_models.png"
+    call_command("graph_models", "django_cloud_provider_zones", "-g", "-o", png_file)
+    # --rankdir BT --theme django2018 -l twopi
+    print_status(f"Model graph created: {str(png_file)}")
+
+
 if __name__ == "__main__":
     commands = set()
     for name, obj in getmembers(sys.modules[__name__]):
