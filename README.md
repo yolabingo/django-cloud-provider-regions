@@ -82,6 +82,21 @@ short_name_with_provider: awsuse1
 'awsapne1a'
 ```
 
+Regions and AZs use Django "natural keys" which allows filtering by the Provider's region name
+```
+## Region natural key ##
+>>> CloudRegion.objects.first().natural_key()
+('aws', 'ap-northeast-1')
+>>> CloudRegion.objects.get_by_natural_key("aws", "us-east-1")
+<CloudRegion: aws-us-east-1>
+
+## AZ natural key ##
+>>> CloudAvailabilityZone.objects.first().natural_key()
+('a', ('aws', 'ap-northeast-1'))
+>>> CloudAvailabilityZone.objects.get_by_natural_key('a', ('aws', 'ap-northeast-1'))
+<CloudAvailabilityZone: aws-ap-northeast-1a>
+
+
 ### API Endpoints
 
 Basic REST Get endpoints available see [urls.py](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/src/django_cloud_provider_zones/urls.py)
