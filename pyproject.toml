@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-cloud-provider-zones"
-version = "0.1.1"
+version = "0.1.2"
 description = "Django app providing a static list of cloud provider regions and AZs"
 authors = ["TJ <yolabingo@gmail.com>"]
 readme = "README.md"
@@ -25,6 +25,7 @@ tox = "^4.14.1"
 django-extensions = "^3.2.3"
 pyparsing = "^3.1.2"
 pydot = "^2.0.0"
+werkzeug = "^3.0.1"
 
 [build-system]
 requires = ["poetry-core"]

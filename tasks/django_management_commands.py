@@ -17,8 +17,7 @@ import boot_django
 import constants
 
 boot_django.boot()
-from update_django_db_from_json import init_dbs_from_json  # noqa: E402
-
+from tasks.update_db_from_json import init_dbs_from_json  # noqa: E402
 
 def print_status(message, error=False):
     print(
@@ -46,20 +45,42 @@ def django_createsuperuser():
 
 def django_update_fixture_from_json():
     """Create Django fixture from the loaded data"""
-    fixture_file = constants.FIXTURES_DIR / f"{constants.APP_NAME}.json"
     django_migrate()
     init_dbs_from_json()
-    call_command(
+    create_fixture(constants.APP_NAME,
+                   model_name="CloudProvider",
+                     natural_primary_key=False,
+                        natural_foreign_key=False,
+                   )
+    create_fixture(constants.APP_NAME, model_name="CloudRegion", natural_foreign_key=False)
+    create_fixture(constants.APP_NAME, model_name="CloudAvailabilityZone")
+
+
+def create_fixture(app_name, model_name=None, natural_primary_key=True, natural_foreign_key=True):
+    if model_name is None:
+        fixture_file = constants.FIXTURES_DIR / f"{constants.APP_NAME}.json"
+        fixture_target = app_name
+    else:
+        fixture_file = constants.FIXTURES_DIR / f"{constants.APP_NAME}-{model_name}.json"
+        fixture_target = f"{app_name}.{model_name}"
+    base_command = [
         "dumpdata",
         "--format",
         "json",
         "--indent",
         "4",
+    ]
+    if natural_foreign_key:
+        base_command.append("--natural-foreign")
+    if natural_primary_key:
+        base_command.append("--natural-primary")
+    cmd = base_command + [
         "--output",
         fixture_file,
-        constants.APP_NAME,
-    )
-    print_status(f"Fixture created: {str(fixture_file)}")
+        fixture_target,
+        ]
+    call_command(*cmd)
+    print_status(f"Fixture created: {str(fixture_file)} from '{fixture_target}'")
 
 
 def django_makemigrations():
@@ -86,6 +107,8 @@ def django_runserver():
 def django_test():
     call_command("test", "django_cloud_provider_zones")
 
+def django_shell():
+    call_command("shell_plus")
 
 def django_graph_models():
     # this doesn't work here but works in a normal Django shell

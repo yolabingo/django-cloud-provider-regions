@@ -1,552 +1,222 @@
 [
     {
-        "provider": "aws",
-        "region": "aws-us-west-2",
-        "az_name": "us-west-2d",
-        "az_short_name": "usw2d",
-        "az_id": "usw2-az4",
-        "az_name_with_provider": "aws-us-west-2d",
-        "az_short_name_with_provider": "awsusw2d",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-west-2",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-south-1",
-        "az_name": "ap-south-1b",
-        "az_short_name": "aps1b",
-        "az_id": "aps1-az3",
-        "az_name_with_provider": "aws-ap-south-1b",
-        "az_short_name_with_provider": "awsaps1b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-north-1",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-northeast-1",
-        "az_name": "ap-northeast-1c",
-        "az_short_name": "apne1c",
-        "az_id": "apne1-az1",
-        "az_name_with_provider": "aws-ap-northeast-1c",
-        "az_short_name_with_provider": "awsapne1c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-south-1",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-west-1",
-        "az_name": "us-west-1b",
-        "az_short_name": "usw1b",
-        "az_id": "usw1-az1",
-        "az_name_with_provider": "aws-us-west-1b",
-        "az_short_name_with_provider": "awsusw1b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-east-2",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-west-2",
-        "az_name": "eu-west-2b",
-        "az_short_name": "euw2b",
-        "az_id": "euw2-az3",
-        "az_name_with_provider": "aws-eu-west-2b",
-        "az_short_name_with_provider": "awseuw2b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-west-2",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-east-1",
-        "az_name": "us-east-1b",
-        "az_short_name": "use1b",
-        "az_id": "use1-az1",
-        "az_name_with_provider": "aws-us-east-1b",
-        "az_short_name_with_provider": "awsuse1b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-west-3",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-west-1",
-        "az_name": "us-west-1a",
-        "az_short_name": "usw1a",
-        "az_id": "usw1-az3",
-        "az_name_with_provider": "aws-us-west-1a",
-        "az_short_name_with_provider": "awsusw1a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-northeast-2",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-northeast-2",
-        "az_name": "ap-northeast-2a",
-        "az_short_name": "apne2a",
-        "az_id": "apne2-az1",
-        "az_name_with_provider": "aws-ap-northeast-2a",
-        "az_short_name_with_provider": "awsapne2a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-southeast-1",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-south-1",
-        "az_name": "ap-south-1c",
-        "az_short_name": "aps1c",
-        "az_id": "aps1-az2",
-        "az_name_with_provider": "aws-ap-south-1c",
-        "az_short_name_with_provider": "awsaps1c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-north-1",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-west-2",
-        "az_name": "eu-west-2c",
-        "az_short_name": "euw2c",
-        "az_id": "euw2-az1",
-        "az_name_with_provider": "aws-eu-west-2c",
-        "az_short_name_with_provider": "awseuw2c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-south-1",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-south-1",
-        "az_name": "ap-south-1a",
-        "az_short_name": "aps1a",
-        "az_id": "aps1-az1",
-        "az_name_with_provider": "aws-ap-south-1a",
-        "az_short_name_with_provider": "awsaps1a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-southeast-2",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-southeast-2",
-        "az_name": "ap-southeast-2b",
-        "az_short_name": "apse2b",
-        "az_id": "apse2-az3",
-        "az_name_with_provider": "aws-ap-southeast-2b",
-        "az_short_name_with_provider": "awsapse2b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-west-2",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-east-1",
-        "az_name": "us-east-1e",
-        "az_short_name": "use1e",
-        "az_id": "use1-az3",
-        "az_name_with_provider": "aws-us-east-1e",
-        "az_short_name_with_provider": "awsuse1e",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-east-1",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-central-1",
-        "az_name": "eu-central-1c",
-        "az_short_name": "euc1c",
-        "az_id": "euc1-az1",
-        "az_name_with_provider": "aws-eu-central-1c",
-        "az_short_name_with_provider": "awseuc1c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-east-2",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-west-1",
-        "az_name": "eu-west-1a",
-        "az_short_name": "euw1a",
-        "az_id": "euw1-az2",
-        "az_name_with_provider": "aws-eu-west-1a",
-        "az_short_name_with_provider": "awseuw1a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-west-1",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-southeast-1",
-        "az_name": "ap-southeast-1b",
-        "az_short_name": "apse1b",
-        "az_id": "apse1-az1",
-        "az_name_with_provider": "aws-ap-southeast-1b",
-        "az_short_name_with_provider": "awsapse1b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-west-3",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-ca-central-1",
-        "az_name": "ca-central-1b",
-        "az_short_name": "cac1b",
-        "az_id": "cac1-az2",
-        "az_name_with_provider": "aws-ca-central-1b",
-        "az_short_name_with_provider": "awscac1b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-northeast-2",
+        "az": "d"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-southeast-2",
-        "az_name": "ap-southeast-2a",
-        "az_short_name": "apse2a",
-        "az_id": "apse2-az1",
-        "az_name_with_provider": "aws-ap-southeast-2a",
-        "az_short_name_with_provider": "awsapse2a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-southeast-1",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-northeast-2",
-        "az_name": "ap-northeast-2c",
-        "az_short_name": "apne2c",
-        "az_id": "apne2-az3",
-        "az_name_with_provider": "aws-ap-northeast-2c",
-        "az_short_name_with_provider": "awsapne2c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-east-1",
+        "az": "d"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-east-2",
-        "az_name": "us-east-2a",
-        "az_short_name": "use2a",
-        "az_id": "use2-az1",
-        "az_name_with_provider": "aws-us-east-2a",
-        "az_short_name_with_provider": "awsuse2a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "sa-east-1",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-northeast-3",
-        "az_name": "ap-northeast-3a",
-        "az_short_name": "apne3a",
-        "az_id": "apne3-az3",
-        "az_name_with_provider": "aws-ap-northeast-3a",
-        "az_short_name_with_provider": "awsapne3a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-west-2",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-east-1",
-        "az_name": "us-east-1c",
-        "az_short_name": "use1c",
-        "az_id": "use1-az2",
-        "az_name_with_provider": "aws-us-east-1c",
-        "az_short_name_with_provider": "awsuse1c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-northeast-2",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-north-1",
-        "az_name": "eu-north-1b",
-        "az_short_name": "eun1b",
-        "az_id": "eun1-az2",
-        "az_name_with_provider": "aws-eu-north-1b",
-        "az_short_name_with_provider": "awseun1b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-northeast-3",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-northeast-1",
-        "az_name": "ap-northeast-1d",
-        "az_short_name": "apne1d",
-        "az_id": "apne1-az2",
-        "az_name_with_provider": "aws-ap-northeast-1d",
-        "az_short_name_with_provider": "awsapne1d",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-east-1",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-east-2",
-        "az_name": "us-east-2c",
-        "az_short_name": "use2c",
-        "az_id": "use2-az3",
-        "az_name_with_provider": "aws-us-east-2c",
-        "az_short_name_with_provider": "awsuse2c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-west-1",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-west-2",
-        "az_name": "eu-west-2a",
-        "az_short_name": "euw2a",
-        "az_id": "euw2-az2",
-        "az_name_with_provider": "aws-eu-west-2a",
-        "az_short_name_with_provider": "awseuw2a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-central-1",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-ca-central-1",
-        "az_name": "ca-central-1a",
-        "az_short_name": "cac1a",
-        "az_id": "cac1-az1",
-        "az_name_with_provider": "aws-ca-central-1a",
-        "az_short_name_with_provider": "awscac1a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-northeast-1",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-west-1",
-        "az_name": "eu-west-1b",
-        "az_short_name": "euw1b",
-        "az_id": "euw1-az3",
-        "az_name_with_provider": "aws-eu-west-1b",
-        "az_short_name_with_provider": "awseuw1b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-east-1",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-east-2",
-        "az_name": "us-east-2b",
-        "az_short_name": "use2b",
-        "az_id": "use2-az2",
-        "az_name_with_provider": "aws-us-east-2b",
-        "az_short_name_with_provider": "awsuse2b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-northeast-2",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-west-3",
-        "az_name": "eu-west-3c",
-        "az_short_name": "euw3c",
-        "az_id": "euw3-az3",
-        "az_name_with_provider": "aws-eu-west-3c",
-        "az_short_name_with_provider": "awseuw3c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "sa-east-1",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-northeast-1",
-        "az_name": "ap-northeast-1a",
-        "az_short_name": "apne1a",
-        "az_id": "apne1-az4",
-        "az_name_with_provider": "aws-ap-northeast-1a",
-        "az_short_name_with_provider": "awsapne1a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-northeast-1",
+        "az": "d"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-north-1",
-        "az_name": "eu-north-1c",
-        "az_short_name": "eun1c",
-        "az_id": "eun1-az3",
-        "az_name_with_provider": "aws-eu-north-1c",
-        "az_short_name_with_provider": "awseun1c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-northeast-3",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-north-1",
-        "az_name": "eu-north-1a",
-        "az_short_name": "eun1a",
-        "az_id": "eun1-az1",
-        "az_name_with_provider": "aws-eu-north-1a",
-        "az_short_name_with_provider": "awseun1a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "sa-east-1",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-sa-east-1",
-        "az_name": "sa-east-1a",
-        "az_short_name": "sae1a",
-        "az_id": "sae1-az1",
-        "az_name_with_provider": "aws-sa-east-1a",
-        "az_short_name_with_provider": "awssae1a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-west-1",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-west-2",
-        "az_name": "us-west-2c",
-        "az_short_name": "usw2c",
-        "az_id": "usw2-az3",
-        "az_name_with_provider": "aws-us-west-2c",
-        "az_short_name_with_provider": "awsusw2c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-central-1",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-west-1",
-        "az_name": "eu-west-1c",
-        "az_short_name": "euw1c",
-        "az_id": "euw1-az1",
-        "az_name_with_provider": "aws-eu-west-1c",
-        "az_short_name_with_provider": "awseuw1c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-east-1",
+        "az": "f"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-southeast-1",
-        "az_name": "ap-southeast-1c",
-        "az_short_name": "apse1c",
-        "az_id": "apse1-az3",
-        "az_name_with_provider": "aws-ap-southeast-1c",
-        "az_short_name_with_provider": "awsapse1c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-east-1",
+        "az": "e"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-central-1",
-        "az_name": "eu-central-1b",
-        "az_short_name": "euc1b",
-        "az_id": "euc1-az3",
-        "az_name_with_provider": "aws-eu-central-1b",
-        "az_short_name_with_provider": "awseuc1b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-northeast-3",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-east-1",
-        "az_name": "us-east-1a",
-        "az_short_name": "use1a",
-        "az_id": "use1-az6",
-        "az_name_with_provider": "aws-us-east-1a",
-        "az_short_name_with_provider": "awsuse1a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-west-1",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-northeast-2",
-        "az_name": "ap-northeast-2b",
-        "az_short_name": "apne2b",
-        "az_id": "apne2-az2",
-        "az_name_with_provider": "aws-ap-northeast-2b",
-        "az_short_name_with_provider": "awsapne2b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-central-1",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-west-3",
-        "az_name": "eu-west-3b",
-        "az_short_name": "euw3b",
-        "az_id": "euw3-az2",
-        "az_name_with_provider": "aws-eu-west-3b",
-        "az_short_name_with_provider": "awseuw3b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-northeast-1",
+        "az": "c"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-east-1",
-        "az_name": "us-east-1f",
-        "az_short_name": "use1f",
-        "az_id": "use1-az5",
-        "az_name_with_provider": "aws-us-east-1f",
-        "az_short_name_with_provider": "awsuse1f",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ca-central-1",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-sa-east-1",
-        "az_name": "sa-east-1b",
-        "az_short_name": "sae1b",
-        "az_id": "sae1-az2",
-        "az_name_with_provider": "aws-sa-east-1b",
-        "az_short_name_with_provider": "awssae1b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-southeast-2",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-southeast-2",
-        "az_name": "ap-southeast-2c",
-        "az_short_name": "apse2c",
-        "az_id": "apse2-az2",
-        "az_name_with_provider": "aws-ap-southeast-2c",
-        "az_short_name_with_provider": "awsapse2c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-west-2",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-west-2",
-        "az_name": "us-west-2a",
-        "az_short_name": "usw2a",
-        "az_id": "usw2-az1",
-        "az_name_with_provider": "aws-us-west-2a",
-        "az_short_name_with_provider": "awsusw2a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-north-1",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-west-2",
-        "az_name": "us-west-2b",
-        "az_short_name": "usw2b",
-        "az_id": "usw2-az2",
-        "az_name_with_provider": "aws-us-west-2b",
-        "az_short_name_with_provider": "awsusw2b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-south-1",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-us-east-1",
-        "az_name": "us-east-1d",
-        "az_short_name": "use1d",
-        "az_id": "use1-az4",
-        "az_name_with_provider": "aws-us-east-1d",
-        "az_short_name_with_provider": "awsuse1d",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ca-central-1",
+        "az": "d"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-central-1",
-        "az_name": "eu-central-1a",
-        "az_short_name": "euc1a",
-        "az_id": "euc1-az2",
-        "az_name_with_provider": "aws-eu-central-1a",
-        "az_short_name_with_provider": "awseuc1a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-east-2",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-northeast-2",
-        "az_name": "ap-northeast-2d",
-        "az_short_name": "apne2d",
-        "az_id": "apne2-az4",
-        "az_name_with_provider": "aws-ap-northeast-2d",
-        "az_short_name_with_provider": "awsapne2d",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-southeast-1",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-eu-west-3",
-        "az_name": "eu-west-3a",
-        "az_short_name": "euw3a",
-        "az_id": "euw3-az1",
-        "az_name_with_provider": "aws-eu-west-3a",
-        "az_short_name_with_provider": "awseuw3a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-west-1",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-northeast-3",
-        "az_name": "ap-northeast-3b",
-        "az_short_name": "apne3b",
-        "az_id": "apne3-az1",
-        "az_name_with_provider": "aws-ap-northeast-3b",
-        "az_short_name_with_provider": "awsapne3b",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "us-west-2",
+        "az": "d"
     },
     {
-        "provider": "aws",
-        "region": "aws-sa-east-1",
-        "az_name": "sa-east-1c",
-        "az_short_name": "sae1c",
-        "az_id": "sae1-az3",
-        "az_name_with_provider": "aws-sa-east-1c",
-        "az_short_name_with_provider": "awssae1c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-west-3",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-northeast-3",
-        "az_name": "ap-northeast-3c",
-        "az_short_name": "apne3c",
-        "az_id": "apne3-az2",
-        "az_name_with_provider": "aws-ap-northeast-3c",
-        "az_short_name_with_provider": "awsapne3c",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "eu-west-2",
+        "az": "a"
     },
     {
-        "provider": "aws",
-        "region": "aws-ca-central-1",
-        "az_name": "ca-central-1d",
-        "az_short_name": "cac1d",
-        "az_id": "cac1-az4",
-        "az_name_with_provider": "aws-ca-central-1d",
-        "az_short_name_with_provider": "awscac1d",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ca-central-1",
+        "az": "b"
     },
     {
-        "provider": "aws",
-        "region": "aws-ap-southeast-1",
-        "az_name": "ap-southeast-1a",
-        "az_short_name": "apse1a",
-        "az_id": "apse1-az2",
-        "az_name_with_provider": "aws-ap-southeast-1a",
-        "az_short_name_with_provider": "awsapse1a",
-        "record_last_synced": "2024-03-17"
+        "original_region_name": "ap-southeast-2",
+        "az": "b"
     }
 ]
