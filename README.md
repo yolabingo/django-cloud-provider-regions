@@ -95,11 +95,36 @@ Regions and AZs use Django "natural keys" which allows filtering by the Provider
 ('a', ('aws', 'ap-northeast-1'))
 >>> CloudAvailabilityZone.objects.get_by_natural_key('a', ('aws', 'ap-northeast-1'))
 <CloudAvailabilityZone: aws-ap-northeast-1a>
-
-
+```
 ### API Endpoints
 
 Basic REST Get endpoints available see [urls.py](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/src/django_cloud_provider_zones/urls.py)
+
+### Updating model data
+To add a new provider, activate the poetry virtualenv with `poetry shell && poetry install`
+
+Fetch raw json from the provider's API or cli tool, save it to [region_data/PROVIDER_unprocessed.json](https://github.com/yolabingo/django-cloud-provider-zones/tree/main/region_data) see AWS and GCP examples.
+Create [tasks/format_json_PROVIDER](https://github.com/yolabingo/django-cloud-provider-zones/tree/main/tasks) which creates properly formatted json files
+```
+region_data/PROVIDER_provider.json
+region_data/PROVIDER_region.json
+region_data/PROVIDER_az.json
+```
+see AWS and GCP examples.
+
+Add new provider `CLOUD_PROVIDERS` in `tasks/update_db_from_json.py` then run
+```
+tasks/django_management_commands.py django_makemigrations
+tasks/django_management_commands.py django_migrate
+tasks/django_management_commands.py django_update_fixture_from_json
+```
+Once that looks good add a couple simple tests to [src/django_cloud_provider_zones/tests.py](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/src/django_cloud_provider_zones/tests.py) then 
+
+```tasks/django_management_commands.py django_test```
+
+Bump version, commit and push as needed.
+
+`poetry version patch && poetry publish`
 
 ## Contributing
 
