@@ -32,6 +32,10 @@ urlpatterns = [
     path('api/cloudzones/', include('django_cloud_provider_zones.urls')),
 ]
 ```
+Import model data
+
+`./manage.py loaddata django_cloud_provider_zones-CloudProvider django_cloud_provider_zones-CloudRegion django_cloud_provider_zones-CloudAvailabilityZone`
+
 If exposed via the Django admin, it is recommended that these App's models are "read only" so grant only View permissions.
 
 ### Models
@@ -42,29 +46,40 @@ This app provides the following models:
 - `CloudRegion`: Cloud regions
 - `CloudAvailabilityZone`: Availability zones within a region
 
-Each region and AZ has 4 name versions, with "short" versions removing all dashes.
+Each region and AZ provides, as properties, short name versions with dashes removed. For example, `AWS us-east-1` has names
+```
+short_name: use1
+short_name_with_provider: awsuse1
+```
 
 ```
->>> pprint( CloudProvider.objects.values().first() )
+## CloudProvider ##
+>>> CloudProvider.objects.values().first()
 {'provider': 'aws'}
 
->>> pprint( CloudRegion.objects.values().first() )
-{'provider_id': 'aws',
- 'record_last_synced': '2024-03-17',
- 'region_name': 'ap-northeast-1',
- 'region_name_with_provider': 'aws-ap-northeast-1',
- 'region_short_name': 'apne1',
- 'region_short_name_with_provider': 'awsapne1'}
+## CloudRegion ##
+>>> CloudRegion.objects.values().first()
+{'cardinality': 'northeast',
+ 'created': datetime.date(2024, 3, 27),
+ 'geographic_region': 'ap',
+ 'id': 11,
+ 'number': '1',
+ 'original_region_name': 'ap-northeast-1',
+ 'provider_id': 'aws'}
 
- >>> pprint( CloudAvailabilityZone.objects.values().first() )
-{'az_id': 'apne1-az4',
- 'az_name': 'ap-northeast-1a',
- 'az_name_with_provider': 'aws-ap-northeast-1a',
- 'az_short_name': 'apne1a',
- 'az_short_name_with_provider': 'awsapne1a',
- 'provider_id': 'aws',
- 'record_last_synced': '2024-03-17',
- 'region_id': 'aws-ap-northeast-1'}
+>>> CloudRegion.objects.first().short_name
+'apne1'
+>>> CloudRegion.objects.first().short_name_with_provider
+'awsapne1'
+
+## CloudAvailabilityZone ##
+>>> CloudAvailabilityZone.objects.values().first()
+{'az': 'a', 'created': datetime.date(2024, 3, 27), 'id': 27, 'region_id': 11}
+
+>>> CloudAvailabilityZone.objects.first().short_name
+'apne1a'
+>>> CloudAvailabilityZone.objects.first().short_name_with_provider
+'awsapne1a'
 ```
 
 ### API Endpoints
