@@ -1,3 +1,4 @@
+tasks/
 *db.sqlite3
 djangofoo
 # Byte-compiled / optimized / DLL files
