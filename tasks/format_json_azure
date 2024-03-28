@@ -1,0 +1,168 @@
+#!/usr/bin/env python
+
+# generate json files from api data
+
+import json
+import re
+from dataclasses import asdict
+
+from json_insert_format import CloudAvailabilityZone, CloudProvider, CloudRegion
+from constants import REGION_DATA_DIR
+
+# needs a local symlink to ../src/django_cloud_provider_zones/cloud_short_names
+from cloud_short_names import CardinalityShortNames
+
+PROVIDER = "azu"
+
+
+def format_az_for_django_model(regions):
+    """
+    [
+      { "availabilityZoneMappings": [
+        { "logicalZone": "1", "physicalZone": "eastus-az2" },
+        { "logicalZone": "2",...
+      ],
+      "displayName": "East US",
+      "id": "/subscriptions/d8828ff3-872c-48d6-8430-806847bb0f1f/locations/eastus",
+      "metadata": {
+        "geography": "United States",
+        "geographyGroup": "US",
+        "pairedRegion": [
+          {
+            "id": "/subscriptions/d8828ff3-872c-48d6-8430-806847bb0f1f/locations/westus",
+            "name": "westus"
+          }
+        ],
+        "physicalLocation": "Virginia",
+        "regionCategory": "Recommended",
+        "regionType": "Physical"
+      },
+      "name": "eastus",
+      "regionalDisplayName": "(US) East US",
+      "type": "Region"
+    },
+    """
+    formatted_azs = set()
+    for region in regions:
+        if skip_region(region):
+            continue
+        original_region_name = region["name"]
+        for zone in region["availabilityZoneMappings"]:
+            original_az_name = zone["physicalZone"]
+            zone_letter = original_az_name.split("-")[-1].removeprefix("az")
+            formatted_azs.add(
+                CloudAvailabilityZone(
+                    original_region_name, original_az_name, zone_letter
+                )
+            )
+    return [asdict(formatted) for formatted in formatted_azs]
+
+
+def skip_region(region):
+    for ignore_types in ["stage", "stg", "euap"]:
+        if region["name"].endswith(ignore_types):
+            return True
+    if region["metadata"]["regionType"] != "Physical":
+        return True
+    if "availabilityZoneMappings" not in region:
+        return True
+    return False
+
+
+def south_africa_special_case(original_region_name):
+    geographic_region = "southafrica"
+    cardinality = original_region_name.removeprefix(geographic_region)
+    return CloudRegion(geographic_region, cardinality, "", original_region_name)
+
+
+def get_cardinality(region_name):
+    # sort by length to get the longest match first
+    # if cardinality is "westcentral" don't return "west"
+    for cardinality in sorted(
+        [n.name for n in CardinalityShortNames],
+        reverse=True,
+        key=lambda item: len(item),
+    ):
+        if cardinality in region_name:
+            return (
+                region_name.replace(cardinality, ""),
+                cardinality,
+            )
+    raise ValueError(f"Cardinality not found in {region_name}")
+
+
+def parse_region(region):
+    """
+    azure region names do not follow naming conventions
+        australiacentral
+        australiacentral2
+        southafricanorth
+        westcentralus
+        westus
+        westus2
+    """
+    original_region_name = region["name"]
+    if original_region_name.startswith("southafrica"):
+        return south_africa_special_case(original_region_name)
+    # australiacentral2 -> (australiacentral, 2) get number if there is one
+    region_without_number, number = re.match(
+        r"(\D+)(\d*)", original_region_name
+    ).groups()
+    geographic_region, cardinality = get_cardinality(region_without_number)
+    assert geographic_region, f"geographic_region not found in {region_without_number}"
+    assert cardinality, f"cardinality not found in {region_without_number}"
+    assert (
+        original_region_name
+    ), f"original_region_name not found in {region_without_number}"
+    return CloudRegion(geographic_region, cardinality, number, original_region_name)
+
+
+def format_region_for_django_model(regions):
+    """
+    azure region names do not follow naming conventions
+        australiacentral
+        australiacentral2
+        westcentralus
+        westus
+        westus2
+    """
+    formatted_regions = set()
+    for region in regions:
+        if skip_region(region):
+            continue
+        formatted_regions.add(parse_region(region))
+    return [asdict(formatted) for formatted in formatted_regions]
+
+
+def write_json_file(data, model):
+    filename = REGION_DATA_DIR / f"{PROVIDER}_{model}.json"
+    with open(filename, "w") as f:
+        json.dump(data, f, indent=4)
+    print(f"file updated: {filename}")
+
+
+def main():
+    provider_model_data = [asdict(CloudProvider(PROVIDER))]
+    regions = []
+    with open(REGION_DATA_DIR / f"{PROVIDER}_unprocessed.json", "r") as f:
+        regions = json.load(f)
+    az_model_data = format_az_for_django_model(regions)
+    region_model_data = format_region_for_django_model(regions)
+
+    assert (
+        provider_model_data[0]["provider"] == PROVIDER
+    ), f"Expected provider to be '{PROVIDER}', got {provider_model_data}"
+    assert (
+        len(region_model_data) > 15
+    ), f"Expected at least 15 regions, got {len(region_model_data)}"
+    assert (
+        len(az_model_data) > 50
+    ), f"Expected at least 50 availability zones, got {len(az_model_data)}"
+
+    write_json_file(provider_model_data, "provider")
+    write_json_file(region_model_data, "region")
+    write_json_file(az_model_data, "az")
+
+
+if __name__ == "__main__":
+    main()

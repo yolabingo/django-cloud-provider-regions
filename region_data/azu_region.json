@@ -1,0 +1,182 @@
+[
+    {
+        "geographic_region": "sweden",
+        "cardinality": "central",
+        "number": "",
+        "original_region_name": "swedencentral"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "east",
+        "number": "2",
+        "original_region_name": "eastus2"
+    },
+    {
+        "geographic_region": "brazil",
+        "cardinality": "south",
+        "number": "",
+        "original_region_name": "brazilsouth"
+    },
+    {
+        "geographic_region": "switzerland",
+        "cardinality": "north",
+        "number": "",
+        "original_region_name": "switzerlandnorth"
+    },
+    {
+        "geographic_region": "korea",
+        "cardinality": "central",
+        "number": "",
+        "original_region_name": "koreacentral"
+    },
+    {
+        "geographic_region": "india",
+        "cardinality": "central",
+        "number": "",
+        "original_region_name": "centralindia"
+    },
+    {
+        "geographic_region": "uae",
+        "cardinality": "north",
+        "number": "",
+        "original_region_name": "uaenorth"
+    },
+    {
+        "geographic_region": "germany",
+        "cardinality": "westcentral",
+        "number": "",
+        "original_region_name": "germanywestcentral"
+    },
+    {
+        "geographic_region": "japan",
+        "cardinality": "east",
+        "number": "",
+        "original_region_name": "japaneast"
+    },
+    {
+        "geographic_region": "poland",
+        "cardinality": "central",
+        "number": "",
+        "original_region_name": "polandcentral"
+    },
+    {
+        "geographic_region": "canada",
+        "cardinality": "central",
+        "number": "",
+        "original_region_name": "canadacentral"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "2",
+        "original_region_name": "westus2"
+    },
+    {
+        "geographic_region": "asia",
+        "cardinality": "east",
+        "number": "",
+        "original_region_name": "eastasia"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "east",
+        "number": "",
+        "original_region_name": "eastus"
+    },
+    {
+        "geographic_region": "asia",
+        "cardinality": "southeast",
+        "number": "",
+        "original_region_name": "southeastasia"
+    },
+    {
+        "geographic_region": "uk",
+        "cardinality": "south",
+        "number": "",
+        "original_region_name": "uksouth"
+    },
+    {
+        "geographic_region": "israel",
+        "cardinality": "central",
+        "number": "",
+        "original_region_name": "israelcentral"
+    },
+    {
+        "geographic_region": "italy",
+        "cardinality": "north",
+        "number": "",
+        "original_region_name": "italynorth"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "northcentral",
+        "number": "",
+        "original_region_name": "northcentralus"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "3",
+        "original_region_name": "westus3"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "",
+        "original_region_name": "westus"
+    },
+    {
+        "geographic_region": "france",
+        "cardinality": "central",
+        "number": "",
+        "original_region_name": "francecentral"
+    },
+    {
+        "geographic_region": "australia",
+        "cardinality": "east",
+        "number": "",
+        "original_region_name": "australiaeast"
+    },
+    {
+        "geographic_region": "norway",
+        "cardinality": "east",
+        "number": "",
+        "original_region_name": "norwayeast"
+    },
+    {
+        "geographic_region": "europe",
+        "cardinality": "north",
+        "number": "",
+        "original_region_name": "northeurope"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "central",
+        "number": "",
+        "original_region_name": "centralus"
+    },
+    {
+        "geographic_region": "qatar",
+        "cardinality": "central",
+        "number": "",
+        "original_region_name": "qatarcentral"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "southcentral",
+        "number": "",
+        "original_region_name": "southcentralus"
+    },
+    {
+        "geographic_region": "southafrica",
+        "cardinality": "north",
+        "number": "",
+        "original_region_name": "southafricanorth"
+    },
+    {
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "",
+        "original_region_name": "westeurope"
+    }
+]

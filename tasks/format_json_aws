@@ -1,13 +1,13 @@
 #!/usr/bin/env python
 
 import json
-from contextlib import closing
 from dataclasses import asdict
 
 from json_insert_format import CloudAvailabilityZone, CloudProvider, CloudRegion
 from constants import REGION_DATA_DIR
 
 PROVIDER = "aws"
+
 
 def fetch_azs():
     """Fetch all AWS availability zones in all regions"""
@@ -21,15 +21,15 @@ def fetch_azs():
 
 def format_az_for_insert(azs):
     """
-        {'GroupName': 'us-west-2',
-        'Messages': [],
-        'NetworkBorderGroup': 'us-west-2',
-        'OptInStatus': 'opt-in-not-required',
-        'RegionName': 'us-west-2',
-        'State': 'available',
-        'ZoneId': 'usw2-az2',
-        'ZoneName': 'us-west-2b',
-        'ZoneType': 'availability-zone'},
+    {'GroupName': 'us-west-2',
+    'Messages': [],
+    'NetworkBorderGroup': 'us-west-2',
+    'OptInStatus': 'opt-in-not-required',
+    'RegionName': 'us-west-2',
+    'State': 'available',
+    'ZoneId': 'usw2-az2',
+    'ZoneName': 'us-west-2b',
+    'ZoneType': 'availability-zone'},
     """
     formatted_azs = set()
     for az in azs:
@@ -37,21 +37,19 @@ def format_az_for_insert(azs):
             az["ZoneType"] == "availability-zone"
         ), f"Sanity check - ZoneType must be 'availability-zone', not {az['ZoneType']}"
         region = az["RegionName"]
+        original_az_name = az["ZoneName"]
         az = az["ZoneName"].removeprefix(region)  # b
-        formatted_azs.add( CloudAvailabilityZone(region, az))
+        formatted_azs.add(CloudAvailabilityZone(region, original_az_name, az))
     return [asdict(formatted) for formatted in formatted_azs]
 
 
 def format_region_for_insert(azs):
     formatted_regions = set()
     for az in azs:
-        original_region_name = az["RegionName"] 
+        original_region_name = az["RegionName"]
         geographic_region, cardinality, number = original_region_name.split("-")
         region_model_data = CloudRegion(
-            geographic_region,
-            cardinality,
-            number,
-            original_region_name
+            geographic_region, cardinality, number, original_region_name
         )
         formatted_regions.add(region_model_data)
     return [asdict(formatted) for formatted in formatted_regions]

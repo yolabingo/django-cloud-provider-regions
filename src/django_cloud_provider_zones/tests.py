@@ -4,6 +4,11 @@ from django.test import Client, TestCase
 from django.test.utils import override_settings
 
 from django_cloud_provider_zones import urls
+from django_cloud_provider_zones.models import CloudProvider
+from django_cloud_provider_zones.serializers import (
+    serialize_provider_az,
+    serialize_provider_region,
+)
 
 
 @override_settings(
@@ -49,6 +54,13 @@ class CloudProviderTestCase(TestCase):
                 "cardinality": "northeast",
                 "number": "3",
             },
+            {
+                "provider": "azu",
+                "original_region_name": "northcentralus",
+                "geographic_region": "us",
+                "cardinality": "northcentral",
+                "number": "",
+            },
         ]
         r = self.client.get("/cloud-regions/")
         self.assertEqual(r.status_code, 200)
@@ -64,6 +76,10 @@ class CloudProviderTestCase(TestCase):
             {
                 "az": "a",
                 "region": "gcp-us-west4",
+            },
+            {
+                "az": "3",
+                "region": "azu-koreacentral",
             },
         ]
         r = self.client.get("/cloud-availability-zones/")
@@ -90,3 +106,12 @@ class CloudProviderTestCase(TestCase):
         short_names = [zone["short_name_with_provider"] for zone in zones]
         self.assertGreater(len(short_names), 150)
         self.assertEqual(len(short_names), len(set(short_names)))
+
+    def test_region_az_collisions_per_provider(self):
+        """ensure all region and az 'short_name' are unique per provider"""
+        for provider in CloudProvider.objects.values_list("provider", flat=True):
+            regions = serialize_provider_region(provider)
+            azs = serialize_provider_az(provider)
+            region_short_names = set([region["short_name"] for region in regions])
+            az_short_names = set([az["short_name"] for az in azs])
+            self.assertFalse(region_short_names.intersection(az_short_names))

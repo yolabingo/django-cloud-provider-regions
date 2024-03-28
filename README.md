@@ -96,6 +96,13 @@ Regions and AZs use Django "natural keys" which allows filtering by the Provider
 >>> CloudAvailabilityZone.objects.get_by_natural_key('a', ('aws', 'ap-northeast-1'))
 <CloudAvailabilityZone: aws-ap-northeast-1a>
 ```
+### Exported JSON files
+All generated names are exported to these files for reference
+```
+tasks/django_management_commands.py django_serialize_azs > region_data/normalized_azs.json
+tasks/django_management_commands.py django_serialize_regions  > region_data/normalized_regions.json
+```
+
 ### API Endpoints
 
 Basic REST Get endpoints available see [urls.py](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/src/django_cloud_provider_zones/urls.py)

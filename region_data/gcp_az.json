@@ -1,486 +1,607 @@
 [
     {
-        "original_region_name": "australia-southeast2",
+        "original_region_name": "asia-northeast2",
+        "original_az_name": "asia-northeast2-c",
         "az": "c"
     },
     {
-        "original_region_name": "us-east1",
-        "az": "d"
-    },
-    {
-        "original_region_name": "europe-southwest1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "asia-south2",
-        "az": "a"
-    },
-    {
-        "original_region_name": "us-west1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "us-central1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "europe-west3",
+        "original_region_name": "us-west3",
+        "original_az_name": "us-west3-c",
         "az": "c"
     },
     {
         "original_region_name": "europe-west4",
+        "original_az_name": "europe-west4-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "northamerica-northeast2",
+        "original_az_name": "northamerica-northeast2-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "us-west4",
+        "original_az_name": "us-west4-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "us-east5",
+        "original_az_name": "us-east5-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "asia-northeast3",
+        "original_az_name": "asia-northeast3-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-west4",
+        "original_az_name": "europe-west4-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-west10",
+        "original_az_name": "europe-west10-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-west10",
+        "original_az_name": "europe-west10-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "asia-northeast1",
+        "original_az_name": "asia-northeast1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "asia-south1",
+        "original_az_name": "asia-south1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "asia-south1",
+        "original_az_name": "asia-south1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-southwest1",
+        "original_az_name": "europe-southwest1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-west1",
+        "original_az_name": "europe-west1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "southamerica-west1",
+        "original_az_name": "southamerica-west1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "australia-southeast1",
+        "original_az_name": "australia-southeast1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "asia-south2",
+        "original_az_name": "asia-south2-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "me-central1",
+        "original_az_name": "me-central1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-west3",
+        "original_az_name": "europe-west3-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "northamerica-northeast1",
+        "original_az_name": "northamerica-northeast1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "us-west2",
+        "original_az_name": "us-west2-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "australia-southeast2",
+        "original_az_name": "australia-southeast2-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-west12",
+        "original_az_name": "europe-west12-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "southamerica-west1",
+        "original_az_name": "southamerica-west1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "europe-west2",
+        "original_az_name": "europe-west2-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "us-south1",
+        "original_az_name": "us-south1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "us-east4",
+        "original_az_name": "us-east4-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "us-west4",
+        "original_az_name": "us-west4-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "europe-west4",
+        "original_az_name": "europe-west4-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "northamerica-northeast2",
+        "original_az_name": "northamerica-northeast2-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "me-central2",
+        "original_az_name": "me-central2-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "southamerica-west1",
+        "original_az_name": "southamerica-west1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "me-central2",
+        "original_az_name": "me-central2-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "asia-east1",
+        "original_az_name": "asia-east1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "asia-east1",
+        "original_az_name": "asia-east1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "asia-south1",
+        "original_az_name": "asia-south1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "asia-southeast1",
+        "original_az_name": "asia-southeast1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "europe-west2",
+        "original_az_name": "europe-west2-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "us-west1",
+        "original_az_name": "us-west1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-west9",
+        "original_az_name": "europe-west9-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "me-central1",
+        "original_az_name": "me-central1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "us-west4",
+        "original_az_name": "us-west4-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-west6",
+        "original_az_name": "europe-west6-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "me-west1",
+        "original_az_name": "me-west1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-north1",
+        "original_az_name": "europe-north1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-north1",
+        "original_az_name": "europe-north1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "us-west1",
+        "original_az_name": "us-west1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-southwest1",
+        "original_az_name": "europe-southwest1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "africa-south1",
+        "original_az_name": "africa-south1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-west12",
+        "original_az_name": "europe-west12-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "us-south1",
+        "original_az_name": "us-south1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-west6",
+        "original_az_name": "europe-west6-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "europe-west6",
+        "original_az_name": "europe-west6-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "australia-southeast2",
+        "original_az_name": "australia-southeast2-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "me-west1",
+        "original_az_name": "me-west1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "europe-southwest1",
+        "original_az_name": "europe-southwest1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "asia-east2",
+        "original_az_name": "asia-east2-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-west8",
+        "original_az_name": "europe-west8-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "us-central1",
+        "original_az_name": "us-central1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "asia-east2",
+        "original_az_name": "asia-east2-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "us-east4",
+        "original_az_name": "us-east4-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "southamerica-east1",
+        "original_az_name": "southamerica-east1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "us-west2",
+        "original_az_name": "us-west2-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "australia-southeast1",
+        "original_az_name": "australia-southeast1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-west2",
+        "original_az_name": "europe-west2-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "us-east4",
+        "original_az_name": "us-east4-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-west1",
+        "original_az_name": "europe-west1-d",
+        "az": "d"
+    },
+    {
+        "original_region_name": "asia-southeast2",
+        "original_az_name": "asia-southeast2-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-west9",
+        "original_az_name": "europe-west9-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "us-east1",
+        "original_az_name": "us-east1-d",
+        "az": "d"
+    },
+    {
+        "original_region_name": "australia-southeast2",
+        "original_az_name": "australia-southeast2-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "us-west2",
+        "original_az_name": "us-west2-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "asia-east2",
+        "original_az_name": "asia-east2-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "europe-west8",
+        "original_az_name": "europe-west8-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "us-west1",
+        "original_az_name": "us-west1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "asia-southeast1",
+        "original_az_name": "asia-southeast1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "us-east1",
+        "original_az_name": "us-east1-c",
         "az": "c"
     },
     {
         "original_region_name": "asia-northeast2",
-        "az": "c"
-    },
-    {
-        "original_region_name": "asia-east1",
-        "az": "c"
+        "original_az_name": "asia-northeast2-b",
+        "az": "b"
     },
     {
         "original_region_name": "us-central1",
+        "original_az_name": "us-central1-f",
         "az": "f"
     },
     {
-        "original_region_name": "asia-east1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "asia-northeast3",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-central2",
-        "az": "b"
-    },
-    {
-        "original_region_name": "europe-west6",
-        "az": "a"
-    },
-    {
-        "original_region_name": "europe-west2",
-        "az": "b"
-    },
-    {
-        "original_region_name": "europe-west8",
-        "az": "b"
-    },
-    {
-        "original_region_name": "me-central2",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-west1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "australia-southeast2",
-        "az": "a"
-    },
-    {
-        "original_region_name": "us-central1",
+        "original_region_name": "us-west3",
+        "original_az_name": "us-west3-b",
         "az": "b"
     },
     {
         "original_region_name": "us-east1",
-        "az": "c"
+        "original_az_name": "us-east1-b",
+        "az": "b"
     },
     {
         "original_region_name": "europe-west3",
-        "az": "a"
+        "original_az_name": "europe-west3-c",
+        "az": "c"
     },
     {
-        "original_region_name": "europe-west4",
-        "az": "a"
+        "original_region_name": "africa-south1",
+        "original_az_name": "africa-south1-c",
+        "az": "c"
     },
     {
-        "original_region_name": "europe-west10",
+        "original_region_name": "me-central1",
+        "original_az_name": "me-central1-c",
         "az": "c"
     },
     {
         "original_region_name": "asia-southeast2",
+        "original_az_name": "asia-southeast2-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "northamerica-northeast1",
+        "original_az_name": "northamerica-northeast1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-west9",
+        "original_az_name": "europe-west9-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "us-south1",
+        "original_az_name": "us-south1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "us-east5",
+        "original_az_name": "us-east5-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "asia-northeast2",
+        "original_az_name": "asia-northeast2-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "us-central1",
+        "original_az_name": "us-central1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "me-central2",
+        "original_az_name": "me-central2-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "southamerica-east1",
+        "original_az_name": "southamerica-east1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-west1",
+        "original_az_name": "europe-west1-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "us-west3",
+        "original_az_name": "us-west3-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "northamerica-northeast2",
+        "original_az_name": "northamerica-northeast2-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "asia-northeast3",
+        "original_az_name": "asia-northeast3-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "australia-southeast1",
+        "original_az_name": "australia-southeast1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-central2",
+        "original_az_name": "europe-central2-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "asia-south2",
+        "original_az_name": "asia-south2-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "europe-north1",
+        "original_az_name": "europe-north1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "asia-northeast1",
+        "original_az_name": "asia-northeast1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "us-central1",
+        "original_az_name": "us-central1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "us-east5",
+        "original_az_name": "us-east5-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "africa-south1",
+        "original_az_name": "africa-south1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "northamerica-northeast1",
+        "original_az_name": "northamerica-northeast1-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "asia-southeast2",
+        "original_az_name": "asia-southeast2-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "europe-central2",
+        "original_az_name": "europe-central2-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "me-west1",
+        "original_az_name": "me-west1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "asia-northeast1",
+        "original_az_name": "asia-northeast1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-west8",
+        "original_az_name": "europe-west8-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "asia-southeast1",
+        "original_az_name": "asia-southeast1-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-west12",
+        "original_az_name": "europe-west12-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "asia-south2",
+        "original_az_name": "asia-south2-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "europe-west3",
+        "original_az_name": "europe-west3-a",
+        "az": "a"
+    },
+    {
+        "original_region_name": "europe-central2",
+        "original_az_name": "europe-central2-b",
+        "az": "b"
+    },
+    {
+        "original_region_name": "asia-northeast3",
+        "original_az_name": "asia-northeast3-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "europe-west10",
+        "original_az_name": "europe-west10-c",
+        "az": "c"
+    },
+    {
+        "original_region_name": "southamerica-east1",
+        "original_az_name": "southamerica-east1-c",
         "az": "c"
     },
     {
         "original_region_name": "asia-east1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "europe-west12",
-        "az": "c"
-    },
-    {
-        "original_region_name": "us-west3",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-west8",
-        "az": "a"
-    },
-    {
-        "original_region_name": "australia-southeast2",
+        "original_az_name": "asia-east1-b",
         "az": "b"
-    },
-    {
-        "original_region_name": "asia-northeast1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "southamerica-east1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-west3",
-        "az": "b"
-    },
-    {
-        "original_region_name": "europe-west4",
-        "az": "b"
-    },
-    {
-        "original_region_name": "australia-southeast1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "asia-northeast2",
-        "az": "b"
-    },
-    {
-        "original_region_name": "us-west4",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-west10",
-        "az": "a"
-    },
-    {
-        "original_region_name": "asia-northeast3",
-        "az": "b"
-    },
-    {
-        "original_region_name": "us-west2",
-        "az": "c"
-    },
-    {
-        "original_region_name": "asia-south1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "us-west4",
-        "az": "b"
-    },
-    {
-        "original_region_name": "europe-west12",
-        "az": "a"
-    },
-    {
-        "original_region_name": "northamerica-northeast1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "us-west3",
-        "az": "a"
-    },
-    {
-        "original_region_name": "europe-north1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "me-central2",
-        "az": "b"
-    },
-    {
-        "original_region_name": "asia-northeast1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "southamerica-east1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "us-east1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "us-east4",
-        "az": "c"
-    },
-    {
-        "original_region_name": "australia-southeast1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "us-east4",
-        "az": "b"
-    },
-    {
-        "original_region_name": "asia-northeast2",
-        "az": "a"
-    },
-    {
-        "original_region_name": "europe-west10",
-        "az": "b"
-    },
-    {
-        "original_region_name": "asia-southeast2",
-        "az": "b"
-    },
-    {
-        "original_region_name": "me-central1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "northamerica-northeast2",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-west12",
-        "az": "b"
-    },
-    {
-        "original_region_name": "asia-northeast3",
-        "az": "a"
-    },
-    {
-        "original_region_name": "us-south1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "us-west4",
-        "az": "a"
-    },
-    {
-        "original_region_name": "me-central1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "us-west3",
-        "az": "b"
-    },
-    {
-        "original_region_name": "us-west2",
-        "az": "a"
-    },
-    {
-        "original_region_name": "asia-south1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "asia-east2",
-        "az": "c"
-    },
-    {
-        "original_region_name": "me-central2",
-        "az": "a"
-    },
-    {
-        "original_region_name": "europe-west9",
-        "az": "c"
-    },
-    {
-        "original_region_name": "asia-northeast1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "southamerica-east1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "australia-southeast1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "us-east4",
-        "az": "a"
-    },
-    {
-        "original_region_name": "asia-southeast2",
-        "az": "a"
-    },
-    {
-        "original_region_name": "asia-southeast1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "southamerica-west1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "africa-south1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "me-central1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "me-west1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-west1",
-        "az": "d"
-    },
-    {
-        "original_region_name": "asia-south1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "asia-southeast1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "northamerica-northeast2",
-        "az": "a"
-    },
-    {
-        "original_region_name": "northamerica-northeast1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "southamerica-west1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "us-south1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "us-west2",
-        "az": "b"
-    },
-    {
-        "original_region_name": "europe-north1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "asia-east2",
-        "az": "a"
-    },
-    {
-        "original_region_name": "europe-west9",
-        "az": "a"
-    },
-    {
-        "original_region_name": "europe-southwest1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "us-east5",
-        "az": "c"
-    },
-    {
-        "original_region_name": "us-west1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "us-east5",
-        "az": "b"
-    },
-    {
-        "original_region_name": "northamerica-northeast2",
-        "az": "b"
-    },
-    {
-        "original_region_name": "us-south1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "asia-southeast1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "southamerica-west1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "africa-south1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "northamerica-northeast1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "me-west1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "europe-central2",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-north1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "asia-east2",
-        "az": "b"
-    },
-    {
-        "original_region_name": "europe-west2",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-west8",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-west9",
-        "az": "b"
-    },
-    {
-        "original_region_name": "asia-south2",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-west1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "asia-south2",
-        "az": "b"
-    },
-    {
-        "original_region_name": "us-central1",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-southwest1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "us-east5",
-        "az": "a"
-    },
-    {
-        "original_region_name": "us-west1",
-        "az": "a"
-    },
-    {
-        "original_region_name": "africa-south1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "me-west1",
-        "az": "b"
-    },
-    {
-        "original_region_name": "europe-west6",
-        "az": "c"
-    },
-    {
-        "original_region_name": "europe-west6",
-        "az": "b"
-    },
-    {
-        "original_region_name": "europe-central2",
-        "az": "a"
-    },
-    {
-        "original_region_name": "europe-west2",
-        "az": "a"
     }
 ]

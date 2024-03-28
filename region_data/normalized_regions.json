@@ -1,0 +1,785 @@
+[
+  {
+    "provider": "aws",
+    "original_region_name": "ap-northeast-1",
+    "short_name": "apne1",
+    "short_name_with_provider": "awsapne1",
+    "geographic_region": "ap",
+    "cardinality": "northeast",
+    "number": "1"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "ap-northeast-2",
+    "short_name": "apne2",
+    "short_name_with_provider": "awsapne2",
+    "geographic_region": "ap",
+    "cardinality": "northeast",
+    "number": "2"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "ap-northeast-3",
+    "short_name": "apne3",
+    "short_name_with_provider": "awsapne3",
+    "geographic_region": "ap",
+    "cardinality": "northeast",
+    "number": "3"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "ap-south-1",
+    "short_name": "aps1",
+    "short_name_with_provider": "awsaps1",
+    "geographic_region": "ap",
+    "cardinality": "south",
+    "number": "1"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "ap-southeast-1",
+    "short_name": "apse1",
+    "short_name_with_provider": "awsapse1",
+    "geographic_region": "ap",
+    "cardinality": "southeast",
+    "number": "1"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "ap-southeast-2",
+    "short_name": "apse2",
+    "short_name_with_provider": "awsapse2",
+    "geographic_region": "ap",
+    "cardinality": "southeast",
+    "number": "2"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "ca-central-1",
+    "short_name": "cac1",
+    "short_name_with_provider": "awscac1",
+    "geographic_region": "ca",
+    "cardinality": "central",
+    "number": "1"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "eu-central-1",
+    "short_name": "euc1",
+    "short_name_with_provider": "awseuc1",
+    "geographic_region": "eu",
+    "cardinality": "central",
+    "number": "1"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "eu-north-1",
+    "short_name": "eun1",
+    "short_name_with_provider": "awseun1",
+    "geographic_region": "eu",
+    "cardinality": "north",
+    "number": "1"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "eu-west-1",
+    "short_name": "euw1",
+    "short_name_with_provider": "awseuw1",
+    "geographic_region": "eu",
+    "cardinality": "west",
+    "number": "1"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "eu-west-2",
+    "short_name": "euw2",
+    "short_name_with_provider": "awseuw2",
+    "geographic_region": "eu",
+    "cardinality": "west",
+    "number": "2"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "eu-west-3",
+    "short_name": "euw3",
+    "short_name_with_provider": "awseuw3",
+    "geographic_region": "eu",
+    "cardinality": "west",
+    "number": "3"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "sa-east-1",
+    "short_name": "sae1",
+    "short_name_with_provider": "awssae1",
+    "geographic_region": "sa",
+    "cardinality": "east",
+    "number": "1"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "us-east-1",
+    "short_name": "use1",
+    "short_name_with_provider": "awsuse1",
+    "geographic_region": "us",
+    "cardinality": "east",
+    "number": "1"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "us-east-2",
+    "short_name": "use2",
+    "short_name_with_provider": "awsuse2",
+    "geographic_region": "us",
+    "cardinality": "east",
+    "number": "2"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "us-west-1",
+    "short_name": "usw1",
+    "short_name_with_provider": "awsusw1",
+    "geographic_region": "us",
+    "cardinality": "west",
+    "number": "1"
+  },
+  {
+    "provider": "aws",
+    "original_region_name": "us-west-2",
+    "short_name": "usw2",
+    "short_name_with_provider": "awsusw2",
+    "geographic_region": "us",
+    "cardinality": "west",
+    "number": "2"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "africa-south1",
+    "short_name": "afs1",
+    "short_name_with_provider": "gcpafs1",
+    "geographic_region": "africa",
+    "cardinality": "south",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "asia-east1",
+    "short_name": "ase1",
+    "short_name_with_provider": "gcpase1",
+    "geographic_region": "asia",
+    "cardinality": "east",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "asia-east2",
+    "short_name": "ase2",
+    "short_name_with_provider": "gcpase2",
+    "geographic_region": "asia",
+    "cardinality": "east",
+    "number": "2"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "asia-northeast1",
+    "short_name": "asne1",
+    "short_name_with_provider": "gcpasne1",
+    "geographic_region": "asia",
+    "cardinality": "northeast",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "asia-northeast2",
+    "short_name": "asne2",
+    "short_name_with_provider": "gcpasne2",
+    "geographic_region": "asia",
+    "cardinality": "northeast",
+    "number": "2"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "asia-northeast3",
+    "short_name": "asne3",
+    "short_name_with_provider": "gcpasne3",
+    "geographic_region": "asia",
+    "cardinality": "northeast",
+    "number": "3"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "asia-south1",
+    "short_name": "ass1",
+    "short_name_with_provider": "gcpass1",
+    "geographic_region": "asia",
+    "cardinality": "south",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "asia-south2",
+    "short_name": "ass2",
+    "short_name_with_provider": "gcpass2",
+    "geographic_region": "asia",
+    "cardinality": "south",
+    "number": "2"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "asia-southeast1",
+    "short_name": "asse1",
+    "short_name_with_provider": "gcpasse1",
+    "geographic_region": "asia",
+    "cardinality": "southeast",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "asia-southeast2",
+    "short_name": "asse2",
+    "short_name_with_provider": "gcpasse2",
+    "geographic_region": "asia",
+    "cardinality": "southeast",
+    "number": "2"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "australia-southeast1",
+    "short_name": "ause1",
+    "short_name_with_provider": "gcpause1",
+    "geographic_region": "australia",
+    "cardinality": "southeast",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "australia-southeast2",
+    "short_name": "ause2",
+    "short_name_with_provider": "gcpause2",
+    "geographic_region": "australia",
+    "cardinality": "southeast",
+    "number": "2"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-central2",
+    "short_name": "euc2",
+    "short_name_with_provider": "gcpeuc2",
+    "geographic_region": "europe",
+    "cardinality": "central",
+    "number": "2"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-north1",
+    "short_name": "eun1",
+    "short_name_with_provider": "gcpeun1",
+    "geographic_region": "europe",
+    "cardinality": "north",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-southwest1",
+    "short_name": "eusw1",
+    "short_name_with_provider": "gcpeusw1",
+    "geographic_region": "europe",
+    "cardinality": "southwest",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-west1",
+    "short_name": "euw1",
+    "short_name_with_provider": "gcpeuw1",
+    "geographic_region": "europe",
+    "cardinality": "west",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-west10",
+    "short_name": "euw10",
+    "short_name_with_provider": "gcpeuw10",
+    "geographic_region": "europe",
+    "cardinality": "west",
+    "number": "10"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-west12",
+    "short_name": "euw12",
+    "short_name_with_provider": "gcpeuw12",
+    "geographic_region": "europe",
+    "cardinality": "west",
+    "number": "12"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-west2",
+    "short_name": "euw2",
+    "short_name_with_provider": "gcpeuw2",
+    "geographic_region": "europe",
+    "cardinality": "west",
+    "number": "2"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-west3",
+    "short_name": "euw3",
+    "short_name_with_provider": "gcpeuw3",
+    "geographic_region": "europe",
+    "cardinality": "west",
+    "number": "3"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-west4",
+    "short_name": "euw4",
+    "short_name_with_provider": "gcpeuw4",
+    "geographic_region": "europe",
+    "cardinality": "west",
+    "number": "4"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-west6",
+    "short_name": "euw6",
+    "short_name_with_provider": "gcpeuw6",
+    "geographic_region": "europe",
+    "cardinality": "west",
+    "number": "6"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-west8",
+    "short_name": "euw8",
+    "short_name_with_provider": "gcpeuw8",
+    "geographic_region": "europe",
+    "cardinality": "west",
+    "number": "8"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "europe-west9",
+    "short_name": "euw9",
+    "short_name_with_provider": "gcpeuw9",
+    "geographic_region": "europe",
+    "cardinality": "west",
+    "number": "9"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "me-central1",
+    "short_name": "mec1",
+    "short_name_with_provider": "gcpmec1",
+    "geographic_region": "me",
+    "cardinality": "central",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "me-central2",
+    "short_name": "mec2",
+    "short_name_with_provider": "gcpmec2",
+    "geographic_region": "me",
+    "cardinality": "central",
+    "number": "2"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "me-west1",
+    "short_name": "mew1",
+    "short_name_with_provider": "gcpmew1",
+    "geographic_region": "me",
+    "cardinality": "west",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "northamerica-northeast1",
+    "short_name": "nane1",
+    "short_name_with_provider": "gcpnane1",
+    "geographic_region": "northamerica",
+    "cardinality": "northeast",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "northamerica-northeast2",
+    "short_name": "nane2",
+    "short_name_with_provider": "gcpnane2",
+    "geographic_region": "northamerica",
+    "cardinality": "northeast",
+    "number": "2"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "southamerica-east1",
+    "short_name": "sae1",
+    "short_name_with_provider": "gcpsae1",
+    "geographic_region": "southamerica",
+    "cardinality": "east",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "southamerica-west1",
+    "short_name": "saw1",
+    "short_name_with_provider": "gcpsaw1",
+    "geographic_region": "southamerica",
+    "cardinality": "west",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "us-central1",
+    "short_name": "usc1",
+    "short_name_with_provider": "gcpusc1",
+    "geographic_region": "us",
+    "cardinality": "central",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "us-east1",
+    "short_name": "use1",
+    "short_name_with_provider": "gcpuse1",
+    "geographic_region": "us",
+    "cardinality": "east",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "us-east4",
+    "short_name": "use4",
+    "short_name_with_provider": "gcpuse4",
+    "geographic_region": "us",
+    "cardinality": "east",
+    "number": "4"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "us-east5",
+    "short_name": "use5",
+    "short_name_with_provider": "gcpuse5",
+    "geographic_region": "us",
+    "cardinality": "east",
+    "number": "5"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "us-south1",
+    "short_name": "uss1",
+    "short_name_with_provider": "gcpuss1",
+    "geographic_region": "us",
+    "cardinality": "south",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "us-west1",
+    "short_name": "usw1",
+    "short_name_with_provider": "gcpusw1",
+    "geographic_region": "us",
+    "cardinality": "west",
+    "number": "1"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "us-west2",
+    "short_name": "usw2",
+    "short_name_with_provider": "gcpusw2",
+    "geographic_region": "us",
+    "cardinality": "west",
+    "number": "2"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "us-west3",
+    "short_name": "usw3",
+    "short_name_with_provider": "gcpusw3",
+    "geographic_region": "us",
+    "cardinality": "west",
+    "number": "3"
+  },
+  {
+    "provider": "gcp",
+    "original_region_name": "us-west4",
+    "short_name": "usw4",
+    "short_name_with_provider": "gcpusw4",
+    "geographic_region": "us",
+    "cardinality": "west",
+    "number": "4"
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "australiaeast",
+    "short_name": "aue",
+    "short_name_with_provider": "azuaue",
+    "geographic_region": "australia",
+    "cardinality": "east",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "brazilsouth",
+    "short_name": "brs",
+    "short_name_with_provider": "azubrs",
+    "geographic_region": "brazil",
+    "cardinality": "south",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "canadacentral",
+    "short_name": "cac",
+    "short_name_with_provider": "azucac",
+    "geographic_region": "canada",
+    "cardinality": "central",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "centralindia",
+    "short_name": "inc",
+    "short_name_with_provider": "azuinc",
+    "geographic_region": "india",
+    "cardinality": "central",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "centralus",
+    "short_name": "usc",
+    "short_name_with_provider": "azuusc",
+    "geographic_region": "us",
+    "cardinality": "central",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "eastasia",
+    "short_name": "ase",
+    "short_name_with_provider": "azuase",
+    "geographic_region": "asia",
+    "cardinality": "east",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "eastus",
+    "short_name": "use",
+    "short_name_with_provider": "azuuse",
+    "geographic_region": "us",
+    "cardinality": "east",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "eastus2",
+    "short_name": "use2",
+    "short_name_with_provider": "azuuse2",
+    "geographic_region": "us",
+    "cardinality": "east",
+    "number": "2"
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "francecentral",
+    "short_name": "frc",
+    "short_name_with_provider": "azufrc",
+    "geographic_region": "france",
+    "cardinality": "central",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "germanywestcentral",
+    "short_name": "dewc",
+    "short_name_with_provider": "azudewc",
+    "geographic_region": "germany",
+    "cardinality": "westcentral",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "israelcentral",
+    "short_name": "ilc",
+    "short_name_with_provider": "azuilc",
+    "geographic_region": "israel",
+    "cardinality": "central",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "italynorth",
+    "short_name": "itn",
+    "short_name_with_provider": "azuitn",
+    "geographic_region": "italy",
+    "cardinality": "north",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "japaneast",
+    "short_name": "jpe",
+    "short_name_with_provider": "azujpe",
+    "geographic_region": "japan",
+    "cardinality": "east",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "koreacentral",
+    "short_name": "krc",
+    "short_name_with_provider": "azukrc",
+    "geographic_region": "korea",
+    "cardinality": "central",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "northcentralus",
+    "short_name": "usnc",
+    "short_name_with_provider": "azuusnc",
+    "geographic_region": "us",
+    "cardinality": "northcentral",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "northeurope",
+    "short_name": "eun",
+    "short_name_with_provider": "azueun",
+    "geographic_region": "europe",
+    "cardinality": "north",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "norwayeast",
+    "short_name": "noe",
+    "short_name_with_provider": "azunoe",
+    "geographic_region": "norway",
+    "cardinality": "east",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "polandcentral",
+    "short_name": "plc",
+    "short_name_with_provider": "azuplc",
+    "geographic_region": "poland",
+    "cardinality": "central",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "qatarcentral",
+    "short_name": "qac",
+    "short_name_with_provider": "azuqac",
+    "geographic_region": "qatar",
+    "cardinality": "central",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "southafricanorth",
+    "short_name": "zan",
+    "short_name_with_provider": "azuzan",
+    "geographic_region": "southafrica",
+    "cardinality": "north",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "southcentralus",
+    "short_name": "ussc",
+    "short_name_with_provider": "azuussc",
+    "geographic_region": "us",
+    "cardinality": "southcentral",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "southeastasia",
+    "short_name": "asse",
+    "short_name_with_provider": "azuasse",
+    "geographic_region": "asia",
+    "cardinality": "southeast",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "swedencentral",
+    "short_name": "sec",
+    "short_name_with_provider": "azusec",
+    "geographic_region": "sweden",
+    "cardinality": "central",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "switzerlandnorth",
+    "short_name": "chn",
+    "short_name_with_provider": "azuchn",
+    "geographic_region": "switzerland",
+    "cardinality": "north",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "uaenorth",
+    "short_name": "aen",
+    "short_name_with_provider": "azuaen",
+    "geographic_region": "uae",
+    "cardinality": "north",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "uksouth",
+    "short_name": "uks",
+    "short_name_with_provider": "azuuks",
+    "geographic_region": "uk",
+    "cardinality": "south",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "westeurope",
+    "short_name": "euw",
+    "short_name_with_provider": "azueuw",
+    "geographic_region": "europe",
+    "cardinality": "west",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "westus",
+    "short_name": "usw",
+    "short_name_with_provider": "azuusw",
+    "geographic_region": "us",
+    "cardinality": "west",
+    "number": ""
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "westus2",
+    "short_name": "usw2",
+    "short_name_with_provider": "azuusw2",
+    "geographic_region": "us",
+    "cardinality": "west",
+    "number": "2"
+  },
+  {
+    "provider": "azu",
+    "original_region_name": "westus3",
+    "short_name": "usw3",
+    "short_name_with_provider": "azuusw3",
+    "geographic_region": "us",
+    "cardinality": "west",
+    "number": "3"
+  }
+]

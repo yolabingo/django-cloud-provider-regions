@@ -4,6 +4,7 @@
 # https://realpython.com/installable-django-app/#running-management-commands-with-your-installable-django-app
 
 import argparse
+import json
 import os
 import sys
 from inspect import getmembers, isfunction
@@ -12,12 +13,14 @@ import django
 from django.core.management import call_command
 
 import emoji
+import rich
 
 import boot_django
 import constants
 
 boot_django.boot()
 from tasks.update_db_from_json import init_dbs_from_json  # noqa: E402
+from django_cloud_provider_zones.serializers import serialize_azs, serialize_regions  # noqa: E402
 
 
 def print_status(message, error=False):
@@ -118,6 +121,14 @@ def django_test():
 
 def django_shell():
     call_command("shell_plus")
+
+
+def django_serialize_regions():
+    rich.print_json(json.dumps(serialize_regions()))
+
+
+def django_serialize_azs():
+    rich.print_json(json.dumps(serialize_azs()))
 
 
 def django_graph_models():

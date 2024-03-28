@@ -28,4 +28,5 @@ class CloudAvailabilityZone:
     """
 
     original_region_name: str
+    original_az_name: str
     az: str

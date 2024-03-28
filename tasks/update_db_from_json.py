@@ -10,7 +10,7 @@ from django_cloud_provider_zones.models import (  # noqa: E402
     CloudAvailabilityZone,
 )
 
-CLOUD_PROVIDERS = ["aws", "gcp"]
+CLOUD_PROVIDERS = ["aws", "gcp", "azu"]
 
 
 def init_provider_db_from_json(provider_name):
@@ -48,11 +48,12 @@ def init_provider_db_from_json(provider_name):
     az_data = constants.REGION_DATA_DIR / f"{provider_name}_az.json"
     with open(az_data) as fh:
         for az in json.load(fh):
-            region = CloudRegion.objects.get(
+            az["region"] = CloudRegion.objects.get(
                 original_region_name=az["original_region_name"], provider=provider_name
             )
+            del az["original_region_name"]
             availability_zone, created = CloudAvailabilityZone.objects.get_or_create(
-                region=region, az=az["az"]
+                **az,
             )
             if created:
                 print(f"Saved availability zone: {availability_zone}")

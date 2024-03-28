@@ -76,6 +76,7 @@ class CloudAvailabilityZoneManager(models.Manager):
 
 class CloudAvailabilityZone(models.Model):
     region = models.ForeignKey(CloudRegion, on_delete=models.CASCADE)
+    original_az_name = models.CharField(max_length=64)
     az = models.CharField(max_length=4, validators=[validators.MinLengthValidator(1)])
     created = models.DateField(auto_now_add=True, editable=False)
 
@@ -91,14 +92,14 @@ class CloudAvailabilityZone(models.Model):
 
     @property
     def short_name(self):
-        return f"{self.region.short_name}{self.az}"
+        return f"{self.region.short_name}z{self.az}"
 
     @property
     def short_name_with_provider(self):
         return f"{self.region.short_name_with_provider}{self.az}"
 
     def __str__(self):
-        return f"{self.region}{self.az}"
+        return f"{self.region.provider.provider}-{self.original_az_name}"
 
     class Meta:
         ordering = ["region", "az"]

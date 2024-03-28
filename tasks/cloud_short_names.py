@@ -1,0 +1,1 @@
+../src/django_cloud_provider_zones/cloud_short_names.py

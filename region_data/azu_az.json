@@ -1,0 +1,452 @@
+[
+    {
+        "original_region_name": "switzerlandnorth",
+        "original_az_name": "switzerlandnorth-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "uaenorth",
+        "original_az_name": "uaenorth-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "eastasia",
+        "original_az_name": "eastasia-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "koreacentral",
+        "original_az_name": "koreacentral-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "canadacentral",
+        "original_az_name": "canadacentral-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "polandcentral",
+        "original_az_name": "polandcentral-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "canadacentral",
+        "original_az_name": "canadacentral-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "polandcentral",
+        "original_az_name": "polandcentral-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "qatarcentral",
+        "original_az_name": "qatarcentral-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "northeurope",
+        "original_az_name": "northeurope-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "italynorth",
+        "original_az_name": "italynorth-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "brazilsouth",
+        "original_az_name": "brazilsouth-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "eastasia",
+        "original_az_name": "eastasia-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "norwayeast",
+        "original_az_name": "norwayeast-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "canadacentral",
+        "original_az_name": "canadacentral-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "southeastasia",
+        "original_az_name": "southeastasia-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "southafricanorth",
+        "original_az_name": "southafricanorth-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "qatarcentral",
+        "original_az_name": "qatarcentral-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "eastasia",
+        "original_az_name": "eastasia-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "uksouth",
+        "original_az_name": "uksouth-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "japaneast",
+        "original_az_name": "japaneast-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "swedencentral",
+        "original_az_name": "swedencentral-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "polandcentral",
+        "original_az_name": "polandcentral-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "eastus2",
+        "original_az_name": "eastus2-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "southcentralus",
+        "original_az_name": "southcentralus-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "koreacentral",
+        "original_az_name": "koreacentral-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "westus2",
+        "original_az_name": "westus2-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "koreacentral",
+        "original_az_name": "koreacentral-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "westeurope",
+        "original_az_name": "westeurope-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "israelcentral",
+        "original_az_name": "israelcentral-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "northcentralus",
+        "original_az_name": "northcentralus-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "australiaeast",
+        "original_az_name": "australiaeast-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "centralindia",
+        "original_az_name": "centralindia-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "westus3",
+        "original_az_name": "westus3-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "switzerlandnorth",
+        "original_az_name": "switzerlandnorth-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "centralindia",
+        "original_az_name": "centralindia-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "italynorth",
+        "original_az_name": "italynorth-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "norwayeast",
+        "original_az_name": "norwayeast-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "israelcentral",
+        "original_az_name": "israelcentral-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "northeurope",
+        "original_az_name": "northeurope-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "westus",
+        "original_az_name": "westus-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "germanywestcentral",
+        "original_az_name": "germanywestcentral-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "westus3",
+        "original_az_name": "westus3-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "australiaeast",
+        "original_az_name": "australiaeast-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "westus2",
+        "original_az_name": "westus2-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "westus3",
+        "original_az_name": "westus3-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "japaneast",
+        "original_az_name": "japaneast-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "eastus",
+        "original_az_name": "eastus-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "germanywestcentral",
+        "original_az_name": "germanywestcentral-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "swedencentral",
+        "original_az_name": "swedencentral-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "eastus2",
+        "original_az_name": "eastus2-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "eastus2",
+        "original_az_name": "eastus2-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "francecentral",
+        "original_az_name": "francecentral-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "switzerlandnorth",
+        "original_az_name": "switzerlandnorth-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "eastus",
+        "original_az_name": "eastus-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "centralus",
+        "original_az_name": "centralus-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "westeurope",
+        "original_az_name": "westeurope-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "brazilsouth",
+        "original_az_name": "brazilsouth-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "brazilsouth",
+        "original_az_name": "brazilsouth-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "southeastasia",
+        "original_az_name": "southeastasia-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "northcentralus",
+        "original_az_name": "northcentralus-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "northcentralus",
+        "original_az_name": "northcentralus-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "qatarcentral",
+        "original_az_name": "qatarcentral-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "israelcentral",
+        "original_az_name": "israelcentral-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "westus",
+        "original_az_name": "westus-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "southcentralus",
+        "original_az_name": "southcentralus-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "westeurope",
+        "original_az_name": "westeurope-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "southafricanorth",
+        "original_az_name": "southafricanorth-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "norwayeast",
+        "original_az_name": "norwayeast-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "uaenorth",
+        "original_az_name": "uaenorth-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "centralindia",
+        "original_az_name": "centralindia-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "australiaeast",
+        "original_az_name": "australiaeast-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "uksouth",
+        "original_az_name": "uksouth-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "uaenorth",
+        "original_az_name": "uaenorth-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "southeastasia",
+        "original_az_name": "southeastasia-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "westus",
+        "original_az_name": "westus-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "centralus",
+        "original_az_name": "centralus-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "westus2",
+        "original_az_name": "westus2-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "southafricanorth",
+        "original_az_name": "southafricanorth-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "southcentralus",
+        "original_az_name": "southcentralus-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "northeurope",
+        "original_az_name": "northeurope-az3",
+        "az": "3"
+    },
+    {
+        "original_region_name": "italynorth",
+        "original_az_name": "italynorth-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "uksouth",
+        "original_az_name": "uksouth-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "eastus",
+        "original_az_name": "eastus-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "germanywestcentral",
+        "original_az_name": "germanywestcentral-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "centralus",
+        "original_az_name": "centralus-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "francecentral",
+        "original_az_name": "francecentral-az2",
+        "az": "2"
+    },
+    {
+        "original_region_name": "swedencentral",
+        "original_az_name": "swedencentral-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "japaneast",
+        "original_az_name": "japaneast-az1",
+        "az": "1"
+    },
+    {
+        "original_region_name": "francecentral",
+        "original_az_name": "francecentral-az3",
+        "az": "3"
+    }
+]

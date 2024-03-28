@@ -1,0 +1,2130 @@
+[
+  {
+    "provider": "aws",
+    "original_az_name": "ap-northeast-1a",
+    "original_region_name": "ap-northeast-1",
+    "short_name": "apne1za",
+    "short_name_with_provider": "awsapne1a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-northeast-1c",
+    "original_region_name": "ap-northeast-1",
+    "short_name": "apne1zc",
+    "short_name_with_provider": "awsapne1c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-northeast-1d",
+    "original_region_name": "ap-northeast-1",
+    "short_name": "apne1zd",
+    "short_name_with_provider": "awsapne1d",
+    "az": "d"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-northeast-2a",
+    "original_region_name": "ap-northeast-2",
+    "short_name": "apne2za",
+    "short_name_with_provider": "awsapne2a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-northeast-2b",
+    "original_region_name": "ap-northeast-2",
+    "short_name": "apne2zb",
+    "short_name_with_provider": "awsapne2b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-northeast-2c",
+    "original_region_name": "ap-northeast-2",
+    "short_name": "apne2zc",
+    "short_name_with_provider": "awsapne2c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-northeast-2d",
+    "original_region_name": "ap-northeast-2",
+    "short_name": "apne2zd",
+    "short_name_with_provider": "awsapne2d",
+    "az": "d"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-northeast-3a",
+    "original_region_name": "ap-northeast-3",
+    "short_name": "apne3za",
+    "short_name_with_provider": "awsapne3a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-northeast-3b",
+    "original_region_name": "ap-northeast-3",
+    "short_name": "apne3zb",
+    "short_name_with_provider": "awsapne3b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-northeast-3c",
+    "original_region_name": "ap-northeast-3",
+    "short_name": "apne3zc",
+    "short_name_with_provider": "awsapne3c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-south-1a",
+    "original_region_name": "ap-south-1",
+    "short_name": "aps1za",
+    "short_name_with_provider": "awsaps1a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-south-1b",
+    "original_region_name": "ap-south-1",
+    "short_name": "aps1zb",
+    "short_name_with_provider": "awsaps1b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-south-1c",
+    "original_region_name": "ap-south-1",
+    "short_name": "aps1zc",
+    "short_name_with_provider": "awsaps1c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-southeast-1a",
+    "original_region_name": "ap-southeast-1",
+    "short_name": "apse1za",
+    "short_name_with_provider": "awsapse1a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-southeast-1b",
+    "original_region_name": "ap-southeast-1",
+    "short_name": "apse1zb",
+    "short_name_with_provider": "awsapse1b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-southeast-1c",
+    "original_region_name": "ap-southeast-1",
+    "short_name": "apse1zc",
+    "short_name_with_provider": "awsapse1c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-southeast-2a",
+    "original_region_name": "ap-southeast-2",
+    "short_name": "apse2za",
+    "short_name_with_provider": "awsapse2a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-southeast-2b",
+    "original_region_name": "ap-southeast-2",
+    "short_name": "apse2zb",
+    "short_name_with_provider": "awsapse2b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ap-southeast-2c",
+    "original_region_name": "ap-southeast-2",
+    "short_name": "apse2zc",
+    "short_name_with_provider": "awsapse2c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ca-central-1a",
+    "original_region_name": "ca-central-1",
+    "short_name": "cac1za",
+    "short_name_with_provider": "awscac1a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ca-central-1b",
+    "original_region_name": "ca-central-1",
+    "short_name": "cac1zb",
+    "short_name_with_provider": "awscac1b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "ca-central-1d",
+    "original_region_name": "ca-central-1",
+    "short_name": "cac1zd",
+    "short_name_with_provider": "awscac1d",
+    "az": "d"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-central-1a",
+    "original_region_name": "eu-central-1",
+    "short_name": "euc1za",
+    "short_name_with_provider": "awseuc1a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-central-1b",
+    "original_region_name": "eu-central-1",
+    "short_name": "euc1zb",
+    "short_name_with_provider": "awseuc1b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-central-1c",
+    "original_region_name": "eu-central-1",
+    "short_name": "euc1zc",
+    "short_name_with_provider": "awseuc1c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-north-1a",
+    "original_region_name": "eu-north-1",
+    "short_name": "eun1za",
+    "short_name_with_provider": "awseun1a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-north-1b",
+    "original_region_name": "eu-north-1",
+    "short_name": "eun1zb",
+    "short_name_with_provider": "awseun1b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-north-1c",
+    "original_region_name": "eu-north-1",
+    "short_name": "eun1zc",
+    "short_name_with_provider": "awseun1c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-west-1a",
+    "original_region_name": "eu-west-1",
+    "short_name": "euw1za",
+    "short_name_with_provider": "awseuw1a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-west-1b",
+    "original_region_name": "eu-west-1",
+    "short_name": "euw1zb",
+    "short_name_with_provider": "awseuw1b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-west-1c",
+    "original_region_name": "eu-west-1",
+    "short_name": "euw1zc",
+    "short_name_with_provider": "awseuw1c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-west-2a",
+    "original_region_name": "eu-west-2",
+    "short_name": "euw2za",
+    "short_name_with_provider": "awseuw2a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-west-2b",
+    "original_region_name": "eu-west-2",
+    "short_name": "euw2zb",
+    "short_name_with_provider": "awseuw2b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-west-2c",
+    "original_region_name": "eu-west-2",
+    "short_name": "euw2zc",
+    "short_name_with_provider": "awseuw2c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-west-3a",
+    "original_region_name": "eu-west-3",
+    "short_name": "euw3za",
+    "short_name_with_provider": "awseuw3a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-west-3b",
+    "original_region_name": "eu-west-3",
+    "short_name": "euw3zb",
+    "short_name_with_provider": "awseuw3b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "eu-west-3c",
+    "original_region_name": "eu-west-3",
+    "short_name": "euw3zc",
+    "short_name_with_provider": "awseuw3c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "sa-east-1a",
+    "original_region_name": "sa-east-1",
+    "short_name": "sae1za",
+    "short_name_with_provider": "awssae1a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "sa-east-1b",
+    "original_region_name": "sa-east-1",
+    "short_name": "sae1zb",
+    "short_name_with_provider": "awssae1b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "sa-east-1c",
+    "original_region_name": "sa-east-1",
+    "short_name": "sae1zc",
+    "short_name_with_provider": "awssae1c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-east-1a",
+    "original_region_name": "us-east-1",
+    "short_name": "use1za",
+    "short_name_with_provider": "awsuse1a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-east-1b",
+    "original_region_name": "us-east-1",
+    "short_name": "use1zb",
+    "short_name_with_provider": "awsuse1b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-east-1c",
+    "original_region_name": "us-east-1",
+    "short_name": "use1zc",
+    "short_name_with_provider": "awsuse1c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-east-1d",
+    "original_region_name": "us-east-1",
+    "short_name": "use1zd",
+    "short_name_with_provider": "awsuse1d",
+    "az": "d"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-east-1e",
+    "original_region_name": "us-east-1",
+    "short_name": "use1ze",
+    "short_name_with_provider": "awsuse1e",
+    "az": "e"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-east-1f",
+    "original_region_name": "us-east-1",
+    "short_name": "use1zf",
+    "short_name_with_provider": "awsuse1f",
+    "az": "f"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-east-2a",
+    "original_region_name": "us-east-2",
+    "short_name": "use2za",
+    "short_name_with_provider": "awsuse2a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-east-2b",
+    "original_region_name": "us-east-2",
+    "short_name": "use2zb",
+    "short_name_with_provider": "awsuse2b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-east-2c",
+    "original_region_name": "us-east-2",
+    "short_name": "use2zc",
+    "short_name_with_provider": "awsuse2c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-west-1a",
+    "original_region_name": "us-west-1",
+    "short_name": "usw1za",
+    "short_name_with_provider": "awsusw1a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-west-1b",
+    "original_region_name": "us-west-1",
+    "short_name": "usw1zb",
+    "short_name_with_provider": "awsusw1b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-west-2a",
+    "original_region_name": "us-west-2",
+    "short_name": "usw2za",
+    "short_name_with_provider": "awsusw2a",
+    "az": "a"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-west-2b",
+    "original_region_name": "us-west-2",
+    "short_name": "usw2zb",
+    "short_name_with_provider": "awsusw2b",
+    "az": "b"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-west-2c",
+    "original_region_name": "us-west-2",
+    "short_name": "usw2zc",
+    "short_name_with_provider": "awsusw2c",
+    "az": "c"
+  },
+  {
+    "provider": "aws",
+    "original_az_name": "us-west-2d",
+    "original_region_name": "us-west-2",
+    "short_name": "usw2zd",
+    "short_name_with_provider": "awsusw2d",
+    "az": "d"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "africa-south1-a",
+    "original_region_name": "africa-south1",
+    "short_name": "afs1za",
+    "short_name_with_provider": "gcpafs1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "africa-south1-b",
+    "original_region_name": "africa-south1",
+    "short_name": "afs1zb",
+    "short_name_with_provider": "gcpafs1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "africa-south1-c",
+    "original_region_name": "africa-south1",
+    "short_name": "afs1zc",
+    "short_name_with_provider": "gcpafs1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-east1-a",
+    "original_region_name": "asia-east1",
+    "short_name": "ase1za",
+    "short_name_with_provider": "gcpase1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-east1-b",
+    "original_region_name": "asia-east1",
+    "short_name": "ase1zb",
+    "short_name_with_provider": "gcpase1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-east1-c",
+    "original_region_name": "asia-east1",
+    "short_name": "ase1zc",
+    "short_name_with_provider": "gcpase1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-east2-a",
+    "original_region_name": "asia-east2",
+    "short_name": "ase2za",
+    "short_name_with_provider": "gcpase2a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-east2-b",
+    "original_region_name": "asia-east2",
+    "short_name": "ase2zb",
+    "short_name_with_provider": "gcpase2b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-east2-c",
+    "original_region_name": "asia-east2",
+    "short_name": "ase2zc",
+    "short_name_with_provider": "gcpase2c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-northeast1-a",
+    "original_region_name": "asia-northeast1",
+    "short_name": "asne1za",
+    "short_name_with_provider": "gcpasne1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-northeast1-b",
+    "original_region_name": "asia-northeast1",
+    "short_name": "asne1zb",
+    "short_name_with_provider": "gcpasne1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-northeast1-c",
+    "original_region_name": "asia-northeast1",
+    "short_name": "asne1zc",
+    "short_name_with_provider": "gcpasne1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-northeast2-a",
+    "original_region_name": "asia-northeast2",
+    "short_name": "asne2za",
+    "short_name_with_provider": "gcpasne2a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-northeast2-b",
+    "original_region_name": "asia-northeast2",
+    "short_name": "asne2zb",
+    "short_name_with_provider": "gcpasne2b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-northeast2-c",
+    "original_region_name": "asia-northeast2",
+    "short_name": "asne2zc",
+    "short_name_with_provider": "gcpasne2c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-northeast3-a",
+    "original_region_name": "asia-northeast3",
+    "short_name": "asne3za",
+    "short_name_with_provider": "gcpasne3a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-northeast3-b",
+    "original_region_name": "asia-northeast3",
+    "short_name": "asne3zb",
+    "short_name_with_provider": "gcpasne3b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-northeast3-c",
+    "original_region_name": "asia-northeast3",
+    "short_name": "asne3zc",
+    "short_name_with_provider": "gcpasne3c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-south1-a",
+    "original_region_name": "asia-south1",
+    "short_name": "ass1za",
+    "short_name_with_provider": "gcpass1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-south1-b",
+    "original_region_name": "asia-south1",
+    "short_name": "ass1zb",
+    "short_name_with_provider": "gcpass1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-south1-c",
+    "original_region_name": "asia-south1",
+    "short_name": "ass1zc",
+    "short_name_with_provider": "gcpass1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-south2-a",
+    "original_region_name": "asia-south2",
+    "short_name": "ass2za",
+    "short_name_with_provider": "gcpass2a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-south2-b",
+    "original_region_name": "asia-south2",
+    "short_name": "ass2zb",
+    "short_name_with_provider": "gcpass2b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-south2-c",
+    "original_region_name": "asia-south2",
+    "short_name": "ass2zc",
+    "short_name_with_provider": "gcpass2c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-southeast1-a",
+    "original_region_name": "asia-southeast1",
+    "short_name": "asse1za",
+    "short_name_with_provider": "gcpasse1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-southeast1-b",
+    "original_region_name": "asia-southeast1",
+    "short_name": "asse1zb",
+    "short_name_with_provider": "gcpasse1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-southeast1-c",
+    "original_region_name": "asia-southeast1",
+    "short_name": "asse1zc",
+    "short_name_with_provider": "gcpasse1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-southeast2-a",
+    "original_region_name": "asia-southeast2",
+    "short_name": "asse2za",
+    "short_name_with_provider": "gcpasse2a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-southeast2-b",
+    "original_region_name": "asia-southeast2",
+    "short_name": "asse2zb",
+    "short_name_with_provider": "gcpasse2b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "asia-southeast2-c",
+    "original_region_name": "asia-southeast2",
+    "short_name": "asse2zc",
+    "short_name_with_provider": "gcpasse2c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "australia-southeast1-a",
+    "original_region_name": "australia-southeast1",
+    "short_name": "ause1za",
+    "short_name_with_provider": "gcpause1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "australia-southeast1-b",
+    "original_region_name": "australia-southeast1",
+    "short_name": "ause1zb",
+    "short_name_with_provider": "gcpause1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "australia-southeast1-c",
+    "original_region_name": "australia-southeast1",
+    "short_name": "ause1zc",
+    "short_name_with_provider": "gcpause1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "australia-southeast2-a",
+    "original_region_name": "australia-southeast2",
+    "short_name": "ause2za",
+    "short_name_with_provider": "gcpause2a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "australia-southeast2-b",
+    "original_region_name": "australia-southeast2",
+    "short_name": "ause2zb",
+    "short_name_with_provider": "gcpause2b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "australia-southeast2-c",
+    "original_region_name": "australia-southeast2",
+    "short_name": "ause2zc",
+    "short_name_with_provider": "gcpause2c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-central2-a",
+    "original_region_name": "europe-central2",
+    "short_name": "euc2za",
+    "short_name_with_provider": "gcpeuc2a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-central2-b",
+    "original_region_name": "europe-central2",
+    "short_name": "euc2zb",
+    "short_name_with_provider": "gcpeuc2b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-central2-c",
+    "original_region_name": "europe-central2",
+    "short_name": "euc2zc",
+    "short_name_with_provider": "gcpeuc2c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-north1-a",
+    "original_region_name": "europe-north1",
+    "short_name": "eun1za",
+    "short_name_with_provider": "gcpeun1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-north1-b",
+    "original_region_name": "europe-north1",
+    "short_name": "eun1zb",
+    "short_name_with_provider": "gcpeun1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-north1-c",
+    "original_region_name": "europe-north1",
+    "short_name": "eun1zc",
+    "short_name_with_provider": "gcpeun1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-southwest1-a",
+    "original_region_name": "europe-southwest1",
+    "short_name": "eusw1za",
+    "short_name_with_provider": "gcpeusw1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-southwest1-b",
+    "original_region_name": "europe-southwest1",
+    "short_name": "eusw1zb",
+    "short_name_with_provider": "gcpeusw1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-southwest1-c",
+    "original_region_name": "europe-southwest1",
+    "short_name": "eusw1zc",
+    "short_name_with_provider": "gcpeusw1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west1-b",
+    "original_region_name": "europe-west1",
+    "short_name": "euw1zb",
+    "short_name_with_provider": "gcpeuw1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west1-c",
+    "original_region_name": "europe-west1",
+    "short_name": "euw1zc",
+    "short_name_with_provider": "gcpeuw1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west1-d",
+    "original_region_name": "europe-west1",
+    "short_name": "euw1zd",
+    "short_name_with_provider": "gcpeuw1d",
+    "az": "d"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west10-a",
+    "original_region_name": "europe-west10",
+    "short_name": "euw10za",
+    "short_name_with_provider": "gcpeuw10a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west10-b",
+    "original_region_name": "europe-west10",
+    "short_name": "euw10zb",
+    "short_name_with_provider": "gcpeuw10b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west10-c",
+    "original_region_name": "europe-west10",
+    "short_name": "euw10zc",
+    "short_name_with_provider": "gcpeuw10c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west12-a",
+    "original_region_name": "europe-west12",
+    "short_name": "euw12za",
+    "short_name_with_provider": "gcpeuw12a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west12-b",
+    "original_region_name": "europe-west12",
+    "short_name": "euw12zb",
+    "short_name_with_provider": "gcpeuw12b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west12-c",
+    "original_region_name": "europe-west12",
+    "short_name": "euw12zc",
+    "short_name_with_provider": "gcpeuw12c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west2-a",
+    "original_region_name": "europe-west2",
+    "short_name": "euw2za",
+    "short_name_with_provider": "gcpeuw2a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west2-b",
+    "original_region_name": "europe-west2",
+    "short_name": "euw2zb",
+    "short_name_with_provider": "gcpeuw2b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west2-c",
+    "original_region_name": "europe-west2",
+    "short_name": "euw2zc",
+    "short_name_with_provider": "gcpeuw2c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west3-a",
+    "original_region_name": "europe-west3",
+    "short_name": "euw3za",
+    "short_name_with_provider": "gcpeuw3a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west3-b",
+    "original_region_name": "europe-west3",
+    "short_name": "euw3zb",
+    "short_name_with_provider": "gcpeuw3b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west3-c",
+    "original_region_name": "europe-west3",
+    "short_name": "euw3zc",
+    "short_name_with_provider": "gcpeuw3c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west4-a",
+    "original_region_name": "europe-west4",
+    "short_name": "euw4za",
+    "short_name_with_provider": "gcpeuw4a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west4-b",
+    "original_region_name": "europe-west4",
+    "short_name": "euw4zb",
+    "short_name_with_provider": "gcpeuw4b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west4-c",
+    "original_region_name": "europe-west4",
+    "short_name": "euw4zc",
+    "short_name_with_provider": "gcpeuw4c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west6-a",
+    "original_region_name": "europe-west6",
+    "short_name": "euw6za",
+    "short_name_with_provider": "gcpeuw6a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west6-b",
+    "original_region_name": "europe-west6",
+    "short_name": "euw6zb",
+    "short_name_with_provider": "gcpeuw6b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west6-c",
+    "original_region_name": "europe-west6",
+    "short_name": "euw6zc",
+    "short_name_with_provider": "gcpeuw6c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west8-a",
+    "original_region_name": "europe-west8",
+    "short_name": "euw8za",
+    "short_name_with_provider": "gcpeuw8a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west8-b",
+    "original_region_name": "europe-west8",
+    "short_name": "euw8zb",
+    "short_name_with_provider": "gcpeuw8b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west8-c",
+    "original_region_name": "europe-west8",
+    "short_name": "euw8zc",
+    "short_name_with_provider": "gcpeuw8c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west9-a",
+    "original_region_name": "europe-west9",
+    "short_name": "euw9za",
+    "short_name_with_provider": "gcpeuw9a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west9-b",
+    "original_region_name": "europe-west9",
+    "short_name": "euw9zb",
+    "short_name_with_provider": "gcpeuw9b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "europe-west9-c",
+    "original_region_name": "europe-west9",
+    "short_name": "euw9zc",
+    "short_name_with_provider": "gcpeuw9c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "me-central1-a",
+    "original_region_name": "me-central1",
+    "short_name": "mec1za",
+    "short_name_with_provider": "gcpmec1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "me-central1-b",
+    "original_region_name": "me-central1",
+    "short_name": "mec1zb",
+    "short_name_with_provider": "gcpmec1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "me-central1-c",
+    "original_region_name": "me-central1",
+    "short_name": "mec1zc",
+    "short_name_with_provider": "gcpmec1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "me-central2-a",
+    "original_region_name": "me-central2",
+    "short_name": "mec2za",
+    "short_name_with_provider": "gcpmec2a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "me-central2-b",
+    "original_region_name": "me-central2",
+    "short_name": "mec2zb",
+    "short_name_with_provider": "gcpmec2b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "me-central2-c",
+    "original_region_name": "me-central2",
+    "short_name": "mec2zc",
+    "short_name_with_provider": "gcpmec2c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "me-west1-a",
+    "original_region_name": "me-west1",
+    "short_name": "mew1za",
+    "short_name_with_provider": "gcpmew1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "me-west1-b",
+    "original_region_name": "me-west1",
+    "short_name": "mew1zb",
+    "short_name_with_provider": "gcpmew1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "me-west1-c",
+    "original_region_name": "me-west1",
+    "short_name": "mew1zc",
+    "short_name_with_provider": "gcpmew1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "northamerica-northeast1-a",
+    "original_region_name": "northamerica-northeast1",
+    "short_name": "nane1za",
+    "short_name_with_provider": "gcpnane1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "northamerica-northeast1-b",
+    "original_region_name": "northamerica-northeast1",
+    "short_name": "nane1zb",
+    "short_name_with_provider": "gcpnane1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "northamerica-northeast1-c",
+    "original_region_name": "northamerica-northeast1",
+    "short_name": "nane1zc",
+    "short_name_with_provider": "gcpnane1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "northamerica-northeast2-a",
+    "original_region_name": "northamerica-northeast2",
+    "short_name": "nane2za",
+    "short_name_with_provider": "gcpnane2a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "northamerica-northeast2-b",
+    "original_region_name": "northamerica-northeast2",
+    "short_name": "nane2zb",
+    "short_name_with_provider": "gcpnane2b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "northamerica-northeast2-c",
+    "original_region_name": "northamerica-northeast2",
+    "short_name": "nane2zc",
+    "short_name_with_provider": "gcpnane2c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "southamerica-east1-a",
+    "original_region_name": "southamerica-east1",
+    "short_name": "sae1za",
+    "short_name_with_provider": "gcpsae1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "southamerica-east1-b",
+    "original_region_name": "southamerica-east1",
+    "short_name": "sae1zb",
+    "short_name_with_provider": "gcpsae1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "southamerica-east1-c",
+    "original_region_name": "southamerica-east1",
+    "short_name": "sae1zc",
+    "short_name_with_provider": "gcpsae1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "southamerica-west1-a",
+    "original_region_name": "southamerica-west1",
+    "short_name": "saw1za",
+    "short_name_with_provider": "gcpsaw1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "southamerica-west1-b",
+    "original_region_name": "southamerica-west1",
+    "short_name": "saw1zb",
+    "short_name_with_provider": "gcpsaw1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "southamerica-west1-c",
+    "original_region_name": "southamerica-west1",
+    "short_name": "saw1zc",
+    "short_name_with_provider": "gcpsaw1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-central1-a",
+    "original_region_name": "us-central1",
+    "short_name": "usc1za",
+    "short_name_with_provider": "gcpusc1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-central1-b",
+    "original_region_name": "us-central1",
+    "short_name": "usc1zb",
+    "short_name_with_provider": "gcpusc1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-central1-c",
+    "original_region_name": "us-central1",
+    "short_name": "usc1zc",
+    "short_name_with_provider": "gcpusc1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-central1-f",
+    "original_region_name": "us-central1",
+    "short_name": "usc1zf",
+    "short_name_with_provider": "gcpusc1f",
+    "az": "f"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-east1-b",
+    "original_region_name": "us-east1",
+    "short_name": "use1zb",
+    "short_name_with_provider": "gcpuse1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-east1-c",
+    "original_region_name": "us-east1",
+    "short_name": "use1zc",
+    "short_name_with_provider": "gcpuse1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-east1-d",
+    "original_region_name": "us-east1",
+    "short_name": "use1zd",
+    "short_name_with_provider": "gcpuse1d",
+    "az": "d"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-east4-a",
+    "original_region_name": "us-east4",
+    "short_name": "use4za",
+    "short_name_with_provider": "gcpuse4a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-east4-b",
+    "original_region_name": "us-east4",
+    "short_name": "use4zb",
+    "short_name_with_provider": "gcpuse4b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-east4-c",
+    "original_region_name": "us-east4",
+    "short_name": "use4zc",
+    "short_name_with_provider": "gcpuse4c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-east5-a",
+    "original_region_name": "us-east5",
+    "short_name": "use5za",
+    "short_name_with_provider": "gcpuse5a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-east5-b",
+    "original_region_name": "us-east5",
+    "short_name": "use5zb",
+    "short_name_with_provider": "gcpuse5b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-east5-c",
+    "original_region_name": "us-east5",
+    "short_name": "use5zc",
+    "short_name_with_provider": "gcpuse5c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-south1-a",
+    "original_region_name": "us-south1",
+    "short_name": "uss1za",
+    "short_name_with_provider": "gcpuss1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-south1-b",
+    "original_region_name": "us-south1",
+    "short_name": "uss1zb",
+    "short_name_with_provider": "gcpuss1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-south1-c",
+    "original_region_name": "us-south1",
+    "short_name": "uss1zc",
+    "short_name_with_provider": "gcpuss1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west1-a",
+    "original_region_name": "us-west1",
+    "short_name": "usw1za",
+    "short_name_with_provider": "gcpusw1a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west1-b",
+    "original_region_name": "us-west1",
+    "short_name": "usw1zb",
+    "short_name_with_provider": "gcpusw1b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west1-c",
+    "original_region_name": "us-west1",
+    "short_name": "usw1zc",
+    "short_name_with_provider": "gcpusw1c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west2-a",
+    "original_region_name": "us-west2",
+    "short_name": "usw2za",
+    "short_name_with_provider": "gcpusw2a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west2-b",
+    "original_region_name": "us-west2",
+    "short_name": "usw2zb",
+    "short_name_with_provider": "gcpusw2b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west2-c",
+    "original_region_name": "us-west2",
+    "short_name": "usw2zc",
+    "short_name_with_provider": "gcpusw2c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west3-a",
+    "original_region_name": "us-west3",
+    "short_name": "usw3za",
+    "short_name_with_provider": "gcpusw3a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west3-b",
+    "original_region_name": "us-west3",
+    "short_name": "usw3zb",
+    "short_name_with_provider": "gcpusw3b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west3-c",
+    "original_region_name": "us-west3",
+    "short_name": "usw3zc",
+    "short_name_with_provider": "gcpusw3c",
+    "az": "c"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west4-a",
+    "original_region_name": "us-west4",
+    "short_name": "usw4za",
+    "short_name_with_provider": "gcpusw4a",
+    "az": "a"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west4-b",
+    "original_region_name": "us-west4",
+    "short_name": "usw4zb",
+    "short_name_with_provider": "gcpusw4b",
+    "az": "b"
+  },
+  {
+    "provider": "gcp",
+    "original_az_name": "us-west4-c",
+    "original_region_name": "us-west4",
+    "short_name": "usw4zc",
+    "short_name_with_provider": "gcpusw4c",
+    "az": "c"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "australiaeast-az1",
+    "original_region_name": "australiaeast",
+    "short_name": "auez1",
+    "short_name_with_provider": "azuaue1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "australiaeast-az2",
+    "original_region_name": "australiaeast",
+    "short_name": "auez2",
+    "short_name_with_provider": "azuaue2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "australiaeast-az3",
+    "original_region_name": "australiaeast",
+    "short_name": "auez3",
+    "short_name_with_provider": "azuaue3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "brazilsouth-az1",
+    "original_region_name": "brazilsouth",
+    "short_name": "brsz1",
+    "short_name_with_provider": "azubrs1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "brazilsouth-az2",
+    "original_region_name": "brazilsouth",
+    "short_name": "brsz2",
+    "short_name_with_provider": "azubrs2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "brazilsouth-az3",
+    "original_region_name": "brazilsouth",
+    "short_name": "brsz3",
+    "short_name_with_provider": "azubrs3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "canadacentral-az1",
+    "original_region_name": "canadacentral",
+    "short_name": "cacz1",
+    "short_name_with_provider": "azucac1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "canadacentral-az2",
+    "original_region_name": "canadacentral",
+    "short_name": "cacz2",
+    "short_name_with_provider": "azucac2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "canadacentral-az3",
+    "original_region_name": "canadacentral",
+    "short_name": "cacz3",
+    "short_name_with_provider": "azucac3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "centralindia-az1",
+    "original_region_name": "centralindia",
+    "short_name": "incz1",
+    "short_name_with_provider": "azuinc1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "centralindia-az2",
+    "original_region_name": "centralindia",
+    "short_name": "incz2",
+    "short_name_with_provider": "azuinc2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "centralindia-az3",
+    "original_region_name": "centralindia",
+    "short_name": "incz3",
+    "short_name_with_provider": "azuinc3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "centralus-az1",
+    "original_region_name": "centralus",
+    "short_name": "uscz1",
+    "short_name_with_provider": "azuusc1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "centralus-az2",
+    "original_region_name": "centralus",
+    "short_name": "uscz2",
+    "short_name_with_provider": "azuusc2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "centralus-az3",
+    "original_region_name": "centralus",
+    "short_name": "uscz3",
+    "short_name_with_provider": "azuusc3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "eastasia-az1",
+    "original_region_name": "eastasia",
+    "short_name": "asez1",
+    "short_name_with_provider": "azuase1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "eastasia-az2",
+    "original_region_name": "eastasia",
+    "short_name": "asez2",
+    "short_name_with_provider": "azuase2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "eastasia-az3",
+    "original_region_name": "eastasia",
+    "short_name": "asez3",
+    "short_name_with_provider": "azuase3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "eastus-az1",
+    "original_region_name": "eastus",
+    "short_name": "usez1",
+    "short_name_with_provider": "azuuse1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "eastus-az2",
+    "original_region_name": "eastus",
+    "short_name": "usez2",
+    "short_name_with_provider": "azuuse2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "eastus-az3",
+    "original_region_name": "eastus",
+    "short_name": "usez3",
+    "short_name_with_provider": "azuuse3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "eastus2-az1",
+    "original_region_name": "eastus2",
+    "short_name": "use2z1",
+    "short_name_with_provider": "azuuse21",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "eastus2-az2",
+    "original_region_name": "eastus2",
+    "short_name": "use2z2",
+    "short_name_with_provider": "azuuse22",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "eastus2-az3",
+    "original_region_name": "eastus2",
+    "short_name": "use2z3",
+    "short_name_with_provider": "azuuse23",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "francecentral-az1",
+    "original_region_name": "francecentral",
+    "short_name": "frcz1",
+    "short_name_with_provider": "azufrc1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "francecentral-az2",
+    "original_region_name": "francecentral",
+    "short_name": "frcz2",
+    "short_name_with_provider": "azufrc2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "francecentral-az3",
+    "original_region_name": "francecentral",
+    "short_name": "frcz3",
+    "short_name_with_provider": "azufrc3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "germanywestcentral-az1",
+    "original_region_name": "germanywestcentral",
+    "short_name": "dewcz1",
+    "short_name_with_provider": "azudewc1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "germanywestcentral-az2",
+    "original_region_name": "germanywestcentral",
+    "short_name": "dewcz2",
+    "short_name_with_provider": "azudewc2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "germanywestcentral-az3",
+    "original_region_name": "germanywestcentral",
+    "short_name": "dewcz3",
+    "short_name_with_provider": "azudewc3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "israelcentral-az1",
+    "original_region_name": "israelcentral",
+    "short_name": "ilcz1",
+    "short_name_with_provider": "azuilc1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "israelcentral-az2",
+    "original_region_name": "israelcentral",
+    "short_name": "ilcz2",
+    "short_name_with_provider": "azuilc2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "israelcentral-az3",
+    "original_region_name": "israelcentral",
+    "short_name": "ilcz3",
+    "short_name_with_provider": "azuilc3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "italynorth-az1",
+    "original_region_name": "italynorth",
+    "short_name": "itnz1",
+    "short_name_with_provider": "azuitn1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "italynorth-az2",
+    "original_region_name": "italynorth",
+    "short_name": "itnz2",
+    "short_name_with_provider": "azuitn2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "italynorth-az3",
+    "original_region_name": "italynorth",
+    "short_name": "itnz3",
+    "short_name_with_provider": "azuitn3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "japaneast-az1",
+    "original_region_name": "japaneast",
+    "short_name": "jpez1",
+    "short_name_with_provider": "azujpe1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "japaneast-az2",
+    "original_region_name": "japaneast",
+    "short_name": "jpez2",
+    "short_name_with_provider": "azujpe2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "japaneast-az3",
+    "original_region_name": "japaneast",
+    "short_name": "jpez3",
+    "short_name_with_provider": "azujpe3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "koreacentral-az1",
+    "original_region_name": "koreacentral",
+    "short_name": "krcz1",
+    "short_name_with_provider": "azukrc1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "koreacentral-az2",
+    "original_region_name": "koreacentral",
+    "short_name": "krcz2",
+    "short_name_with_provider": "azukrc2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "koreacentral-az3",
+    "original_region_name": "koreacentral",
+    "short_name": "krcz3",
+    "short_name_with_provider": "azukrc3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "northcentralus-az1",
+    "original_region_name": "northcentralus",
+    "short_name": "usncz1",
+    "short_name_with_provider": "azuusnc1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "northcentralus-az2",
+    "original_region_name": "northcentralus",
+    "short_name": "usncz2",
+    "short_name_with_provider": "azuusnc2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "northcentralus-az3",
+    "original_region_name": "northcentralus",
+    "short_name": "usncz3",
+    "short_name_with_provider": "azuusnc3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "northeurope-az1",
+    "original_region_name": "northeurope",
+    "short_name": "eunz1",
+    "short_name_with_provider": "azueun1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "northeurope-az2",
+    "original_region_name": "northeurope",
+    "short_name": "eunz2",
+    "short_name_with_provider": "azueun2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "northeurope-az3",
+    "original_region_name": "northeurope",
+    "short_name": "eunz3",
+    "short_name_with_provider": "azueun3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "norwayeast-az1",
+    "original_region_name": "norwayeast",
+    "short_name": "noez1",
+    "short_name_with_provider": "azunoe1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "norwayeast-az2",
+    "original_region_name": "norwayeast",
+    "short_name": "noez2",
+    "short_name_with_provider": "azunoe2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "norwayeast-az3",
+    "original_region_name": "norwayeast",
+    "short_name": "noez3",
+    "short_name_with_provider": "azunoe3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "polandcentral-az1",
+    "original_region_name": "polandcentral",
+    "short_name": "plcz1",
+    "short_name_with_provider": "azuplc1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "polandcentral-az2",
+    "original_region_name": "polandcentral",
+    "short_name": "plcz2",
+    "short_name_with_provider": "azuplc2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "polandcentral-az3",
+    "original_region_name": "polandcentral",
+    "short_name": "plcz3",
+    "short_name_with_provider": "azuplc3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "qatarcentral-az1",
+    "original_region_name": "qatarcentral",
+    "short_name": "qacz1",
+    "short_name_with_provider": "azuqac1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "qatarcentral-az2",
+    "original_region_name": "qatarcentral",
+    "short_name": "qacz2",
+    "short_name_with_provider": "azuqac2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "qatarcentral-az3",
+    "original_region_name": "qatarcentral",
+    "short_name": "qacz3",
+    "short_name_with_provider": "azuqac3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "southafricanorth-az1",
+    "original_region_name": "southafricanorth",
+    "short_name": "zanz1",
+    "short_name_with_provider": "azuzan1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "southafricanorth-az2",
+    "original_region_name": "southafricanorth",
+    "short_name": "zanz2",
+    "short_name_with_provider": "azuzan2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "southafricanorth-az3",
+    "original_region_name": "southafricanorth",
+    "short_name": "zanz3",
+    "short_name_with_provider": "azuzan3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "southcentralus-az1",
+    "original_region_name": "southcentralus",
+    "short_name": "usscz1",
+    "short_name_with_provider": "azuussc1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "southcentralus-az2",
+    "original_region_name": "southcentralus",
+    "short_name": "usscz2",
+    "short_name_with_provider": "azuussc2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "southcentralus-az3",
+    "original_region_name": "southcentralus",
+    "short_name": "usscz3",
+    "short_name_with_provider": "azuussc3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "southeastasia-az1",
+    "original_region_name": "southeastasia",
+    "short_name": "assez1",
+    "short_name_with_provider": "azuasse1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "southeastasia-az2",
+    "original_region_name": "southeastasia",
+    "short_name": "assez2",
+    "short_name_with_provider": "azuasse2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "southeastasia-az3",
+    "original_region_name": "southeastasia",
+    "short_name": "assez3",
+    "short_name_with_provider": "azuasse3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "swedencentral-az1",
+    "original_region_name": "swedencentral",
+    "short_name": "secz1",
+    "short_name_with_provider": "azusec1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "swedencentral-az2",
+    "original_region_name": "swedencentral",
+    "short_name": "secz2",
+    "short_name_with_provider": "azusec2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "swedencentral-az3",
+    "original_region_name": "swedencentral",
+    "short_name": "secz3",
+    "short_name_with_provider": "azusec3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "switzerlandnorth-az1",
+    "original_region_name": "switzerlandnorth",
+    "short_name": "chnz1",
+    "short_name_with_provider": "azuchn1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "switzerlandnorth-az2",
+    "original_region_name": "switzerlandnorth",
+    "short_name": "chnz2",
+    "short_name_with_provider": "azuchn2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "switzerlandnorth-az3",
+    "original_region_name": "switzerlandnorth",
+    "short_name": "chnz3",
+    "short_name_with_provider": "azuchn3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "uaenorth-az1",
+    "original_region_name": "uaenorth",
+    "short_name": "aenz1",
+    "short_name_with_provider": "azuaen1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "uaenorth-az2",
+    "original_region_name": "uaenorth",
+    "short_name": "aenz2",
+    "short_name_with_provider": "azuaen2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "uaenorth-az3",
+    "original_region_name": "uaenorth",
+    "short_name": "aenz3",
+    "short_name_with_provider": "azuaen3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "uksouth-az1",
+    "original_region_name": "uksouth",
+    "short_name": "uksz1",
+    "short_name_with_provider": "azuuks1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "uksouth-az2",
+    "original_region_name": "uksouth",
+    "short_name": "uksz2",
+    "short_name_with_provider": "azuuks2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "uksouth-az3",
+    "original_region_name": "uksouth",
+    "short_name": "uksz3",
+    "short_name_with_provider": "azuuks3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westeurope-az1",
+    "original_region_name": "westeurope",
+    "short_name": "euwz1",
+    "short_name_with_provider": "azueuw1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westeurope-az2",
+    "original_region_name": "westeurope",
+    "short_name": "euwz2",
+    "short_name_with_provider": "azueuw2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westeurope-az3",
+    "original_region_name": "westeurope",
+    "short_name": "euwz3",
+    "short_name_with_provider": "azueuw3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westus-az1",
+    "original_region_name": "westus",
+    "short_name": "uswz1",
+    "short_name_with_provider": "azuusw1",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westus-az2",
+    "original_region_name": "westus",
+    "short_name": "uswz2",
+    "short_name_with_provider": "azuusw2",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westus-az3",
+    "original_region_name": "westus",
+    "short_name": "uswz3",
+    "short_name_with_provider": "azuusw3",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westus2-az1",
+    "original_region_name": "westus2",
+    "short_name": "usw2z1",
+    "short_name_with_provider": "azuusw21",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westus2-az2",
+    "original_region_name": "westus2",
+    "short_name": "usw2z2",
+    "short_name_with_provider": "azuusw22",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westus2-az3",
+    "original_region_name": "westus2",
+    "short_name": "usw2z3",
+    "short_name_with_provider": "azuusw23",
+    "az": "3"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westus3-az1",
+    "original_region_name": "westus3",
+    "short_name": "usw3z1",
+    "short_name_with_provider": "azuusw31",
+    "az": "1"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westus3-az2",
+    "original_region_name": "westus3",
+    "short_name": "usw3z2",
+    "short_name_with_provider": "azuusw32",
+    "az": "2"
+  },
+  {
+    "provider": "azu",
+    "original_az_name": "westus3-az3",
+    "original_region_name": "westus3",
+    "short_name": "usw3z3",
+    "short_name_with_provider": "azuusw33",
+    "az": "3"
+  }
+]

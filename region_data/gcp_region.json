@@ -1,21 +1,15 @@
 [
     {
         "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "9",
+        "original_region_name": "europe-west9"
+    },
+    {
+        "geographic_region": "us",
         "cardinality": "central",
-        "number": "2",
-        "original_region_name": "europe-central2"
-    },
-    {
-        "geographic_region": "northamerica",
-        "cardinality": "northeast",
         "number": "1",
-        "original_region_name": "northamerica-northeast1"
-    },
-    {
-        "geographic_region": "europe",
-        "cardinality": "southwest",
-        "number": "1",
-        "original_region_name": "europe-southwest1"
+        "original_region_name": "us-central1"
     },
     {
         "geographic_region": "asia",
@@ -24,34 +18,22 @@
         "original_region_name": "asia-southeast1"
     },
     {
-        "geographic_region": "australia",
-        "cardinality": "southeast",
-        "number": "1",
-        "original_region_name": "australia-southeast1"
-    },
-    {
-        "geographic_region": "asia",
-        "cardinality": "east",
-        "number": "2",
-        "original_region_name": "asia-east2"
-    },
-    {
-        "geographic_region": "us",
-        "cardinality": "east",
-        "number": "5",
-        "original_region_name": "us-east5"
-    },
-    {
-        "geographic_region": "us",
-        "cardinality": "west",
-        "number": "2",
-        "original_region_name": "us-west2"
-    },
-    {
         "geographic_region": "europe",
         "cardinality": "west",
-        "number": "2",
-        "original_region_name": "europe-west2"
+        "number": "1",
+        "original_region_name": "europe-west1"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "1",
+        "original_region_name": "us-west1"
+    },
+    {
+        "geographic_region": "me",
+        "cardinality": "west",
+        "number": "1",
+        "original_region_name": "me-west1"
     },
     {
         "geographic_region": "australia",
@@ -61,135 +43,45 @@
     },
     {
         "geographic_region": "europe",
-        "cardinality": "north",
+        "cardinality": "southwest",
         "number": "1",
-        "original_region_name": "europe-north1"
-    },
-    {
-        "geographic_region": "asia",
-        "cardinality": "northeast",
-        "number": "1",
-        "original_region_name": "asia-northeast1"
-    },
-    {
-        "geographic_region": "europe",
-        "cardinality": "west",
-        "number": "1",
-        "original_region_name": "europe-west1"
-    },
-    {
-        "geographic_region": "me",
-        "cardinality": "west",
-        "number": "1",
-        "original_region_name": "me-west1"
+        "original_region_name": "europe-southwest1"
     },
     {
         "geographic_region": "me",
         "cardinality": "central",
-        "number": "1",
-        "original_region_name": "me-central1"
-    },
-    {
-        "geographic_region": "asia",
-        "cardinality": "northeast",
         "number": "2",
-        "original_region_name": "asia-northeast2"
-    },
-    {
-        "geographic_region": "northamerica",
-        "cardinality": "northeast",
-        "number": "2",
-        "original_region_name": "northamerica-northeast2"
-    },
-    {
-        "geographic_region": "europe",
-        "cardinality": "west",
-        "number": "6",
-        "original_region_name": "europe-west6"
-    },
-    {
-        "geographic_region": "europe",
-        "cardinality": "west",
-        "number": "8",
-        "original_region_name": "europe-west8"
-    },
-    {
-        "geographic_region": "europe",
-        "cardinality": "west",
-        "number": "9",
-        "original_region_name": "europe-west9"
+        "original_region_name": "me-central2"
     },
     {
         "geographic_region": "us",
         "cardinality": "east",
-        "number": "4",
-        "original_region_name": "us-east4"
+        "number": "5",
+        "original_region_name": "us-east5"
     },
     {
-        "geographic_region": "asia",
+        "geographic_region": "southamerica",
+        "cardinality": "west",
+        "number": "1",
+        "original_region_name": "southamerica-west1"
+    },
+    {
+        "geographic_region": "australia",
         "cardinality": "southeast",
-        "number": "2",
-        "original_region_name": "asia-southeast2"
-    },
-    {
-        "geographic_region": "asia",
-        "cardinality": "south",
         "number": "1",
-        "original_region_name": "asia-south1"
-    },
-    {
-        "geographic_region": "us",
-        "cardinality": "west",
-        "number": "1",
-        "original_region_name": "us-west1"
-    },
-    {
-        "geographic_region": "us",
-        "cardinality": "south",
-        "number": "1",
-        "original_region_name": "us-south1"
-    },
-    {
-        "geographic_region": "asia",
-        "cardinality": "south",
-        "number": "2",
-        "original_region_name": "asia-south2"
+        "original_region_name": "australia-southeast1"
     },
     {
         "geographic_region": "europe",
-        "cardinality": "west",
-        "number": "3",
-        "original_region_name": "europe-west3"
-    },
-    {
-        "geographic_region": "europe",
-        "cardinality": "west",
-        "number": "10",
-        "original_region_name": "europe-west10"
-    },
-    {
-        "geographic_region": "us",
         "cardinality": "west",
         "number": "4",
-        "original_region_name": "us-west4"
-    },
-    {
-        "geographic_region": "africa",
-        "cardinality": "south",
-        "number": "1",
-        "original_region_name": "africa-south1"
-    },
-    {
-        "geographic_region": "us",
-        "cardinality": "central",
-        "number": "1",
-        "original_region_name": "us-central1"
+        "original_region_name": "europe-west4"
     },
     {
         "geographic_region": "europe",
-        "cardinality": "west",
-        "number": "12",
-        "original_region_name": "europe-west12"
+        "cardinality": "central",
+        "number": "2",
+        "original_region_name": "europe-central2"
     },
     {
         "geographic_region": "asia",
@@ -199,9 +91,9 @@
     },
     {
         "geographic_region": "us",
-        "cardinality": "west",
-        "number": "3",
-        "original_region_name": "us-west3"
+        "cardinality": "east",
+        "number": "1",
+        "original_region_name": "us-east1"
     },
     {
         "geographic_region": "asia",
@@ -210,16 +102,22 @@
         "original_region_name": "asia-northeast3"
     },
     {
-        "geographic_region": "me",
-        "cardinality": "central",
+        "geographic_region": "asia",
+        "cardinality": "southeast",
         "number": "2",
-        "original_region_name": "me-central2"
+        "original_region_name": "asia-southeast2"
     },
     {
-        "geographic_region": "southamerica",
+        "geographic_region": "us",
         "cardinality": "west",
-        "number": "1",
-        "original_region_name": "southamerica-west1"
+        "number": "3",
+        "original_region_name": "us-west3"
+    },
+    {
+        "geographic_region": "northamerica",
+        "cardinality": "northeast",
+        "number": "2",
+        "original_region_name": "northamerica-northeast2"
     },
     {
         "geographic_region": "southamerica",
@@ -230,13 +128,115 @@
     {
         "geographic_region": "europe",
         "cardinality": "west",
-        "number": "4",
-        "original_region_name": "europe-west4"
+        "number": "6",
+        "original_region_name": "europe-west6"
+    },
+    {
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "12",
+        "original_region_name": "europe-west12"
+    },
+    {
+        "geographic_region": "me",
+        "cardinality": "central",
+        "number": "1",
+        "original_region_name": "me-central1"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "south",
+        "number": "1",
+        "original_region_name": "us-south1"
+    },
+    {
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "10",
+        "original_region_name": "europe-west10"
+    },
+    {
+        "geographic_region": "asia",
+        "cardinality": "northeast",
+        "number": "2",
+        "original_region_name": "asia-northeast2"
+    },
+    {
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "2",
+        "original_region_name": "europe-west2"
+    },
+    {
+        "geographic_region": "africa",
+        "cardinality": "south",
+        "number": "1",
+        "original_region_name": "africa-south1"
     },
     {
         "geographic_region": "us",
         "cardinality": "east",
+        "number": "4",
+        "original_region_name": "us-east4"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "4",
+        "original_region_name": "us-west4"
+    },
+    {
+        "geographic_region": "asia",
+        "cardinality": "northeast",
         "number": "1",
-        "original_region_name": "us-east1"
+        "original_region_name": "asia-northeast1"
+    },
+    {
+        "geographic_region": "northamerica",
+        "cardinality": "northeast",
+        "number": "1",
+        "original_region_name": "northamerica-northeast1"
+    },
+    {
+        "geographic_region": "asia",
+        "cardinality": "east",
+        "number": "2",
+        "original_region_name": "asia-east2"
+    },
+    {
+        "geographic_region": "asia",
+        "cardinality": "south",
+        "number": "1",
+        "original_region_name": "asia-south1"
+    },
+    {
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "8",
+        "original_region_name": "europe-west8"
+    },
+    {
+        "geographic_region": "us",
+        "cardinality": "west",
+        "number": "2",
+        "original_region_name": "us-west2"
+    },
+    {
+        "geographic_region": "europe",
+        "cardinality": "north",
+        "number": "1",
+        "original_region_name": "europe-north1"
+    },
+    {
+        "geographic_region": "europe",
+        "cardinality": "west",
+        "number": "3",
+        "original_region_name": "europe-west3"
+    },
+    {
+        "geographic_region": "asia",
+        "cardinality": "south",
+        "number": "2",
+        "original_region_name": "asia-south2"
     }
 ]
