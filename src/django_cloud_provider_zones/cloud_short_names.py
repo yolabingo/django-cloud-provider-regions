@@ -1,5 +1,6 @@
 from enum import Enum, unique
 
+
 @unique
 class CardinalityShortNames(Enum):
     central = "c"
@@ -16,11 +17,13 @@ class CardinalityShortNames(Enum):
     eastcentral = "ec"
     westcentral = "wc"
 
+
 def get_cardinality_short_name(cardinality: str) -> str:
     return CardinalityShortNames[cardinality].value
 
+
 def get_region_short_name(region: str) -> str:
-    """ GCP and AWS region names """
+    """GCP and AWS region names"""
     match region:
         case "af" | "africa":
             return "af"

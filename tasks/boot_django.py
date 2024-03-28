@@ -30,7 +30,7 @@ def boot(load_admin=False, load_additional_apps=False):
                 "NAME": os.path.join(base.TEST_DB_PATH),
             }
         },
-        DEFAULT_AUTO_FIELD='django.db.models.AutoField',
+        DEFAULT_AUTO_FIELD="django.db.models.AutoField",
         STATIC_URL="/static/",
         TIME_ZONE="UTC",
         USE_TZ=True,

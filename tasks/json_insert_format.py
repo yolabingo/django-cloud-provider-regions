@@ -8,6 +8,7 @@ TODAY = datetime.now().strftime("%Y-%m-%d")
 class CloudProvider:
     provider: str  # Django Primary Key
 
+
 @dataclass(frozen=True)
 class CloudRegion:
     """
@@ -19,6 +20,7 @@ class CloudRegion:
     number: str
     original_region_name: str
 
+
 @dataclass(frozen=True)
 class CloudAvailabilityZone:
     """
@@ -27,4 +29,3 @@ class CloudAvailabilityZone:
 
     original_region_name: str
     az: str
-

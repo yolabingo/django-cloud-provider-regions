@@ -8,6 +8,7 @@ from constants import REGION_DATA_DIR
 
 PROVIDER = "aws"
 
+
 def fetch_azs():
     """Fetch all AWS availability zones in all regions"""
     azs = []
@@ -19,6 +20,7 @@ def fetch_azs():
             azs += client.describe_availability_zones()["AvailabilityZones"]
     return azs
 
+
 def write_json_file(data, model):
     filename = REGION_DATA_DIR / f"{PROVIDER}_{model}.json"
     with open(filename, "w") as f:
@@ -29,6 +31,7 @@ def write_json_file(data, model):
 def main():
     azs = fetch_azs()
     write_json_file(azs, "unprocessed")
+
 
 if __name__ == "__main__":
     main()

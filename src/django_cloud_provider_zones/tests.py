@@ -16,19 +16,16 @@ from django_cloud_provider_zones import urls
 )
 class CloudProviderTestCase(TestCase):
     fixtures = [
-                "django_cloud_provider_zones-CloudProvider.json",  
-                "django_cloud_provider_zones-CloudRegion.json",
-"django_cloud_provider_zones-CloudAvailabilityZone.json",  
+        "django_cloud_provider_zones-CloudProvider.json",
+        "django_cloud_provider_zones-CloudRegion.json",
+        "django_cloud_provider_zones-CloudAvailabilityZone.json",
     ]
 
     def setUp(self):
         self.client = Client()
 
     def test_cloud_provider_name(self):
-        providers = [
-        {'provider': 'aws'},
-        {'provider': 'gcp'}
-        ]
+        providers = [{"provider": "aws"}, {"provider": "gcp"}]
         r = self.client.get("/cloud-providers/")
         self.assertEqual(r.status_code, 200)
         response_dict = json.loads(r.content.decode("utf-8"))
@@ -77,3 +74,19 @@ class CloudProviderTestCase(TestCase):
                 if test_zone == {k: response[k] for k in test_zone.keys()}:
                     results_count += 1
             self.assertEqual(results_count, 1)
+
+    def test_short_name_with_provider_region_unique(self):
+        r = self.client.get("/cloud-regions/")
+        self.assertEqual(r.status_code, 200)
+        regions = json.loads(r.content.decode("utf-8"))
+        short_names = [region["short_name_with_provider"] for region in regions]
+        self.assertGreater(len(short_names), 50)
+        self.assertEqual(len(short_names), len(set(short_names)))
+
+    def test_short_name_with_provider_az_unique(self):
+        r = self.client.get("/cloud-availability-zones/")
+        self.assertEqual(r.status_code, 200)
+        zones = json.loads(r.content.decode("utf-8"))
+        short_names = [zone["short_name_with_provider"] for zone in zones]
+        self.assertGreater(len(short_names), 150)
+        self.assertEqual(len(short_names), len(set(short_names)))

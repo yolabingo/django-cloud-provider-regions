@@ -12,6 +12,7 @@ from django_cloud_provider_zones.models import (  # noqa: E402
 
 CLOUD_PROVIDERS = ["aws", "gcp"]
 
+
 def init_provider_db_from_json(provider_name):
     """
     Load cloud provider data from JSON files into the DJango database.
@@ -48,15 +49,14 @@ def init_provider_db_from_json(provider_name):
     with open(az_data) as fh:
         for az in json.load(fh):
             region = CloudRegion.objects.get(
-                original_region_name=az["original_region_name"],
-                provider=provider_name
+                original_region_name=az["original_region_name"], provider=provider_name
             )
             availability_zone, created = CloudAvailabilityZone.objects.get_or_create(
                 region=region, az=az["az"]
             )
             if created:
                 print(f"Saved availability zone: {availability_zone}")
-            else:    
+            else:
                 print(f"Availability zone already exists: {availability_zone}")
 
     print("CloudAvailabilityZone.objects.all().count():")

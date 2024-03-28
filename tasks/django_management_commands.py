@@ -19,6 +19,7 @@ import constants
 boot_django.boot()
 from tasks.update_db_from_json import init_dbs_from_json  # noqa: E402
 
+
 def print_status(message, error=False):
     print(
         f"{emoji.emojize(':right_arrow:')} Running on DB:\n  {constants.TEST_DB_PATH}"
@@ -47,21 +48,28 @@ def django_update_fixture_from_json():
     """Create Django fixture from the loaded data"""
     django_migrate()
     init_dbs_from_json()
-    create_fixture(constants.APP_NAME,
-                   model_name="CloudProvider",
-                     natural_primary_key=False,
-                        natural_foreign_key=False,
-                   )
-    create_fixture(constants.APP_NAME, model_name="CloudRegion", natural_foreign_key=False)
+    create_fixture(
+        constants.APP_NAME,
+        model_name="CloudProvider",
+        natural_primary_key=False,
+        natural_foreign_key=False,
+    )
+    create_fixture(
+        constants.APP_NAME, model_name="CloudRegion", natural_foreign_key=False
+    )
     create_fixture(constants.APP_NAME, model_name="CloudAvailabilityZone")
 
 
-def create_fixture(app_name, model_name=None, natural_primary_key=True, natural_foreign_key=True):
+def create_fixture(
+    app_name, model_name=None, natural_primary_key=True, natural_foreign_key=True
+):
     if model_name is None:
         fixture_file = constants.FIXTURES_DIR / f"{constants.APP_NAME}.json"
         fixture_target = app_name
     else:
-        fixture_file = constants.FIXTURES_DIR / f"{constants.APP_NAME}-{model_name}.json"
+        fixture_file = (
+            constants.FIXTURES_DIR / f"{constants.APP_NAME}-{model_name}.json"
+        )
         fixture_target = f"{app_name}.{model_name}"
     base_command = [
         "dumpdata",
@@ -78,7 +86,7 @@ def create_fixture(app_name, model_name=None, natural_primary_key=True, natural_
         "--output",
         fixture_file,
         fixture_target,
-        ]
+    ]
     call_command(*cmd)
     print_status(f"Fixture created: {str(fixture_file)} from '{fixture_target}'")
 
@@ -107,8 +115,10 @@ def django_runserver():
 def django_test():
     call_command("test", "django_cloud_provider_zones")
 
+
 def django_shell():
     call_command("shell_plus")
+
 
 def django_graph_models():
     # this doesn't work here but works in a normal Django shell
