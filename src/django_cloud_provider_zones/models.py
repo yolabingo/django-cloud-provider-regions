@@ -33,7 +33,9 @@ class CloudRegion(models.Model):
         max_length=12, validators=[validators.MinLengthValidator(2)]
     )  # west
     number = models.CharField(max_length=4, blank=True, default="")  # 1
-    original_region_name = models.CharField(max_length=64)  # europe-west1
+    original_region_name = models.CharField(
+        max_length=64, db_index=True
+    )  # europe-west1
     created = models.DateField(auto_now_add=True, editable=False)
 
     objects = CloudRegionManager()
@@ -76,7 +78,7 @@ class CloudAvailabilityZoneManager(models.Manager):
 
 class CloudAvailabilityZone(models.Model):
     region = models.ForeignKey(CloudRegion, on_delete=models.CASCADE)
-    original_az_name = models.CharField(max_length=64)
+    original_az_name = models.CharField(max_length=64, db_index=True)
     az = models.CharField(max_length=4, validators=[validators.MinLengthValidator(1)])
     created = models.DateField(auto_now_add=True, editable=False)
 
