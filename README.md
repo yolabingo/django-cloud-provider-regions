@@ -1,6 +1,5 @@
-https://pypi.org/project/django-cloud-provider-zones/
-
 # Django Cloud Provider Regions
+[django-cloud-provider-zones](https://pypi.org/project/django-cloud-provider-zones/) on pypi
 ## Examples
 For reference, and for use outside of Django, [region_data/normalized_azs.json](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/region_data/normalized_azs.json) and [region_data/normalized_regions.json](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/region_data/normalized_regions.json) contain all generated region and az names.
 
