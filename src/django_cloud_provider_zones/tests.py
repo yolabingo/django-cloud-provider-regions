@@ -115,3 +115,21 @@ class CloudProviderTestCase(TestCase):
             region_short_names = set([region["short_name"] for region in regions])
             az_short_names = set([az["short_name"] for az in azs])
             self.assertFalse(region_short_names.intersection(az_short_names))
+
+    def test_short_name_az_structure(self):
+        r = self.client.get("/cloud-availability-zones/")
+        self.assertEqual(r.status_code, 200)
+        zones = json.loads(r.content.decode("utf-8"))
+        for zone in zones:
+            self.assertTrue(
+                zone["short_name_with_provider"].endswith(zone["short_name"])
+            )
+
+    def test_short_name_region_structure(self):
+        r = self.client.get("/cloud-regions/")
+        self.assertEqual(r.status_code, 200)
+        regions = json.loads(r.content.decode("utf-8"))
+        for region in regions:
+            self.assertTrue(
+                region["short_name_with_provider"].endswith(region["short_name"])
+            )

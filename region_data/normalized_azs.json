@@ -4,7 +4,7 @@
     "original_az_name": "ap-northeast-1a",
     "original_region_name": "ap-northeast-1",
     "short_name": "apne1za",
-    "short_name_with_provider": "awsapne1a",
+    "short_name_with_provider": "awsapne1za",
     "az": "a"
   },
   {
@@ -12,7 +12,7 @@
     "original_az_name": "ap-northeast-1c",
     "original_region_name": "ap-northeast-1",
     "short_name": "apne1zc",
-    "short_name_with_provider": "awsapne1c",
+    "short_name_with_provider": "awsapne1zc",
     "az": "c"
   },
   {
@@ -20,7 +20,7 @@
     "original_az_name": "ap-northeast-1d",
     "original_region_name": "ap-northeast-1",
     "short_name": "apne1zd",
-    "short_name_with_provider": "awsapne1d",
+    "short_name_with_provider": "awsapne1zd",
     "az": "d"
   },
   {
@@ -28,7 +28,7 @@
     "original_az_name": "ap-northeast-2a",
     "original_region_name": "ap-northeast-2",
     "short_name": "apne2za",
-    "short_name_with_provider": "awsapne2a",
+    "short_name_with_provider": "awsapne2za",
     "az": "a"
   },
   {
@@ -36,7 +36,7 @@
     "original_az_name": "ap-northeast-2b",
     "original_region_name": "ap-northeast-2",
     "short_name": "apne2zb",
-    "short_name_with_provider": "awsapne2b",
+    "short_name_with_provider": "awsapne2zb",
     "az": "b"
   },
   {
@@ -44,7 +44,7 @@
     "original_az_name": "ap-northeast-2c",
     "original_region_name": "ap-northeast-2",
     "short_name": "apne2zc",
-    "short_name_with_provider": "awsapne2c",
+    "short_name_with_provider": "awsapne2zc",
     "az": "c"
   },
   {
@@ -52,7 +52,7 @@
     "original_az_name": "ap-northeast-2d",
     "original_region_name": "ap-northeast-2",
     "short_name": "apne2zd",
-    "short_name_with_provider": "awsapne2d",
+    "short_name_with_provider": "awsapne2zd",
     "az": "d"
   },
   {
@@ -60,7 +60,7 @@
     "original_az_name": "ap-northeast-3a",
     "original_region_name": "ap-northeast-3",
     "short_name": "apne3za",
-    "short_name_with_provider": "awsapne3a",
+    "short_name_with_provider": "awsapne3za",
     "az": "a"
   },
   {
@@ -68,7 +68,7 @@
     "original_az_name": "ap-northeast-3b",
     "original_region_name": "ap-northeast-3",
     "short_name": "apne3zb",
-    "short_name_with_provider": "awsapne3b",
+    "short_name_with_provider": "awsapne3zb",
     "az": "b"
   },
   {
@@ -76,7 +76,7 @@
     "original_az_name": "ap-northeast-3c",
     "original_region_name": "ap-northeast-3",
     "short_name": "apne3zc",
-    "short_name_with_provider": "awsapne3c",
+    "short_name_with_provider": "awsapne3zc",
     "az": "c"
   },
   {
@@ -84,7 +84,7 @@
     "original_az_name": "ap-south-1a",
     "original_region_name": "ap-south-1",
     "short_name": "aps1za",
-    "short_name_with_provider": "awsaps1a",
+    "short_name_with_provider": "awsaps1za",
     "az": "a"
   },
   {
@@ -92,7 +92,7 @@
     "original_az_name": "ap-south-1b",
     "original_region_name": "ap-south-1",
     "short_name": "aps1zb",
-    "short_name_with_provider": "awsaps1b",
+    "short_name_with_provider": "awsaps1zb",
     "az": "b"
   },
   {
@@ -100,7 +100,7 @@
     "original_az_name": "ap-south-1c",
     "original_region_name": "ap-south-1",
     "short_name": "aps1zc",
-    "short_name_with_provider": "awsaps1c",
+    "short_name_with_provider": "awsaps1zc",
     "az": "c"
   },
   {
@@ -108,7 +108,7 @@
     "original_az_name": "ap-southeast-1a",
     "original_region_name": "ap-southeast-1",
     "short_name": "apse1za",
-    "short_name_with_provider": "awsapse1a",
+    "short_name_with_provider": "awsapse1za",
     "az": "a"
   },
   {
@@ -116,7 +116,7 @@
     "original_az_name": "ap-southeast-1b",
     "original_region_name": "ap-southeast-1",
     "short_name": "apse1zb",
-    "short_name_with_provider": "awsapse1b",
+    "short_name_with_provider": "awsapse1zb",
     "az": "b"
   },
   {
@@ -124,7 +124,7 @@
     "original_az_name": "ap-southeast-1c",
     "original_region_name": "ap-southeast-1",
     "short_name": "apse1zc",
-    "short_name_with_provider": "awsapse1c",
+    "short_name_with_provider": "awsapse1zc",
     "az": "c"
   },
   {
@@ -132,7 +132,7 @@
     "original_az_name": "ap-southeast-2a",
     "original_region_name": "ap-southeast-2",
     "short_name": "apse2za",
-    "short_name_with_provider": "awsapse2a",
+    "short_name_with_provider": "awsapse2za",
     "az": "a"
   },
   {
@@ -140,7 +140,7 @@
     "original_az_name": "ap-southeast-2b",
     "original_region_name": "ap-southeast-2",
     "short_name": "apse2zb",
-    "short_name_with_provider": "awsapse2b",
+    "short_name_with_provider": "awsapse2zb",
     "az": "b"
   },
   {
@@ -148,7 +148,7 @@
     "original_az_name": "ap-southeast-2c",
     "original_region_name": "ap-southeast-2",
     "short_name": "apse2zc",
-    "short_name_with_provider": "awsapse2c",
+    "short_name_with_provider": "awsapse2zc",
     "az": "c"
   },
   {
@@ -156,7 +156,7 @@
     "original_az_name": "ca-central-1a",
     "original_region_name": "ca-central-1",
     "short_name": "cac1za",
-    "short_name_with_provider": "awscac1a",
+    "short_name_with_provider": "awscac1za",
     "az": "a"
   },
   {
@@ -164,7 +164,7 @@
     "original_az_name": "ca-central-1b",
     "original_region_name": "ca-central-1",
     "short_name": "cac1zb",
-    "short_name_with_provider": "awscac1b",
+    "short_name_with_provider": "awscac1zb",
     "az": "b"
   },
   {
@@ -172,7 +172,7 @@
     "original_az_name": "ca-central-1d",
     "original_region_name": "ca-central-1",
     "short_name": "cac1zd",
-    "short_name_with_provider": "awscac1d",
+    "short_name_with_provider": "awscac1zd",
     "az": "d"
   },
   {
@@ -180,7 +180,7 @@
     "original_az_name": "eu-central-1a",
     "original_region_name": "eu-central-1",
     "short_name": "euc1za",
-    "short_name_with_provider": "awseuc1a",
+    "short_name_with_provider": "awseuc1za",
     "az": "a"
   },
   {
@@ -188,7 +188,7 @@
     "original_az_name": "eu-central-1b",
     "original_region_name": "eu-central-1",
     "short_name": "euc1zb",
-    "short_name_with_provider": "awseuc1b",
+    "short_name_with_provider": "awseuc1zb",
     "az": "b"
   },
   {
@@ -196,7 +196,7 @@
     "original_az_name": "eu-central-1c",
     "original_region_name": "eu-central-1",
     "short_name": "euc1zc",
-    "short_name_with_provider": "awseuc1c",
+    "short_name_with_provider": "awseuc1zc",
     "az": "c"
   },
   {
@@ -204,7 +204,7 @@
     "original_az_name": "eu-north-1a",
     "original_region_name": "eu-north-1",
     "short_name": "eun1za",
-    "short_name_with_provider": "awseun1a",
+    "short_name_with_provider": "awseun1za",
     "az": "a"
   },
   {
@@ -212,7 +212,7 @@
     "original_az_name": "eu-north-1b",
     "original_region_name": "eu-north-1",
     "short_name": "eun1zb",
-    "short_name_with_provider": "awseun1b",
+    "short_name_with_provider": "awseun1zb",
     "az": "b"
   },
   {
@@ -220,7 +220,7 @@
     "original_az_name": "eu-north-1c",
     "original_region_name": "eu-north-1",
     "short_name": "eun1zc",
-    "short_name_with_provider": "awseun1c",
+    "short_name_with_provider": "awseun1zc",
     "az": "c"
   },
   {
@@ -228,7 +228,7 @@
     "original_az_name": "eu-west-1a",
     "original_region_name": "eu-west-1",
     "short_name": "euw1za",
-    "short_name_with_provider": "awseuw1a",
+    "short_name_with_provider": "awseuw1za",
     "az": "a"
   },
   {
@@ -236,7 +236,7 @@
     "original_az_name": "eu-west-1b",
     "original_region_name": "eu-west-1",
     "short_name": "euw1zb",
-    "short_name_with_provider": "awseuw1b",
+    "short_name_with_provider": "awseuw1zb",
     "az": "b"
   },
   {
@@ -244,7 +244,7 @@
     "original_az_name": "eu-west-1c",
     "original_region_name": "eu-west-1",
     "short_name": "euw1zc",
-    "short_name_with_provider": "awseuw1c",
+    "short_name_with_provider": "awseuw1zc",
     "az": "c"
   },
   {
@@ -252,7 +252,7 @@
     "original_az_name": "eu-west-2a",
     "original_region_name": "eu-west-2",
     "short_name": "euw2za",
-    "short_name_with_provider": "awseuw2a",
+    "short_name_with_provider": "awseuw2za",
     "az": "a"
   },
   {
@@ -260,7 +260,7 @@
     "original_az_name": "eu-west-2b",
     "original_region_name": "eu-west-2",
     "short_name": "euw2zb",
-    "short_name_with_provider": "awseuw2b",
+    "short_name_with_provider": "awseuw2zb",
     "az": "b"
   },
   {
@@ -268,7 +268,7 @@
     "original_az_name": "eu-west-2c",
     "original_region_name": "eu-west-2",
     "short_name": "euw2zc",
-    "short_name_with_provider": "awseuw2c",
+    "short_name_with_provider": "awseuw2zc",
     "az": "c"
   },
   {
@@ -276,7 +276,7 @@
     "original_az_name": "eu-west-3a",
     "original_region_name": "eu-west-3",
     "short_name": "euw3za",
-    "short_name_with_provider": "awseuw3a",
+    "short_name_with_provider": "awseuw3za",
     "az": "a"
   },
   {
@@ -284,7 +284,7 @@
     "original_az_name": "eu-west-3b",
     "original_region_name": "eu-west-3",
     "short_name": "euw3zb",
-    "short_name_with_provider": "awseuw3b",
+    "short_name_with_provider": "awseuw3zb",
     "az": "b"
   },
   {
@@ -292,7 +292,7 @@
     "original_az_name": "eu-west-3c",
     "original_region_name": "eu-west-3",
     "short_name": "euw3zc",
-    "short_name_with_provider": "awseuw3c",
+    "short_name_with_provider": "awseuw3zc",
     "az": "c"
   },
   {
@@ -300,7 +300,7 @@
     "original_az_name": "sa-east-1a",
     "original_region_name": "sa-east-1",
     "short_name": "sae1za",
-    "short_name_with_provider": "awssae1a",
+    "short_name_with_provider": "awssae1za",
     "az": "a"
   },
   {
@@ -308,7 +308,7 @@
     "original_az_name": "sa-east-1b",
     "original_region_name": "sa-east-1",
     "short_name": "sae1zb",
-    "short_name_with_provider": "awssae1b",
+    "short_name_with_provider": "awssae1zb",
     "az": "b"
   },
   {
@@ -316,7 +316,7 @@
     "original_az_name": "sa-east-1c",
     "original_region_name": "sa-east-1",
     "short_name": "sae1zc",
-    "short_name_with_provider": "awssae1c",
+    "short_name_with_provider": "awssae1zc",
     "az": "c"
   },
   {
@@ -324,7 +324,7 @@
     "original_az_name": "us-east-1a",
     "original_region_name": "us-east-1",
     "short_name": "use1za",
-    "short_name_with_provider": "awsuse1a",
+    "short_name_with_provider": "awsuse1za",
     "az": "a"
   },
   {
@@ -332,7 +332,7 @@
     "original_az_name": "us-east-1b",
     "original_region_name": "us-east-1",
     "short_name": "use1zb",
-    "short_name_with_provider": "awsuse1b",
+    "short_name_with_provider": "awsuse1zb",
     "az": "b"
   },
   {
@@ -340,7 +340,7 @@
     "original_az_name": "us-east-1c",
     "original_region_name": "us-east-1",
     "short_name": "use1zc",
-    "short_name_with_provider": "awsuse1c",
+    "short_name_with_provider": "awsuse1zc",
     "az": "c"
   },
   {
@@ -348,7 +348,7 @@
     "original_az_name": "us-east-1d",
     "original_region_name": "us-east-1",
     "short_name": "use1zd",
-    "short_name_with_provider": "awsuse1d",
+    "short_name_with_provider": "awsuse1zd",
     "az": "d"
   },
   {
@@ -356,7 +356,7 @@
     "original_az_name": "us-east-1e",
     "original_region_name": "us-east-1",
     "short_name": "use1ze",
-    "short_name_with_provider": "awsuse1e",
+    "short_name_with_provider": "awsuse1ze",
     "az": "e"
   },
   {
@@ -364,7 +364,7 @@
     "original_az_name": "us-east-1f",
     "original_region_name": "us-east-1",
     "short_name": "use1zf",
-    "short_name_with_provider": "awsuse1f",
+    "short_name_with_provider": "awsuse1zf",
     "az": "f"
   },
   {
@@ -372,7 +372,7 @@
     "original_az_name": "us-east-2a",
     "original_region_name": "us-east-2",
     "short_name": "use2za",
-    "short_name_with_provider": "awsuse2a",
+    "short_name_with_provider": "awsuse2za",
     "az": "a"
   },
   {
@@ -380,7 +380,7 @@
     "original_az_name": "us-east-2b",
     "original_region_name": "us-east-2",
     "short_name": "use2zb",
-    "short_name_with_provider": "awsuse2b",
+    "short_name_with_provider": "awsuse2zb",
     "az": "b"
   },
   {
@@ -388,7 +388,7 @@
     "original_az_name": "us-east-2c",
     "original_region_name": "us-east-2",
     "short_name": "use2zc",
-    "short_name_with_provider": "awsuse2c",
+    "short_name_with_provider": "awsuse2zc",
     "az": "c"
   },
   {
@@ -396,7 +396,7 @@
     "original_az_name": "us-west-1a",
     "original_region_name": "us-west-1",
     "short_name": "usw1za",
-    "short_name_with_provider": "awsusw1a",
+    "short_name_with_provider": "awsusw1za",
     "az": "a"
   },
   {
@@ -404,7 +404,7 @@
     "original_az_name": "us-west-1b",
     "original_region_name": "us-west-1",
     "short_name": "usw1zb",
-    "short_name_with_provider": "awsusw1b",
+    "short_name_with_provider": "awsusw1zb",
     "az": "b"
   },
   {
@@ -412,7 +412,7 @@
     "original_az_name": "us-west-2a",
     "original_region_name": "us-west-2",
     "short_name": "usw2za",
-    "short_name_with_provider": "awsusw2a",
+    "short_name_with_provider": "awsusw2za",
     "az": "a"
   },
   {
@@ -420,7 +420,7 @@
     "original_az_name": "us-west-2b",
     "original_region_name": "us-west-2",
     "short_name": "usw2zb",
-    "short_name_with_provider": "awsusw2b",
+    "short_name_with_provider": "awsusw2zb",
     "az": "b"
   },
   {
@@ -428,7 +428,7 @@
     "original_az_name": "us-west-2c",
     "original_region_name": "us-west-2",
     "short_name": "usw2zc",
-    "short_name_with_provider": "awsusw2c",
+    "short_name_with_provider": "awsusw2zc",
     "az": "c"
   },
   {
@@ -436,7 +436,7 @@
     "original_az_name": "us-west-2d",
     "original_region_name": "us-west-2",
     "short_name": "usw2zd",
-    "short_name_with_provider": "awsusw2d",
+    "short_name_with_provider": "awsusw2zd",
     "az": "d"
   },
   {
@@ -444,7 +444,7 @@
     "original_az_name": "africa-south1-a",
     "original_region_name": "africa-south1",
     "short_name": "afs1za",
-    "short_name_with_provider": "gcpafs1a",
+    "short_name_with_provider": "gcpafs1za",
     "az": "a"
   },
   {
@@ -452,7 +452,7 @@
     "original_az_name": "africa-south1-b",
     "original_region_name": "africa-south1",
     "short_name": "afs1zb",
-    "short_name_with_provider": "gcpafs1b",
+    "short_name_with_provider": "gcpafs1zb",
     "az": "b"
   },
   {
@@ -460,7 +460,7 @@
     "original_az_name": "africa-south1-c",
     "original_region_name": "africa-south1",
     "short_name": "afs1zc",
-    "short_name_with_provider": "gcpafs1c",
+    "short_name_with_provider": "gcpafs1zc",
     "az": "c"
   },
   {
@@ -468,7 +468,7 @@
     "original_az_name": "asia-east1-a",
     "original_region_name": "asia-east1",
     "short_name": "ase1za",
-    "short_name_with_provider": "gcpase1a",
+    "short_name_with_provider": "gcpase1za",
     "az": "a"
   },
   {
@@ -476,7 +476,7 @@
     "original_az_name": "asia-east1-b",
     "original_region_name": "asia-east1",
     "short_name": "ase1zb",
-    "short_name_with_provider": "gcpase1b",
+    "short_name_with_provider": "gcpase1zb",
     "az": "b"
   },
   {
@@ -484,7 +484,7 @@
     "original_az_name": "asia-east1-c",
     "original_region_name": "asia-east1",
     "short_name": "ase1zc",
-    "short_name_with_provider": "gcpase1c",
+    "short_name_with_provider": "gcpase1zc",
     "az": "c"
   },
   {
@@ -492,7 +492,7 @@
     "original_az_name": "asia-east2-a",
     "original_region_name": "asia-east2",
     "short_name": "ase2za",
-    "short_name_with_provider": "gcpase2a",
+    "short_name_with_provider": "gcpase2za",
     "az": "a"
   },
   {
@@ -500,7 +500,7 @@
     "original_az_name": "asia-east2-b",
     "original_region_name": "asia-east2",
     "short_name": "ase2zb",
-    "short_name_with_provider": "gcpase2b",
+    "short_name_with_provider": "gcpase2zb",
     "az": "b"
   },
   {
@@ -508,7 +508,7 @@
     "original_az_name": "asia-east2-c",
     "original_region_name": "asia-east2",
     "short_name": "ase2zc",
-    "short_name_with_provider": "gcpase2c",
+    "short_name_with_provider": "gcpase2zc",
     "az": "c"
   },
   {
@@ -516,7 +516,7 @@
     "original_az_name": "asia-northeast1-a",
     "original_region_name": "asia-northeast1",
     "short_name": "asne1za",
-    "short_name_with_provider": "gcpasne1a",
+    "short_name_with_provider": "gcpasne1za",
     "az": "a"
   },
   {
@@ -524,7 +524,7 @@
     "original_az_name": "asia-northeast1-b",
     "original_region_name": "asia-northeast1",
     "short_name": "asne1zb",
-    "short_name_with_provider": "gcpasne1b",
+    "short_name_with_provider": "gcpasne1zb",
     "az": "b"
   },
   {
@@ -532,7 +532,7 @@
     "original_az_name": "asia-northeast1-c",
     "original_region_name": "asia-northeast1",
     "short_name": "asne1zc",
-    "short_name_with_provider": "gcpasne1c",
+    "short_name_with_provider": "gcpasne1zc",
     "az": "c"
   },
   {
@@ -540,7 +540,7 @@
     "original_az_name": "asia-northeast2-a",
     "original_region_name": "asia-northeast2",
     "short_name": "asne2za",
-    "short_name_with_provider": "gcpasne2a",
+    "short_name_with_provider": "gcpasne2za",
     "az": "a"
   },
   {
@@ -548,7 +548,7 @@
     "original_az_name": "asia-northeast2-b",
     "original_region_name": "asia-northeast2",
     "short_name": "asne2zb",
-    "short_name_with_provider": "gcpasne2b",
+    "short_name_with_provider": "gcpasne2zb",
     "az": "b"
   },
   {
@@ -556,7 +556,7 @@
     "original_az_name": "asia-northeast2-c",
     "original_region_name": "asia-northeast2",
     "short_name": "asne2zc",
-    "short_name_with_provider": "gcpasne2c",
+    "short_name_with_provider": "gcpasne2zc",
     "az": "c"
   },
   {
@@ -564,7 +564,7 @@
     "original_az_name": "asia-northeast3-a",
     "original_region_name": "asia-northeast3",
     "short_name": "asne3za",
-    "short_name_with_provider": "gcpasne3a",
+    "short_name_with_provider": "gcpasne3za",
     "az": "a"
   },
   {
@@ -572,7 +572,7 @@
     "original_az_name": "asia-northeast3-b",
     "original_region_name": "asia-northeast3",
     "short_name": "asne3zb",
-    "short_name_with_provider": "gcpasne3b",
+    "short_name_with_provider": "gcpasne3zb",
     "az": "b"
   },
   {
@@ -580,7 +580,7 @@
     "original_az_name": "asia-northeast3-c",
     "original_region_name": "asia-northeast3",
     "short_name": "asne3zc",
-    "short_name_with_provider": "gcpasne3c",
+    "short_name_with_provider": "gcpasne3zc",
     "az": "c"
   },
   {
@@ -588,7 +588,7 @@
     "original_az_name": "asia-south1-a",
     "original_region_name": "asia-south1",
     "short_name": "ass1za",
-    "short_name_with_provider": "gcpass1a",
+    "short_name_with_provider": "gcpass1za",
     "az": "a"
   },
   {
@@ -596,7 +596,7 @@
     "original_az_name": "asia-south1-b",
     "original_region_name": "asia-south1",
     "short_name": "ass1zb",
-    "short_name_with_provider": "gcpass1b",
+    "short_name_with_provider": "gcpass1zb",
     "az": "b"
   },
   {
@@ -604,7 +604,7 @@
     "original_az_name": "asia-south1-c",
     "original_region_name": "asia-south1",
     "short_name": "ass1zc",
-    "short_name_with_provider": "gcpass1c",
+    "short_name_with_provider": "gcpass1zc",
     "az": "c"
   },
   {
@@ -612,7 +612,7 @@
     "original_az_name": "asia-south2-a",
     "original_region_name": "asia-south2",
     "short_name": "ass2za",
-    "short_name_with_provider": "gcpass2a",
+    "short_name_with_provider": "gcpass2za",
     "az": "a"
   },
   {
@@ -620,7 +620,7 @@
     "original_az_name": "asia-south2-b",
     "original_region_name": "asia-south2",
     "short_name": "ass2zb",
-    "short_name_with_provider": "gcpass2b",
+    "short_name_with_provider": "gcpass2zb",
     "az": "b"
   },
   {
@@ -628,7 +628,7 @@
     "original_az_name": "asia-south2-c",
     "original_region_name": "asia-south2",
     "short_name": "ass2zc",
-    "short_name_with_provider": "gcpass2c",
+    "short_name_with_provider": "gcpass2zc",
     "az": "c"
   },
   {
@@ -636,7 +636,7 @@
     "original_az_name": "asia-southeast1-a",
     "original_region_name": "asia-southeast1",
     "short_name": "asse1za",
-    "short_name_with_provider": "gcpasse1a",
+    "short_name_with_provider": "gcpasse1za",
     "az": "a"
   },
   {
@@ -644,7 +644,7 @@
     "original_az_name": "asia-southeast1-b",
     "original_region_name": "asia-southeast1",
     "short_name": "asse1zb",
-    "short_name_with_provider": "gcpasse1b",
+    "short_name_with_provider": "gcpasse1zb",
     "az": "b"
   },
   {
@@ -652,7 +652,7 @@
     "original_az_name": "asia-southeast1-c",
     "original_region_name": "asia-southeast1",
     "short_name": "asse1zc",
-    "short_name_with_provider": "gcpasse1c",
+    "short_name_with_provider": "gcpasse1zc",
     "az": "c"
   },
   {
@@ -660,7 +660,7 @@
     "original_az_name": "asia-southeast2-a",
     "original_region_name": "asia-southeast2",
     "short_name": "asse2za",
-    "short_name_with_provider": "gcpasse2a",
+    "short_name_with_provider": "gcpasse2za",
     "az": "a"
   },
   {
@@ -668,7 +668,7 @@
     "original_az_name": "asia-southeast2-b",
     "original_region_name": "asia-southeast2",
     "short_name": "asse2zb",
-    "short_name_with_provider": "gcpasse2b",
+    "short_name_with_provider": "gcpasse2zb",
     "az": "b"
   },
   {
@@ -676,7 +676,7 @@
     "original_az_name": "asia-southeast2-c",
     "original_region_name": "asia-southeast2",
     "short_name": "asse2zc",
-    "short_name_with_provider": "gcpasse2c",
+    "short_name_with_provider": "gcpasse2zc",
     "az": "c"
   },
   {
@@ -684,7 +684,7 @@
     "original_az_name": "australia-southeast1-a",
     "original_region_name": "australia-southeast1",
     "short_name": "ause1za",
-    "short_name_with_provider": "gcpause1a",
+    "short_name_with_provider": "gcpause1za",
     "az": "a"
   },
   {
@@ -692,7 +692,7 @@
     "original_az_name": "australia-southeast1-b",
     "original_region_name": "australia-southeast1",
     "short_name": "ause1zb",
-    "short_name_with_provider": "gcpause1b",
+    "short_name_with_provider": "gcpause1zb",
     "az": "b"
   },
   {
@@ -700,7 +700,7 @@
     "original_az_name": "australia-southeast1-c",
     "original_region_name": "australia-southeast1",
     "short_name": "ause1zc",
-    "short_name_with_provider": "gcpause1c",
+    "short_name_with_provider": "gcpause1zc",
     "az": "c"
   },
   {
@@ -708,7 +708,7 @@
     "original_az_name": "australia-southeast2-a",
     "original_region_name": "australia-southeast2",
     "short_name": "ause2za",
-    "short_name_with_provider": "gcpause2a",
+    "short_name_with_provider": "gcpause2za",
     "az": "a"
   },
   {
@@ -716,7 +716,7 @@
     "original_az_name": "australia-southeast2-b",
     "original_region_name": "australia-southeast2",
     "short_name": "ause2zb",
-    "short_name_with_provider": "gcpause2b",
+    "short_name_with_provider": "gcpause2zb",
     "az": "b"
   },
   {
@@ -724,7 +724,7 @@
     "original_az_name": "australia-southeast2-c",
     "original_region_name": "australia-southeast2",
     "short_name": "ause2zc",
-    "short_name_with_provider": "gcpause2c",
+    "short_name_with_provider": "gcpause2zc",
     "az": "c"
   },
   {
@@ -732,7 +732,7 @@
     "original_az_name": "europe-central2-a",
     "original_region_name": "europe-central2",
     "short_name": "euc2za",
-    "short_name_with_provider": "gcpeuc2a",
+    "short_name_with_provider": "gcpeuc2za",
     "az": "a"
   },
   {
@@ -740,7 +740,7 @@
     "original_az_name": "europe-central2-b",
     "original_region_name": "europe-central2",
     "short_name": "euc2zb",
-    "short_name_with_provider": "gcpeuc2b",
+    "short_name_with_provider": "gcpeuc2zb",
     "az": "b"
   },
   {
@@ -748,7 +748,7 @@
     "original_az_name": "europe-central2-c",
     "original_region_name": "europe-central2",
     "short_name": "euc2zc",
-    "short_name_with_provider": "gcpeuc2c",
+    "short_name_with_provider": "gcpeuc2zc",
     "az": "c"
   },
   {
@@ -756,7 +756,7 @@
     "original_az_name": "europe-north1-a",
     "original_region_name": "europe-north1",
     "short_name": "eun1za",
-    "short_name_with_provider": "gcpeun1a",
+    "short_name_with_provider": "gcpeun1za",
     "az": "a"
   },
   {
@@ -764,7 +764,7 @@
     "original_az_name": "europe-north1-b",
     "original_region_name": "europe-north1",
     "short_name": "eun1zb",
-    "short_name_with_provider": "gcpeun1b",
+    "short_name_with_provider": "gcpeun1zb",
     "az": "b"
   },
   {
@@ -772,7 +772,7 @@
     "original_az_name": "europe-north1-c",
     "original_region_name": "europe-north1",
     "short_name": "eun1zc",
-    "short_name_with_provider": "gcpeun1c",
+    "short_name_with_provider": "gcpeun1zc",
     "az": "c"
   },
   {
@@ -780,7 +780,7 @@
     "original_az_name": "europe-southwest1-a",
     "original_region_name": "europe-southwest1",
     "short_name": "eusw1za",
-    "short_name_with_provider": "gcpeusw1a",
+    "short_name_with_provider": "gcpeusw1za",
     "az": "a"
   },
   {
@@ -788,7 +788,7 @@
     "original_az_name": "europe-southwest1-b",
     "original_region_name": "europe-southwest1",
     "short_name": "eusw1zb",
-    "short_name_with_provider": "gcpeusw1b",
+    "short_name_with_provider": "gcpeusw1zb",
     "az": "b"
   },
   {
@@ -796,7 +796,7 @@
     "original_az_name": "europe-southwest1-c",
     "original_region_name": "europe-southwest1",
     "short_name": "eusw1zc",
-    "short_name_with_provider": "gcpeusw1c",
+    "short_name_with_provider": "gcpeusw1zc",
     "az": "c"
   },
   {
@@ -804,7 +804,7 @@
     "original_az_name": "europe-west1-b",
     "original_region_name": "europe-west1",
     "short_name": "euw1zb",
-    "short_name_with_provider": "gcpeuw1b",
+    "short_name_with_provider": "gcpeuw1zb",
     "az": "b"
   },
   {
@@ -812,7 +812,7 @@
     "original_az_name": "europe-west1-c",
     "original_region_name": "europe-west1",
     "short_name": "euw1zc",
-    "short_name_with_provider": "gcpeuw1c",
+    "short_name_with_provider": "gcpeuw1zc",
     "az": "c"
   },
   {
@@ -820,7 +820,7 @@
     "original_az_name": "europe-west1-d",
     "original_region_name": "europe-west1",
     "short_name": "euw1zd",
-    "short_name_with_provider": "gcpeuw1d",
+    "short_name_with_provider": "gcpeuw1zd",
     "az": "d"
   },
   {
@@ -828,7 +828,7 @@
     "original_az_name": "europe-west10-a",
     "original_region_name": "europe-west10",
     "short_name": "euw10za",
-    "short_name_with_provider": "gcpeuw10a",
+    "short_name_with_provider": "gcpeuw10za",
     "az": "a"
   },
   {
@@ -836,7 +836,7 @@
     "original_az_name": "europe-west10-b",
     "original_region_name": "europe-west10",
     "short_name": "euw10zb",
-    "short_name_with_provider": "gcpeuw10b",
+    "short_name_with_provider": "gcpeuw10zb",
     "az": "b"
   },
   {
@@ -844,7 +844,7 @@
     "original_az_name": "europe-west10-c",
     "original_region_name": "europe-west10",
     "short_name": "euw10zc",
-    "short_name_with_provider": "gcpeuw10c",
+    "short_name_with_provider": "gcpeuw10zc",
     "az": "c"
   },
   {
@@ -852,7 +852,7 @@
     "original_az_name": "europe-west12-a",
     "original_region_name": "europe-west12",
     "short_name": "euw12za",
-    "short_name_with_provider": "gcpeuw12a",
+    "short_name_with_provider": "gcpeuw12za",
     "az": "a"
   },
   {
@@ -860,7 +860,7 @@
     "original_az_name": "europe-west12-b",
     "original_region_name": "europe-west12",
     "short_name": "euw12zb",
-    "short_name_with_provider": "gcpeuw12b",
+    "short_name_with_provider": "gcpeuw12zb",
     "az": "b"
   },
   {
@@ -868,7 +868,7 @@
     "original_az_name": "europe-west12-c",
     "original_region_name": "europe-west12",
     "short_name": "euw12zc",
-    "short_name_with_provider": "gcpeuw12c",
+    "short_name_with_provider": "gcpeuw12zc",
     "az": "c"
   },
   {
@@ -876,7 +876,7 @@
     "original_az_name": "europe-west2-a",
     "original_region_name": "europe-west2",
     "short_name": "euw2za",
-    "short_name_with_provider": "gcpeuw2a",
+    "short_name_with_provider": "gcpeuw2za",
     "az": "a"
   },
   {
@@ -884,7 +884,7 @@
     "original_az_name": "europe-west2-b",
     "original_region_name": "europe-west2",
     "short_name": "euw2zb",
-    "short_name_with_provider": "gcpeuw2b",
+    "short_name_with_provider": "gcpeuw2zb",
     "az": "b"
   },
   {
@@ -892,7 +892,7 @@
     "original_az_name": "europe-west2-c",
     "original_region_name": "europe-west2",
     "short_name": "euw2zc",
-    "short_name_with_provider": "gcpeuw2c",
+    "short_name_with_provider": "gcpeuw2zc",
     "az": "c"
   },
   {
@@ -900,7 +900,7 @@
     "original_az_name": "europe-west3-a",
     "original_region_name": "europe-west3",
     "short_name": "euw3za",
-    "short_name_with_provider": "gcpeuw3a",
+    "short_name_with_provider": "gcpeuw3za",
     "az": "a"
   },
   {
@@ -908,7 +908,7 @@
     "original_az_name": "europe-west3-b",
     "original_region_name": "europe-west3",
     "short_name": "euw3zb",
-    "short_name_with_provider": "gcpeuw3b",
+    "short_name_with_provider": "gcpeuw3zb",
     "az": "b"
   },
   {
@@ -916,7 +916,7 @@
     "original_az_name": "europe-west3-c",
     "original_region_name": "europe-west3",
     "short_name": "euw3zc",
-    "short_name_with_provider": "gcpeuw3c",
+    "short_name_with_provider": "gcpeuw3zc",
     "az": "c"
   },
   {
@@ -924,7 +924,7 @@
     "original_az_name": "europe-west4-a",
     "original_region_name": "europe-west4",
     "short_name": "euw4za",
-    "short_name_with_provider": "gcpeuw4a",
+    "short_name_with_provider": "gcpeuw4za",
     "az": "a"
   },
   {
@@ -932,7 +932,7 @@
     "original_az_name": "europe-west4-b",
     "original_region_name": "europe-west4",
     "short_name": "euw4zb",
-    "short_name_with_provider": "gcpeuw4b",
+    "short_name_with_provider": "gcpeuw4zb",
     "az": "b"
   },
   {
@@ -940,7 +940,7 @@
     "original_az_name": "europe-west4-c",
     "original_region_name": "europe-west4",
     "short_name": "euw4zc",
-    "short_name_with_provider": "gcpeuw4c",
+    "short_name_with_provider": "gcpeuw4zc",
     "az": "c"
   },
   {
@@ -948,7 +948,7 @@
     "original_az_name": "europe-west6-a",
     "original_region_name": "europe-west6",
     "short_name": "euw6za",
-    "short_name_with_provider": "gcpeuw6a",
+    "short_name_with_provider": "gcpeuw6za",
     "az": "a"
   },
   {
@@ -956,7 +956,7 @@
     "original_az_name": "europe-west6-b",
     "original_region_name": "europe-west6",
     "short_name": "euw6zb",
-    "short_name_with_provider": "gcpeuw6b",
+    "short_name_with_provider": "gcpeuw6zb",
     "az": "b"
   },
   {
@@ -964,7 +964,7 @@
     "original_az_name": "europe-west6-c",
     "original_region_name": "europe-west6",
     "short_name": "euw6zc",
-    "short_name_with_provider": "gcpeuw6c",
+    "short_name_with_provider": "gcpeuw6zc",
     "az": "c"
   },
   {
@@ -972,7 +972,7 @@
     "original_az_name": "europe-west8-a",
     "original_region_name": "europe-west8",
     "short_name": "euw8za",
-    "short_name_with_provider": "gcpeuw8a",
+    "short_name_with_provider": "gcpeuw8za",
     "az": "a"
   },
   {
@@ -980,7 +980,7 @@
     "original_az_name": "europe-west8-b",
     "original_region_name": "europe-west8",
     "short_name": "euw8zb",
-    "short_name_with_provider": "gcpeuw8b",
+    "short_name_with_provider": "gcpeuw8zb",
     "az": "b"
   },
   {
@@ -988,7 +988,7 @@
     "original_az_name": "europe-west8-c",
     "original_region_name": "europe-west8",
     "short_name": "euw8zc",
-    "short_name_with_provider": "gcpeuw8c",
+    "short_name_with_provider": "gcpeuw8zc",
     "az": "c"
   },
   {
@@ -996,7 +996,7 @@
     "original_az_name": "europe-west9-a",
     "original_region_name": "europe-west9",
     "short_name": "euw9za",
-    "short_name_with_provider": "gcpeuw9a",
+    "short_name_with_provider": "gcpeuw9za",
     "az": "a"
   },
   {
@@ -1004,7 +1004,7 @@
     "original_az_name": "europe-west9-b",
     "original_region_name": "europe-west9",
     "short_name": "euw9zb",
-    "short_name_with_provider": "gcpeuw9b",
+    "short_name_with_provider": "gcpeuw9zb",
     "az": "b"
   },
   {
@@ -1012,7 +1012,7 @@
     "original_az_name": "europe-west9-c",
     "original_region_name": "europe-west9",
     "short_name": "euw9zc",
-    "short_name_with_provider": "gcpeuw9c",
+    "short_name_with_provider": "gcpeuw9zc",
     "az": "c"
   },
   {
@@ -1020,7 +1020,7 @@
     "original_az_name": "me-central1-a",
     "original_region_name": "me-central1",
     "short_name": "mec1za",
-    "short_name_with_provider": "gcpmec1a",
+    "short_name_with_provider": "gcpmec1za",
     "az": "a"
   },
   {
@@ -1028,7 +1028,7 @@
     "original_az_name": "me-central1-b",
     "original_region_name": "me-central1",
     "short_name": "mec1zb",
-    "short_name_with_provider": "gcpmec1b",
+    "short_name_with_provider": "gcpmec1zb",
     "az": "b"
   },
   {
@@ -1036,7 +1036,7 @@
     "original_az_name": "me-central1-c",
     "original_region_name": "me-central1",
     "short_name": "mec1zc",
-    "short_name_with_provider": "gcpmec1c",
+    "short_name_with_provider": "gcpmec1zc",
     "az": "c"
   },
   {
@@ -1044,7 +1044,7 @@
     "original_az_name": "me-central2-a",
     "original_region_name": "me-central2",
     "short_name": "mec2za",
-    "short_name_with_provider": "gcpmec2a",
+    "short_name_with_provider": "gcpmec2za",
     "az": "a"
   },
   {
@@ -1052,7 +1052,7 @@
     "original_az_name": "me-central2-b",
     "original_region_name": "me-central2",
     "short_name": "mec2zb",
-    "short_name_with_provider": "gcpmec2b",
+    "short_name_with_provider": "gcpmec2zb",
     "az": "b"
   },
   {
@@ -1060,7 +1060,7 @@
     "original_az_name": "me-central2-c",
     "original_region_name": "me-central2",
     "short_name": "mec2zc",
-    "short_name_with_provider": "gcpmec2c",
+    "short_name_with_provider": "gcpmec2zc",
     "az": "c"
   },
   {
@@ -1068,7 +1068,7 @@
     "original_az_name": "me-west1-a",
     "original_region_name": "me-west1",
     "short_name": "mew1za",
-    "short_name_with_provider": "gcpmew1a",
+    "short_name_with_provider": "gcpmew1za",
     "az": "a"
   },
   {
@@ -1076,7 +1076,7 @@
     "original_az_name": "me-west1-b",
     "original_region_name": "me-west1",
     "short_name": "mew1zb",
-    "short_name_with_provider": "gcpmew1b",
+    "short_name_with_provider": "gcpmew1zb",
     "az": "b"
   },
   {
@@ -1084,7 +1084,7 @@
     "original_az_name": "me-west1-c",
     "original_region_name": "me-west1",
     "short_name": "mew1zc",
-    "short_name_with_provider": "gcpmew1c",
+    "short_name_with_provider": "gcpmew1zc",
     "az": "c"
   },
   {
@@ -1092,7 +1092,7 @@
     "original_az_name": "northamerica-northeast1-a",
     "original_region_name": "northamerica-northeast1",
     "short_name": "nane1za",
-    "short_name_with_provider": "gcpnane1a",
+    "short_name_with_provider": "gcpnane1za",
     "az": "a"
   },
   {
@@ -1100,7 +1100,7 @@
     "original_az_name": "northamerica-northeast1-b",
     "original_region_name": "northamerica-northeast1",
     "short_name": "nane1zb",
-    "short_name_with_provider": "gcpnane1b",
+    "short_name_with_provider": "gcpnane1zb",
     "az": "b"
   },
   {
@@ -1108,7 +1108,7 @@
     "original_az_name": "northamerica-northeast1-c",
     "original_region_name": "northamerica-northeast1",
     "short_name": "nane1zc",
-    "short_name_with_provider": "gcpnane1c",
+    "short_name_with_provider": "gcpnane1zc",
     "az": "c"
   },
   {
@@ -1116,7 +1116,7 @@
     "original_az_name": "northamerica-northeast2-a",
     "original_region_name": "northamerica-northeast2",
     "short_name": "nane2za",
-    "short_name_with_provider": "gcpnane2a",
+    "short_name_with_provider": "gcpnane2za",
     "az": "a"
   },
   {
@@ -1124,7 +1124,7 @@
     "original_az_name": "northamerica-northeast2-b",
     "original_region_name": "northamerica-northeast2",
     "short_name": "nane2zb",
-    "short_name_with_provider": "gcpnane2b",
+    "short_name_with_provider": "gcpnane2zb",
     "az": "b"
   },
   {
@@ -1132,7 +1132,7 @@
     "original_az_name": "northamerica-northeast2-c",
     "original_region_name": "northamerica-northeast2",
     "short_name": "nane2zc",
-    "short_name_with_provider": "gcpnane2c",
+    "short_name_with_provider": "gcpnane2zc",
     "az": "c"
   },
   {
@@ -1140,7 +1140,7 @@
     "original_az_name": "southamerica-east1-a",
     "original_region_name": "southamerica-east1",
     "short_name": "sae1za",
-    "short_name_with_provider": "gcpsae1a",
+    "short_name_with_provider": "gcpsae1za",
     "az": "a"
   },
   {
@@ -1148,7 +1148,7 @@
     "original_az_name": "southamerica-east1-b",
     "original_region_name": "southamerica-east1",
     "short_name": "sae1zb",
-    "short_name_with_provider": "gcpsae1b",
+    "short_name_with_provider": "gcpsae1zb",
     "az": "b"
   },
   {
@@ -1156,7 +1156,7 @@
     "original_az_name": "southamerica-east1-c",
     "original_region_name": "southamerica-east1",
     "short_name": "sae1zc",
-    "short_name_with_provider": "gcpsae1c",
+    "short_name_with_provider": "gcpsae1zc",
     "az": "c"
   },
   {
@@ -1164,7 +1164,7 @@
     "original_az_name": "southamerica-west1-a",
     "original_region_name": "southamerica-west1",
     "short_name": "saw1za",
-    "short_name_with_provider": "gcpsaw1a",
+    "short_name_with_provider": "gcpsaw1za",
     "az": "a"
   },
   {
@@ -1172,7 +1172,7 @@
     "original_az_name": "southamerica-west1-b",
     "original_region_name": "southamerica-west1",
     "short_name": "saw1zb",
-    "short_name_with_provider": "gcpsaw1b",
+    "short_name_with_provider": "gcpsaw1zb",
     "az": "b"
   },
   {
@@ -1180,7 +1180,7 @@
     "original_az_name": "southamerica-west1-c",
     "original_region_name": "southamerica-west1",
     "short_name": "saw1zc",
-    "short_name_with_provider": "gcpsaw1c",
+    "short_name_with_provider": "gcpsaw1zc",
     "az": "c"
   },
   {
@@ -1188,7 +1188,7 @@
     "original_az_name": "us-central1-a",
     "original_region_name": "us-central1",
     "short_name": "usc1za",
-    "short_name_with_provider": "gcpusc1a",
+    "short_name_with_provider": "gcpusc1za",
     "az": "a"
   },
   {
@@ -1196,7 +1196,7 @@
     "original_az_name": "us-central1-b",
     "original_region_name": "us-central1",
     "short_name": "usc1zb",
-    "short_name_with_provider": "gcpusc1b",
+    "short_name_with_provider": "gcpusc1zb",
     "az": "b"
   },
   {
@@ -1204,7 +1204,7 @@
     "original_az_name": "us-central1-c",
     "original_region_name": "us-central1",
     "short_name": "usc1zc",
-    "short_name_with_provider": "gcpusc1c",
+    "short_name_with_provider": "gcpusc1zc",
     "az": "c"
   },
   {
@@ -1212,7 +1212,7 @@
     "original_az_name": "us-central1-f",
     "original_region_name": "us-central1",
     "short_name": "usc1zf",
-    "short_name_with_provider": "gcpusc1f",
+    "short_name_with_provider": "gcpusc1zf",
     "az": "f"
   },
   {
@@ -1220,7 +1220,7 @@
     "original_az_name": "us-east1-b",
     "original_region_name": "us-east1",
     "short_name": "use1zb",
-    "short_name_with_provider": "gcpuse1b",
+    "short_name_with_provider": "gcpuse1zb",
     "az": "b"
   },
   {
@@ -1228,7 +1228,7 @@
     "original_az_name": "us-east1-c",
     "original_region_name": "us-east1",
     "short_name": "use1zc",
-    "short_name_with_provider": "gcpuse1c",
+    "short_name_with_provider": "gcpuse1zc",
     "az": "c"
   },
   {
@@ -1236,7 +1236,7 @@
     "original_az_name": "us-east1-d",
     "original_region_name": "us-east1",
     "short_name": "use1zd",
-    "short_name_with_provider": "gcpuse1d",
+    "short_name_with_provider": "gcpuse1zd",
     "az": "d"
   },
   {
@@ -1244,7 +1244,7 @@
     "original_az_name": "us-east4-a",
     "original_region_name": "us-east4",
     "short_name": "use4za",
-    "short_name_with_provider": "gcpuse4a",
+    "short_name_with_provider": "gcpuse4za",
     "az": "a"
   },
   {
@@ -1252,7 +1252,7 @@
     "original_az_name": "us-east4-b",
     "original_region_name": "us-east4",
     "short_name": "use4zb",
-    "short_name_with_provider": "gcpuse4b",
+    "short_name_with_provider": "gcpuse4zb",
     "az": "b"
   },
   {
@@ -1260,7 +1260,7 @@
     "original_az_name": "us-east4-c",
     "original_region_name": "us-east4",
     "short_name": "use4zc",
-    "short_name_with_provider": "gcpuse4c",
+    "short_name_with_provider": "gcpuse4zc",
     "az": "c"
   },
   {
@@ -1268,7 +1268,7 @@
     "original_az_name": "us-east5-a",
     "original_region_name": "us-east5",
     "short_name": "use5za",
-    "short_name_with_provider": "gcpuse5a",
+    "short_name_with_provider": "gcpuse5za",
     "az": "a"
   },
   {
@@ -1276,7 +1276,7 @@
     "original_az_name": "us-east5-b",
     "original_region_name": "us-east5",
     "short_name": "use5zb",
-    "short_name_with_provider": "gcpuse5b",
+    "short_name_with_provider": "gcpuse5zb",
     "az": "b"
   },
   {
@@ -1284,7 +1284,7 @@
     "original_az_name": "us-east5-c",
     "original_region_name": "us-east5",
     "short_name": "use5zc",
-    "short_name_with_provider": "gcpuse5c",
+    "short_name_with_provider": "gcpuse5zc",
     "az": "c"
   },
   {
@@ -1292,7 +1292,7 @@
     "original_az_name": "us-south1-a",
     "original_region_name": "us-south1",
     "short_name": "uss1za",
-    "short_name_with_provider": "gcpuss1a",
+    "short_name_with_provider": "gcpuss1za",
     "az": "a"
   },
   {
@@ -1300,7 +1300,7 @@
     "original_az_name": "us-south1-b",
     "original_region_name": "us-south1",
     "short_name": "uss1zb",
-    "short_name_with_provider": "gcpuss1b",
+    "short_name_with_provider": "gcpuss1zb",
     "az": "b"
   },
   {
@@ -1308,7 +1308,7 @@
     "original_az_name": "us-south1-c",
     "original_region_name": "us-south1",
     "short_name": "uss1zc",
-    "short_name_with_provider": "gcpuss1c",
+    "short_name_with_provider": "gcpuss1zc",
     "az": "c"
   },
   {
@@ -1316,7 +1316,7 @@
     "original_az_name": "us-west1-a",
     "original_region_name": "us-west1",
     "short_name": "usw1za",
-    "short_name_with_provider": "gcpusw1a",
+    "short_name_with_provider": "gcpusw1za",
     "az": "a"
   },
   {
@@ -1324,7 +1324,7 @@
     "original_az_name": "us-west1-b",
     "original_region_name": "us-west1",
     "short_name": "usw1zb",
-    "short_name_with_provider": "gcpusw1b",
+    "short_name_with_provider": "gcpusw1zb",
     "az": "b"
   },
   {
@@ -1332,7 +1332,7 @@
     "original_az_name": "us-west1-c",
     "original_region_name": "us-west1",
     "short_name": "usw1zc",
-    "short_name_with_provider": "gcpusw1c",
+    "short_name_with_provider": "gcpusw1zc",
     "az": "c"
   },
   {
@@ -1340,7 +1340,7 @@
     "original_az_name": "us-west2-a",
     "original_region_name": "us-west2",
     "short_name": "usw2za",
-    "short_name_with_provider": "gcpusw2a",
+    "short_name_with_provider": "gcpusw2za",
     "az": "a"
   },
   {
@@ -1348,7 +1348,7 @@
     "original_az_name": "us-west2-b",
     "original_region_name": "us-west2",
     "short_name": "usw2zb",
-    "short_name_with_provider": "gcpusw2b",
+    "short_name_with_provider": "gcpusw2zb",
     "az": "b"
   },
   {
@@ -1356,7 +1356,7 @@
     "original_az_name": "us-west2-c",
     "original_region_name": "us-west2",
     "short_name": "usw2zc",
-    "short_name_with_provider": "gcpusw2c",
+    "short_name_with_provider": "gcpusw2zc",
     "az": "c"
   },
   {
@@ -1364,7 +1364,7 @@
     "original_az_name": "us-west3-a",
     "original_region_name": "us-west3",
     "short_name": "usw3za",
-    "short_name_with_provider": "gcpusw3a",
+    "short_name_with_provider": "gcpusw3za",
     "az": "a"
   },
   {
@@ -1372,7 +1372,7 @@
     "original_az_name": "us-west3-b",
     "original_region_name": "us-west3",
     "short_name": "usw3zb",
-    "short_name_with_provider": "gcpusw3b",
+    "short_name_with_provider": "gcpusw3zb",
     "az": "b"
   },
   {
@@ -1380,7 +1380,7 @@
     "original_az_name": "us-west3-c",
     "original_region_name": "us-west3",
     "short_name": "usw3zc",
-    "short_name_with_provider": "gcpusw3c",
+    "short_name_with_provider": "gcpusw3zc",
     "az": "c"
   },
   {
@@ -1388,7 +1388,7 @@
     "original_az_name": "us-west4-a",
     "original_region_name": "us-west4",
     "short_name": "usw4za",
-    "short_name_with_provider": "gcpusw4a",
+    "short_name_with_provider": "gcpusw4za",
     "az": "a"
   },
   {
@@ -1396,7 +1396,7 @@
     "original_az_name": "us-west4-b",
     "original_region_name": "us-west4",
     "short_name": "usw4zb",
-    "short_name_with_provider": "gcpusw4b",
+    "short_name_with_provider": "gcpusw4zb",
     "az": "b"
   },
   {
@@ -1404,7 +1404,7 @@
     "original_az_name": "us-west4-c",
     "original_region_name": "us-west4",
     "short_name": "usw4zc",
-    "short_name_with_provider": "gcpusw4c",
+    "short_name_with_provider": "gcpusw4zc",
     "az": "c"
   },
   {
@@ -1412,7 +1412,7 @@
     "original_az_name": "australiaeast-az1",
     "original_region_name": "australiaeast",
     "short_name": "auez1",
-    "short_name_with_provider": "azuaue1",
+    "short_name_with_provider": "azuauez1",
     "az": "1"
   },
   {
@@ -1420,7 +1420,7 @@
     "original_az_name": "australiaeast-az2",
     "original_region_name": "australiaeast",
     "short_name": "auez2",
-    "short_name_with_provider": "azuaue2",
+    "short_name_with_provider": "azuauez2",
     "az": "2"
   },
   {
@@ -1428,7 +1428,7 @@
     "original_az_name": "australiaeast-az3",
     "original_region_name": "australiaeast",
     "short_name": "auez3",
-    "short_name_with_provider": "azuaue3",
+    "short_name_with_provider": "azuauez3",
     "az": "3"
   },
   {
@@ -1436,7 +1436,7 @@
     "original_az_name": "brazilsouth-az1",
     "original_region_name": "brazilsouth",
     "short_name": "brsz1",
-    "short_name_with_provider": "azubrs1",
+    "short_name_with_provider": "azubrsz1",
     "az": "1"
   },
   {
@@ -1444,7 +1444,7 @@
     "original_az_name": "brazilsouth-az2",
     "original_region_name": "brazilsouth",
     "short_name": "brsz2",
-    "short_name_with_provider": "azubrs2",
+    "short_name_with_provider": "azubrsz2",
     "az": "2"
   },
   {
@@ -1452,7 +1452,7 @@
     "original_az_name": "brazilsouth-az3",
     "original_region_name": "brazilsouth",
     "short_name": "brsz3",
-    "short_name_with_provider": "azubrs3",
+    "short_name_with_provider": "azubrsz3",
     "az": "3"
   },
   {
@@ -1460,7 +1460,7 @@
     "original_az_name": "canadacentral-az1",
     "original_region_name": "canadacentral",
     "short_name": "cacz1",
-    "short_name_with_provider": "azucac1",
+    "short_name_with_provider": "azucacz1",
     "az": "1"
   },
   {
@@ -1468,7 +1468,7 @@
     "original_az_name": "canadacentral-az2",
     "original_region_name": "canadacentral",
     "short_name": "cacz2",
-    "short_name_with_provider": "azucac2",
+    "short_name_with_provider": "azucacz2",
     "az": "2"
   },
   {
@@ -1476,7 +1476,7 @@
     "original_az_name": "canadacentral-az3",
     "original_region_name": "canadacentral",
     "short_name": "cacz3",
-    "short_name_with_provider": "azucac3",
+    "short_name_with_provider": "azucacz3",
     "az": "3"
   },
   {
@@ -1484,7 +1484,7 @@
     "original_az_name": "centralindia-az1",
     "original_region_name": "centralindia",
     "short_name": "incz1",
-    "short_name_with_provider": "azuinc1",
+    "short_name_with_provider": "azuincz1",
     "az": "1"
   },
   {
@@ -1492,7 +1492,7 @@
     "original_az_name": "centralindia-az2",
     "original_region_name": "centralindia",
     "short_name": "incz2",
-    "short_name_with_provider": "azuinc2",
+    "short_name_with_provider": "azuincz2",
     "az": "2"
   },
   {
@@ -1500,7 +1500,7 @@
     "original_az_name": "centralindia-az3",
     "original_region_name": "centralindia",
     "short_name": "incz3",
-    "short_name_with_provider": "azuinc3",
+    "short_name_with_provider": "azuincz3",
     "az": "3"
   },
   {
@@ -1508,7 +1508,7 @@
     "original_az_name": "centralus-az1",
     "original_region_name": "centralus",
     "short_name": "uscz1",
-    "short_name_with_provider": "azuusc1",
+    "short_name_with_provider": "azuuscz1",
     "az": "1"
   },
   {
@@ -1516,7 +1516,7 @@
     "original_az_name": "centralus-az2",
     "original_region_name": "centralus",
     "short_name": "uscz2",
-    "short_name_with_provider": "azuusc2",
+    "short_name_with_provider": "azuuscz2",
     "az": "2"
   },
   {
@@ -1524,7 +1524,7 @@
     "original_az_name": "centralus-az3",
     "original_region_name": "centralus",
     "short_name": "uscz3",
-    "short_name_with_provider": "azuusc3",
+    "short_name_with_provider": "azuuscz3",
     "az": "3"
   },
   {
@@ -1532,7 +1532,7 @@
     "original_az_name": "eastasia-az1",
     "original_region_name": "eastasia",
     "short_name": "asez1",
-    "short_name_with_provider": "azuase1",
+    "short_name_with_provider": "azuasez1",
     "az": "1"
   },
   {
@@ -1540,7 +1540,7 @@
     "original_az_name": "eastasia-az2",
     "original_region_name": "eastasia",
     "short_name": "asez2",
-    "short_name_with_provider": "azuase2",
+    "short_name_with_provider": "azuasez2",
     "az": "2"
   },
   {
@@ -1548,7 +1548,7 @@
     "original_az_name": "eastasia-az3",
     "original_region_name": "eastasia",
     "short_name": "asez3",
-    "short_name_with_provider": "azuase3",
+    "short_name_with_provider": "azuasez3",
     "az": "3"
   },
   {
@@ -1556,7 +1556,7 @@
     "original_az_name": "eastus-az1",
     "original_region_name": "eastus",
     "short_name": "usez1",
-    "short_name_with_provider": "azuuse1",
+    "short_name_with_provider": "azuusez1",
     "az": "1"
   },
   {
@@ -1564,7 +1564,7 @@
     "original_az_name": "eastus-az2",
     "original_region_name": "eastus",
     "short_name": "usez2",
-    "short_name_with_provider": "azuuse2",
+    "short_name_with_provider": "azuusez2",
     "az": "2"
   },
   {
@@ -1572,7 +1572,7 @@
     "original_az_name": "eastus-az3",
     "original_region_name": "eastus",
     "short_name": "usez3",
-    "short_name_with_provider": "azuuse3",
+    "short_name_with_provider": "azuusez3",
     "az": "3"
   },
   {
@@ -1580,7 +1580,7 @@
     "original_az_name": "eastus2-az1",
     "original_region_name": "eastus2",
     "short_name": "use2z1",
-    "short_name_with_provider": "azuuse21",
+    "short_name_with_provider": "azuuse2z1",
     "az": "1"
   },
   {
@@ -1588,7 +1588,7 @@
     "original_az_name": "eastus2-az2",
     "original_region_name": "eastus2",
     "short_name": "use2z2",
-    "short_name_with_provider": "azuuse22",
+    "short_name_with_provider": "azuuse2z2",
     "az": "2"
   },
   {
@@ -1596,7 +1596,7 @@
     "original_az_name": "eastus2-az3",
     "original_region_name": "eastus2",
     "short_name": "use2z3",
-    "short_name_with_provider": "azuuse23",
+    "short_name_with_provider": "azuuse2z3",
     "az": "3"
   },
   {
@@ -1604,7 +1604,7 @@
     "original_az_name": "francecentral-az1",
     "original_region_name": "francecentral",
     "short_name": "frcz1",
-    "short_name_with_provider": "azufrc1",
+    "short_name_with_provider": "azufrcz1",
     "az": "1"
   },
   {
@@ -1612,7 +1612,7 @@
     "original_az_name": "francecentral-az2",
     "original_region_name": "francecentral",
     "short_name": "frcz2",
-    "short_name_with_provider": "azufrc2",
+    "short_name_with_provider": "azufrcz2",
     "az": "2"
   },
   {
@@ -1620,7 +1620,7 @@
     "original_az_name": "francecentral-az3",
     "original_region_name": "francecentral",
     "short_name": "frcz3",
-    "short_name_with_provider": "azufrc3",
+    "short_name_with_provider": "azufrcz3",
     "az": "3"
   },
   {
@@ -1628,7 +1628,7 @@
     "original_az_name": "germanywestcentral-az1",
     "original_region_name": "germanywestcentral",
     "short_name": "dewcz1",
-    "short_name_with_provider": "azudewc1",
+    "short_name_with_provider": "azudewcz1",
     "az": "1"
   },
   {
@@ -1636,7 +1636,7 @@
     "original_az_name": "germanywestcentral-az2",
     "original_region_name": "germanywestcentral",
     "short_name": "dewcz2",
-    "short_name_with_provider": "azudewc2",
+    "short_name_with_provider": "azudewcz2",
     "az": "2"
   },
   {
@@ -1644,7 +1644,7 @@
     "original_az_name": "germanywestcentral-az3",
     "original_region_name": "germanywestcentral",
     "short_name": "dewcz3",
-    "short_name_with_provider": "azudewc3",
+    "short_name_with_provider": "azudewcz3",
     "az": "3"
   },
   {
@@ -1652,7 +1652,7 @@
     "original_az_name": "israelcentral-az1",
     "original_region_name": "israelcentral",
     "short_name": "ilcz1",
-    "short_name_with_provider": "azuilc1",
+    "short_name_with_provider": "azuilcz1",
     "az": "1"
   },
   {
@@ -1660,7 +1660,7 @@
     "original_az_name": "israelcentral-az2",
     "original_region_name": "israelcentral",
     "short_name": "ilcz2",
-    "short_name_with_provider": "azuilc2",
+    "short_name_with_provider": "azuilcz2",
     "az": "2"
   },
   {
@@ -1668,7 +1668,7 @@
     "original_az_name": "israelcentral-az3",
     "original_region_name": "israelcentral",
     "short_name": "ilcz3",
-    "short_name_with_provider": "azuilc3",
+    "short_name_with_provider": "azuilcz3",
     "az": "3"
   },
   {
@@ -1676,7 +1676,7 @@
     "original_az_name": "italynorth-az1",
     "original_region_name": "italynorth",
     "short_name": "itnz1",
-    "short_name_with_provider": "azuitn1",
+    "short_name_with_provider": "azuitnz1",
     "az": "1"
   },
   {
@@ -1684,7 +1684,7 @@
     "original_az_name": "italynorth-az2",
     "original_region_name": "italynorth",
     "short_name": "itnz2",
-    "short_name_with_provider": "azuitn2",
+    "short_name_with_provider": "azuitnz2",
     "az": "2"
   },
   {
@@ -1692,7 +1692,7 @@
     "original_az_name": "italynorth-az3",
     "original_region_name": "italynorth",
     "short_name": "itnz3",
-    "short_name_with_provider": "azuitn3",
+    "short_name_with_provider": "azuitnz3",
     "az": "3"
   },
   {
@@ -1700,7 +1700,7 @@
     "original_az_name": "japaneast-az1",
     "original_region_name": "japaneast",
     "short_name": "jpez1",
-    "short_name_with_provider": "azujpe1",
+    "short_name_with_provider": "azujpez1",
     "az": "1"
   },
   {
@@ -1708,7 +1708,7 @@
     "original_az_name": "japaneast-az2",
     "original_region_name": "japaneast",
     "short_name": "jpez2",
-    "short_name_with_provider": "azujpe2",
+    "short_name_with_provider": "azujpez2",
     "az": "2"
   },
   {
@@ -1716,7 +1716,7 @@
     "original_az_name": "japaneast-az3",
     "original_region_name": "japaneast",
     "short_name": "jpez3",
-    "short_name_with_provider": "azujpe3",
+    "short_name_with_provider": "azujpez3",
     "az": "3"
   },
   {
@@ -1724,7 +1724,7 @@
     "original_az_name": "koreacentral-az1",
     "original_region_name": "koreacentral",
     "short_name": "krcz1",
-    "short_name_with_provider": "azukrc1",
+    "short_name_with_provider": "azukrcz1",
     "az": "1"
   },
   {
@@ -1732,7 +1732,7 @@
     "original_az_name": "koreacentral-az2",
     "original_region_name": "koreacentral",
     "short_name": "krcz2",
-    "short_name_with_provider": "azukrc2",
+    "short_name_with_provider": "azukrcz2",
     "az": "2"
   },
   {
@@ -1740,7 +1740,7 @@
     "original_az_name": "koreacentral-az3",
     "original_region_name": "koreacentral",
     "short_name": "krcz3",
-    "short_name_with_provider": "azukrc3",
+    "short_name_with_provider": "azukrcz3",
     "az": "3"
   },
   {
@@ -1748,7 +1748,7 @@
     "original_az_name": "northcentralus-az1",
     "original_region_name": "northcentralus",
     "short_name": "usncz1",
-    "short_name_with_provider": "azuusnc1",
+    "short_name_with_provider": "azuusncz1",
     "az": "1"
   },
   {
@@ -1756,7 +1756,7 @@
     "original_az_name": "northcentralus-az2",
     "original_region_name": "northcentralus",
     "short_name": "usncz2",
-    "short_name_with_provider": "azuusnc2",
+    "short_name_with_provider": "azuusncz2",
     "az": "2"
   },
   {
@@ -1764,7 +1764,7 @@
     "original_az_name": "northcentralus-az3",
     "original_region_name": "northcentralus",
     "short_name": "usncz3",
-    "short_name_with_provider": "azuusnc3",
+    "short_name_with_provider": "azuusncz3",
     "az": "3"
   },
   {
@@ -1772,7 +1772,7 @@
     "original_az_name": "northeurope-az1",
     "original_region_name": "northeurope",
     "short_name": "eunz1",
-    "short_name_with_provider": "azueun1",
+    "short_name_with_provider": "azueunz1",
     "az": "1"
   },
   {
@@ -1780,7 +1780,7 @@
     "original_az_name": "northeurope-az2",
     "original_region_name": "northeurope",
     "short_name": "eunz2",
-    "short_name_with_provider": "azueun2",
+    "short_name_with_provider": "azueunz2",
     "az": "2"
   },
   {
@@ -1788,7 +1788,7 @@
     "original_az_name": "northeurope-az3",
     "original_region_name": "northeurope",
     "short_name": "eunz3",
-    "short_name_with_provider": "azueun3",
+    "short_name_with_provider": "azueunz3",
     "az": "3"
   },
   {
@@ -1796,7 +1796,7 @@
     "original_az_name": "norwayeast-az1",
     "original_region_name": "norwayeast",
     "short_name": "noez1",
-    "short_name_with_provider": "azunoe1",
+    "short_name_with_provider": "azunoez1",
     "az": "1"
   },
   {
@@ -1804,7 +1804,7 @@
     "original_az_name": "norwayeast-az2",
     "original_region_name": "norwayeast",
     "short_name": "noez2",
-    "short_name_with_provider": "azunoe2",
+    "short_name_with_provider": "azunoez2",
     "az": "2"
   },
   {
@@ -1812,7 +1812,7 @@
     "original_az_name": "norwayeast-az3",
     "original_region_name": "norwayeast",
     "short_name": "noez3",
-    "short_name_with_provider": "azunoe3",
+    "short_name_with_provider": "azunoez3",
     "az": "3"
   },
   {
@@ -1820,7 +1820,7 @@
     "original_az_name": "polandcentral-az1",
     "original_region_name": "polandcentral",
     "short_name": "plcz1",
-    "short_name_with_provider": "azuplc1",
+    "short_name_with_provider": "azuplcz1",
     "az": "1"
   },
   {
@@ -1828,7 +1828,7 @@
     "original_az_name": "polandcentral-az2",
     "original_region_name": "polandcentral",
     "short_name": "plcz2",
-    "short_name_with_provider": "azuplc2",
+    "short_name_with_provider": "azuplcz2",
     "az": "2"
   },
   {
@@ -1836,7 +1836,7 @@
     "original_az_name": "polandcentral-az3",
     "original_region_name": "polandcentral",
     "short_name": "plcz3",
-    "short_name_with_provider": "azuplc3",
+    "short_name_with_provider": "azuplcz3",
     "az": "3"
   },
   {
@@ -1844,7 +1844,7 @@
     "original_az_name": "qatarcentral-az1",
     "original_region_name": "qatarcentral",
     "short_name": "qacz1",
-    "short_name_with_provider": "azuqac1",
+    "short_name_with_provider": "azuqacz1",
     "az": "1"
   },
   {
@@ -1852,7 +1852,7 @@
     "original_az_name": "qatarcentral-az2",
     "original_region_name": "qatarcentral",
     "short_name": "qacz2",
-    "short_name_with_provider": "azuqac2",
+    "short_name_with_provider": "azuqacz2",
     "az": "2"
   },
   {
@@ -1860,7 +1860,7 @@
     "original_az_name": "qatarcentral-az3",
     "original_region_name": "qatarcentral",
     "short_name": "qacz3",
-    "short_name_with_provider": "azuqac3",
+    "short_name_with_provider": "azuqacz3",
     "az": "3"
   },
   {
@@ -1868,7 +1868,7 @@
     "original_az_name": "southafricanorth-az1",
     "original_region_name": "southafricanorth",
     "short_name": "zanz1",
-    "short_name_with_provider": "azuzan1",
+    "short_name_with_provider": "azuzanz1",
     "az": "1"
   },
   {
@@ -1876,7 +1876,7 @@
     "original_az_name": "southafricanorth-az2",
     "original_region_name": "southafricanorth",
     "short_name": "zanz2",
-    "short_name_with_provider": "azuzan2",
+    "short_name_with_provider": "azuzanz2",
     "az": "2"
   },
   {
@@ -1884,7 +1884,7 @@
     "original_az_name": "southafricanorth-az3",
     "original_region_name": "southafricanorth",
     "short_name": "zanz3",
-    "short_name_with_provider": "azuzan3",
+    "short_name_with_provider": "azuzanz3",
     "az": "3"
   },
   {
@@ -1892,7 +1892,7 @@
     "original_az_name": "southcentralus-az1",
     "original_region_name": "southcentralus",
     "short_name": "usscz1",
-    "short_name_with_provider": "azuussc1",
+    "short_name_with_provider": "azuusscz1",
     "az": "1"
   },
   {
@@ -1900,7 +1900,7 @@
     "original_az_name": "southcentralus-az2",
     "original_region_name": "southcentralus",
     "short_name": "usscz2",
-    "short_name_with_provider": "azuussc2",
+    "short_name_with_provider": "azuusscz2",
     "az": "2"
   },
   {
@@ -1908,7 +1908,7 @@
     "original_az_name": "southcentralus-az3",
     "original_region_name": "southcentralus",
     "short_name": "usscz3",
-    "short_name_with_provider": "azuussc3",
+    "short_name_with_provider": "azuusscz3",
     "az": "3"
   },
   {
@@ -1916,7 +1916,7 @@
     "original_az_name": "southeastasia-az1",
     "original_region_name": "southeastasia",
     "short_name": "assez1",
-    "short_name_with_provider": "azuasse1",
+    "short_name_with_provider": "azuassez1",
     "az": "1"
   },
   {
@@ -1924,7 +1924,7 @@
     "original_az_name": "southeastasia-az2",
     "original_region_name": "southeastasia",
     "short_name": "assez2",
-    "short_name_with_provider": "azuasse2",
+    "short_name_with_provider": "azuassez2",
     "az": "2"
   },
   {
@@ -1932,7 +1932,7 @@
     "original_az_name": "southeastasia-az3",
     "original_region_name": "southeastasia",
     "short_name": "assez3",
-    "short_name_with_provider": "azuasse3",
+    "short_name_with_provider": "azuassez3",
     "az": "3"
   },
   {
@@ -1940,7 +1940,7 @@
     "original_az_name": "swedencentral-az1",
     "original_region_name": "swedencentral",
     "short_name": "secz1",
-    "short_name_with_provider": "azusec1",
+    "short_name_with_provider": "azusecz1",
     "az": "1"
   },
   {
@@ -1948,7 +1948,7 @@
     "original_az_name": "swedencentral-az2",
     "original_region_name": "swedencentral",
     "short_name": "secz2",
-    "short_name_with_provider": "azusec2",
+    "short_name_with_provider": "azusecz2",
     "az": "2"
   },
   {
@@ -1956,7 +1956,7 @@
     "original_az_name": "swedencentral-az3",
     "original_region_name": "swedencentral",
     "short_name": "secz3",
-    "short_name_with_provider": "azusec3",
+    "short_name_with_provider": "azusecz3",
     "az": "3"
   },
   {
@@ -1964,7 +1964,7 @@
     "original_az_name": "switzerlandnorth-az1",
     "original_region_name": "switzerlandnorth",
     "short_name": "chnz1",
-    "short_name_with_provider": "azuchn1",
+    "short_name_with_provider": "azuchnz1",
     "az": "1"
   },
   {
@@ -1972,7 +1972,7 @@
     "original_az_name": "switzerlandnorth-az2",
     "original_region_name": "switzerlandnorth",
     "short_name": "chnz2",
-    "short_name_with_provider": "azuchn2",
+    "short_name_with_provider": "azuchnz2",
     "az": "2"
   },
   {
@@ -1980,7 +1980,7 @@
     "original_az_name": "switzerlandnorth-az3",
     "original_region_name": "switzerlandnorth",
     "short_name": "chnz3",
-    "short_name_with_provider": "azuchn3",
+    "short_name_with_provider": "azuchnz3",
     "az": "3"
   },
   {
@@ -1988,7 +1988,7 @@
     "original_az_name": "uaenorth-az1",
     "original_region_name": "uaenorth",
     "short_name": "aenz1",
-    "short_name_with_provider": "azuaen1",
+    "short_name_with_provider": "azuaenz1",
     "az": "1"
   },
   {
@@ -1996,7 +1996,7 @@
     "original_az_name": "uaenorth-az2",
     "original_region_name": "uaenorth",
     "short_name": "aenz2",
-    "short_name_with_provider": "azuaen2",
+    "short_name_with_provider": "azuaenz2",
     "az": "2"
   },
   {
@@ -2004,7 +2004,7 @@
     "original_az_name": "uaenorth-az3",
     "original_region_name": "uaenorth",
     "short_name": "aenz3",
-    "short_name_with_provider": "azuaen3",
+    "short_name_with_provider": "azuaenz3",
     "az": "3"
   },
   {
@@ -2012,7 +2012,7 @@
     "original_az_name": "uksouth-az1",
     "original_region_name": "uksouth",
     "short_name": "uksz1",
-    "short_name_with_provider": "azuuks1",
+    "short_name_with_provider": "azuuksz1",
     "az": "1"
   },
   {
@@ -2020,7 +2020,7 @@
     "original_az_name": "uksouth-az2",
     "original_region_name": "uksouth",
     "short_name": "uksz2",
-    "short_name_with_provider": "azuuks2",
+    "short_name_with_provider": "azuuksz2",
     "az": "2"
   },
   {
@@ -2028,7 +2028,7 @@
     "original_az_name": "uksouth-az3",
     "original_region_name": "uksouth",
     "short_name": "uksz3",
-    "short_name_with_provider": "azuuks3",
+    "short_name_with_provider": "azuuksz3",
     "az": "3"
   },
   {
@@ -2036,7 +2036,7 @@
     "original_az_name": "westeurope-az1",
     "original_region_name": "westeurope",
     "short_name": "euwz1",
-    "short_name_with_provider": "azueuw1",
+    "short_name_with_provider": "azueuwz1",
     "az": "1"
   },
   {
@@ -2044,7 +2044,7 @@
     "original_az_name": "westeurope-az2",
     "original_region_name": "westeurope",
     "short_name": "euwz2",
-    "short_name_with_provider": "azueuw2",
+    "short_name_with_provider": "azueuwz2",
     "az": "2"
   },
   {
@@ -2052,7 +2052,7 @@
     "original_az_name": "westeurope-az3",
     "original_region_name": "westeurope",
     "short_name": "euwz3",
-    "short_name_with_provider": "azueuw3",
+    "short_name_with_provider": "azueuwz3",
     "az": "3"
   },
   {
@@ -2060,7 +2060,7 @@
     "original_az_name": "westus-az1",
     "original_region_name": "westus",
     "short_name": "uswz1",
-    "short_name_with_provider": "azuusw1",
+    "short_name_with_provider": "azuuswz1",
     "az": "1"
   },
   {
@@ -2068,7 +2068,7 @@
     "original_az_name": "westus-az2",
     "original_region_name": "westus",
     "short_name": "uswz2",
-    "short_name_with_provider": "azuusw2",
+    "short_name_with_provider": "azuuswz2",
     "az": "2"
   },
   {
@@ -2076,7 +2076,7 @@
     "original_az_name": "westus-az3",
     "original_region_name": "westus",
     "short_name": "uswz3",
-    "short_name_with_provider": "azuusw3",
+    "short_name_with_provider": "azuuswz3",
     "az": "3"
   },
   {
@@ -2084,7 +2084,7 @@
     "original_az_name": "westus2-az1",
     "original_region_name": "westus2",
     "short_name": "usw2z1",
-    "short_name_with_provider": "azuusw21",
+    "short_name_with_provider": "azuusw2z1",
     "az": "1"
   },
   {
@@ -2092,7 +2092,7 @@
     "original_az_name": "westus2-az2",
     "original_region_name": "westus2",
     "short_name": "usw2z2",
-    "short_name_with_provider": "azuusw22",
+    "short_name_with_provider": "azuusw2z2",
     "az": "2"
   },
   {
@@ -2100,7 +2100,7 @@
     "original_az_name": "westus2-az3",
     "original_region_name": "westus2",
     "short_name": "usw2z3",
-    "short_name_with_provider": "azuusw23",
+    "short_name_with_provider": "azuusw2z3",
     "az": "3"
   },
   {
@@ -2108,7 +2108,7 @@
     "original_az_name": "westus3-az1",
     "original_region_name": "westus3",
     "short_name": "usw3z1",
-    "short_name_with_provider": "azuusw31",
+    "short_name_with_provider": "azuusw3z1",
     "az": "1"
   },
   {
@@ -2116,7 +2116,7 @@
     "original_az_name": "westus3-az2",
     "original_region_name": "westus3",
     "short_name": "usw3z2",
-    "short_name_with_provider": "azuusw32",
+    "short_name_with_provider": "azuusw3z2",
     "az": "2"
   },
   {
@@ -2124,7 +2124,7 @@
     "original_az_name": "westus3-az3",
     "original_region_name": "westus3",
     "short_name": "usw3z3",
-    "short_name_with_provider": "azuusw33",
+    "short_name_with_provider": "azuusw3z3",
     "az": "3"
   }
 ]
