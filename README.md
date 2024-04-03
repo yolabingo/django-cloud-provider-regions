@@ -1,6 +1,14 @@
 https://pypi.org/project/django-cloud-provider-zones/
 
 # Django Cloud Provider Regions
+## Examples
+For reference, and for use outside of Django, [region_data/normalized_azs.json](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/region_data/normalized_azs.json) and [region_data/normalized_regions.json](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/region_data/normalized_regions.json) contain all generated region and az names.
+
+```json
+
+```
+
+## Why
 This [Django app](https://docs.djangoproject.com/en/5.0/ref/applications/) provides a static list of region and availability zones for AWS (Amazon Web Services) and GCP (Google Cloud Platform) cloud providers.
 
 The purpose of this app is to provide Cloud Provider Region/AZ lists easily available to Django apps. It provides stable, shortened, versions of names for provisioning  naming conventions.
