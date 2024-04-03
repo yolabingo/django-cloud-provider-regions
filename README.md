@@ -1,5 +1,6 @@
-# Django Cloud Provider Regions
+https://pypi.org/project/django-cloud-provider-zones/
 
+# Django Cloud Provider Regions
 This [Django app](https://docs.djangoproject.com/en/5.0/ref/applications/) provides a static list of region and availability zones for AWS (Amazon Web Services) and GCP (Google Cloud Platform) cloud providers.
 
 The purpose of this app is to provide Cloud Provider Region/AZ lists easily available to Django apps. It provides stable, shortened, versions of names for provisioning  naming conventions.
