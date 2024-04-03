@@ -4,8 +4,40 @@ https://pypi.org/project/django-cloud-provider-zones/
 ## Examples
 For reference, and for use outside of Django, [region_data/normalized_azs.json](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/region_data/normalized_azs.json) and [region_data/normalized_regions.json](https://github.com/yolabingo/django-cloud-provider-zones/blob/main/region_data/normalized_regions.json) contain all generated region and az names.
 
-```json
+All regions and AZs have unique a `short_name` and `short_name_with_provider`
 
+example AZ names:
+```json
+  { "provider": "aws",
+    "original_az_name": "ap-northeast-2b",
+    "original_region_name": "ap-northeast-2",
+    "short_name": "apne2zb",
+    "short_name_with_provider": "awsapne2zb",
+    "az": "b" },
+  { "provider": "azu",
+    "original_az_name": "eastus2-az3",
+    "original_region_name": "eastus2",
+    "short_name": "use2z3",
+    "short_name_with_provider": "azuuse2z3",
+    "az": "3" },
+  { "provider": "azu",
+    "original_az_name": "francecentral-az1",
+    "original_region_name": "francecentral",
+    "short_name": "frcz1",
+    "short_name_with_provider": "azufrcz1",
+    "az": "1" },
+  { "provider": "gcp",
+    "original_az_name": "northamerica-northeast2-c",
+    "original_region_name": "northamerica-northeast2",
+    "short_name": "nane2zc",
+    "short_name_with_provider": "gcpnane2zc",
+    "az": "c" },
+  { "provider": "gcp",
+    "original_az_name": "southamerica-east1-a",
+    "original_region_name": "southamerica-east1",
+    "short_name": "sae1za",
+    "short_name_with_provider": "gcpsae1za",
+    "az": "a" },
 ```
 
 ## Why
