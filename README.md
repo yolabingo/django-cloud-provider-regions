@@ -171,7 +171,7 @@ Once that looks good add a couple simple tests to [src/django_cloud_provider_zon
 
 Bump version, commit and push as needed.
 
-`poetry version patch && poetry publish`
+`poetry version patch && poetry build && poetry publish`
 
 ## Contributing
 
